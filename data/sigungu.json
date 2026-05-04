@@ -1,0 +1,1226 @@
+[
+ {
+  "code": "11110",
+  "sido": "서울특별시",
+  "sidoCode": "11",
+  "name": "종로구",
+  "population": 152000,
+  "households": 63333
+ },
+ {
+  "code": "11140",
+  "sido": "서울특별시",
+  "sidoCode": "11",
+  "name": "중구",
+  "population": 130000,
+  "households": 54166
+ },
+ {
+  "code": "11170",
+  "sido": "서울특별시",
+  "sidoCode": "11",
+  "name": "용산구",
+  "population": 230000,
+  "households": 95833
+ },
+ {
+  "code": "11200",
+  "sido": "서울특별시",
+  "sidoCode": "11",
+  "name": "성동구",
+  "population": 290000,
+  "households": 120833
+ },
+ {
+  "code": "11215",
+  "sido": "서울특별시",
+  "sidoCode": "11",
+  "name": "광진구",
+  "population": 350000,
+  "households": 145833
+ },
+ {
+  "code": "11230",
+  "sido": "서울특별시",
+  "sidoCode": "11",
+  "name": "동대문구",
+  "population": 350000,
+  "households": 145833
+ },
+ {
+  "code": "11260",
+  "sido": "서울특별시",
+  "sidoCode": "11",
+  "name": "중랑구",
+  "population": 390000,
+  "households": 162500
+ },
+ {
+  "code": "11290",
+  "sido": "서울특별시",
+  "sidoCode": "11",
+  "name": "성북구",
+  "population": 440000,
+  "households": 183333
+ },
+ {
+  "code": "11305",
+  "sido": "서울특별시",
+  "sidoCode": "11",
+  "name": "강북구",
+  "population": 305000,
+  "households": 127083
+ },
+ {
+  "code": "11320",
+  "sido": "서울특별시",
+  "sidoCode": "11",
+  "name": "도봉구",
+  "population": 320000,
+  "households": 133333
+ },
+ {
+  "code": "11350",
+  "sido": "서울특별시",
+  "sidoCode": "11",
+  "name": "노원구",
+  "population": 510000,
+  "households": 212500
+ },
+ {
+  "code": "11380",
+  "sido": "서울특별시",
+  "sidoCode": "11",
+  "name": "은평구",
+  "population": 470000,
+  "households": 195833
+ },
+ {
+  "code": "11410",
+  "sido": "서울특별시",
+  "sidoCode": "11",
+  "name": "서대문구",
+  "population": 310000,
+  "households": 129166
+ },
+ {
+  "code": "11440",
+  "sido": "서울특별시",
+  "sidoCode": "11",
+  "name": "마포구",
+  "population": 380000,
+  "households": 158333
+ },
+ {
+  "code": "11470",
+  "sido": "서울특별시",
+  "sidoCode": "11",
+  "name": "양천구",
+  "population": 450000,
+  "households": 187500
+ },
+ {
+  "code": "11500",
+  "sido": "서울특별시",
+  "sidoCode": "11",
+  "name": "강서구",
+  "population": 580000,
+  "households": 241666
+ },
+ {
+  "code": "11530",
+  "sido": "서울특별시",
+  "sidoCode": "11",
+  "name": "구로구",
+  "population": 410000,
+  "households": 170833
+ },
+ {
+  "code": "11545",
+  "sido": "서울특별시",
+  "sidoCode": "11",
+  "name": "금천구",
+  "population": 230000,
+  "households": 95833
+ },
+ {
+  "code": "11560",
+  "sido": "서울특별시",
+  "sidoCode": "11",
+  "name": "영등포구",
+  "population": 380000,
+  "households": 158333
+ },
+ {
+  "code": "11590",
+  "sido": "서울특별시",
+  "sidoCode": "11",
+  "name": "동작구",
+  "population": 390000,
+  "households": 162500
+ },
+ {
+  "code": "11620",
+  "sido": "서울특별시",
+  "sidoCode": "11",
+  "name": "관악구",
+  "population": 500000,
+  "households": 208333
+ },
+ {
+  "code": "11650",
+  "sido": "서울특별시",
+  "sidoCode": "11",
+  "name": "서초구",
+  "population": 420000,
+  "households": 175000
+ },
+ {
+  "code": "11680",
+  "sido": "서울특별시",
+  "sidoCode": "11",
+  "name": "강남구",
+  "population": 540000,
+  "households": 225000
+ },
+ {
+  "code": "11710",
+  "sido": "서울특별시",
+  "sidoCode": "11",
+  "name": "송파구",
+  "population": 670000,
+  "households": 279166
+ },
+ {
+  "code": "11740",
+  "sido": "서울특별시",
+  "sidoCode": "11",
+  "name": "강동구",
+  "population": 460000,
+  "households": 191666
+ },
+ {
+  "code": "26110",
+  "sido": "부산광역시",
+  "sidoCode": "26",
+  "name": "중구",
+  "population": 41000,
+  "households": 17083
+ },
+ {
+  "code": "26140",
+  "sido": "부산광역시",
+  "sidoCode": "26",
+  "name": "서구",
+  "population": 110000,
+  "households": 45833
+ },
+ {
+  "code": "26170",
+  "sido": "부산광역시",
+  "sidoCode": "26",
+  "name": "동구",
+  "population": 88000,
+  "households": 36666
+ },
+ {
+  "code": "26200",
+  "sido": "부산광역시",
+  "sidoCode": "26",
+  "name": "영도구",
+  "population": 110000,
+  "households": 45833
+ },
+ {
+  "code": "26230",
+  "sido": "부산광역시",
+  "sidoCode": "26",
+  "name": "부산진구",
+  "population": 360000,
+  "households": 150000
+ },
+ {
+  "code": "26260",
+  "sido": "부산광역시",
+  "sidoCode": "26",
+  "name": "동래구",
+  "population": 270000,
+  "households": 112500
+ },
+ {
+  "code": "26290",
+  "sido": "부산광역시",
+  "sidoCode": "26",
+  "name": "남구",
+  "population": 270000,
+  "households": 112500
+ },
+ {
+  "code": "26710",
+  "sido": "부산광역시",
+  "sidoCode": "26",
+  "name": "기장군",
+  "population": 180000,
+  "households": 75000
+ },
+ {
+  "code": "27110",
+  "sido": "대구광역시",
+  "sidoCode": "27",
+  "name": "중구",
+  "population": 79000,
+  "households": 32916
+ },
+ {
+  "code": "27140",
+  "sido": "대구광역시",
+  "sidoCode": "27",
+  "name": "동구",
+  "population": 340000,
+  "households": 141666
+ },
+ {
+  "code": "27170",
+  "sido": "대구광역시",
+  "sidoCode": "27",
+  "name": "서구",
+  "population": 170000,
+  "households": 70833
+ },
+ {
+  "code": "27200",
+  "sido": "대구광역시",
+  "sidoCode": "27",
+  "name": "남구",
+  "population": 140000,
+  "households": 58333
+ },
+ {
+  "code": "27230",
+  "sido": "대구광역시",
+  "sidoCode": "27",
+  "name": "북구",
+  "population": 430000,
+  "households": 179166
+ },
+ {
+  "code": "27260",
+  "sido": "대구광역시",
+  "sidoCode": "27",
+  "name": "수성구",
+  "population": 410000,
+  "households": 170833
+ },
+ {
+  "code": "27290",
+  "sido": "대구광역시",
+  "sidoCode": "27",
+  "name": "달서구",
+  "population": 540000,
+  "households": 225000
+ },
+ {
+  "code": "28110",
+  "sido": "인천광역시",
+  "sidoCode": "28",
+  "name": "중구",
+  "population": 150000,
+  "households": 62500
+ },
+ {
+  "code": "28140",
+  "sido": "인천광역시",
+  "sidoCode": "28",
+  "name": "동구",
+  "population": 60000,
+  "households": 25000
+ },
+ {
+  "code": "28177",
+  "sido": "인천광역시",
+  "sidoCode": "28",
+  "name": "미추홀구",
+  "population": 410000,
+  "households": 170833
+ },
+ {
+  "code": "28185",
+  "sido": "인천광역시",
+  "sidoCode": "28",
+  "name": "연수구",
+  "population": 380000,
+  "households": 158333
+ },
+ {
+  "code": "28200",
+  "sido": "인천광역시",
+  "sidoCode": "28",
+  "name": "남동구",
+  "population": 540000,
+  "households": 225000
+ },
+ {
+  "code": "28237",
+  "sido": "인천광역시",
+  "sidoCode": "28",
+  "name": "부평구",
+  "population": 510000,
+  "households": 212500
+ },
+ {
+  "code": "28245",
+  "sido": "인천광역시",
+  "sidoCode": "28",
+  "name": "계양구",
+  "population": 290000,
+  "households": 120833
+ },
+ {
+  "code": "28260",
+  "sido": "인천광역시",
+  "sidoCode": "28",
+  "name": "서구",
+  "population": 580000,
+  "households": 241666
+ },
+ {
+  "code": "28710",
+  "sido": "인천광역시",
+  "sidoCode": "28",
+  "name": "강화군",
+  "population": 70000,
+  "households": 29166
+ },
+ {
+  "code": "29110",
+  "sido": "광주광역시",
+  "sidoCode": "29",
+  "name": "동구",
+  "population": 100000,
+  "households": 41666
+ },
+ {
+  "code": "29140",
+  "sido": "광주광역시",
+  "sidoCode": "29",
+  "name": "서구",
+  "population": 290000,
+  "households": 120833
+ },
+ {
+  "code": "29155",
+  "sido": "광주광역시",
+  "sidoCode": "29",
+  "name": "남구",
+  "population": 220000,
+  "households": 91666
+ },
+ {
+  "code": "29170",
+  "sido": "광주광역시",
+  "sidoCode": "29",
+  "name": "북구",
+  "population": 430000,
+  "households": 179166
+ },
+ {
+  "code": "29200",
+  "sido": "광주광역시",
+  "sidoCode": "29",
+  "name": "광산구",
+  "population": 410000,
+  "households": 170833
+ },
+ {
+  "code": "30110",
+  "sido": "대전광역시",
+  "sidoCode": "30",
+  "name": "동구",
+  "population": 220000,
+  "households": 91666
+ },
+ {
+  "code": "30140",
+  "sido": "대전광역시",
+  "sidoCode": "30",
+  "name": "중구",
+  "population": 230000,
+  "households": 95833
+ },
+ {
+  "code": "30170",
+  "sido": "대전광역시",
+  "sidoCode": "30",
+  "name": "서구",
+  "population": 470000,
+  "households": 195833
+ },
+ {
+  "code": "30200",
+  "sido": "대전광역시",
+  "sidoCode": "30",
+  "name": "유성구",
+  "population": 360000,
+  "households": 150000
+ },
+ {
+  "code": "30230",
+  "sido": "대전광역시",
+  "sidoCode": "30",
+  "name": "대덕구",
+  "population": 180000,
+  "households": 75000
+ },
+ {
+  "code": "31110",
+  "sido": "울산광역시",
+  "sidoCode": "31",
+  "name": "중구",
+  "population": 220000,
+  "households": 91666
+ },
+ {
+  "code": "31140",
+  "sido": "울산광역시",
+  "sidoCode": "31",
+  "name": "남구",
+  "population": 320000,
+  "households": 133333
+ },
+ {
+  "code": "31170",
+  "sido": "울산광역시",
+  "sidoCode": "31",
+  "name": "동구",
+  "population": 160000,
+  "households": 66666
+ },
+ {
+  "code": "31200",
+  "sido": "울산광역시",
+  "sidoCode": "31",
+  "name": "북구",
+  "population": 220000,
+  "households": 91666
+ },
+ {
+  "code": "31710",
+  "sido": "울산광역시",
+  "sidoCode": "31",
+  "name": "울주군",
+  "population": 220000,
+  "households": 91666
+ },
+ {
+  "code": "36110",
+  "sido": "세종특별자치시",
+  "sidoCode": "36",
+  "name": "세종시",
+  "population": 380000,
+  "households": 158333
+ },
+ {
+  "code": "41111",
+  "sido": "경기도",
+  "sidoCode": "41",
+  "name": "수원시 장안구",
+  "population": 290000,
+  "households": 120833
+ },
+ {
+  "code": "41131",
+  "sido": "경기도",
+  "sidoCode": "41",
+  "name": "성남시 수정구",
+  "population": 240000,
+  "households": 100000
+ },
+ {
+  "code": "41135",
+  "sido": "경기도",
+  "sidoCode": "41",
+  "name": "성남시 분당구",
+  "population": 480000,
+  "households": 200000
+ },
+ {
+  "code": "41150",
+  "sido": "경기도",
+  "sidoCode": "41",
+  "name": "의정부시",
+  "population": 470000,
+  "households": 195833
+ },
+ {
+  "code": "41170",
+  "sido": "경기도",
+  "sidoCode": "41",
+  "name": "안양시",
+  "population": 540000,
+  "households": 225000
+ },
+ {
+  "code": "41190",
+  "sido": "경기도",
+  "sidoCode": "41",
+  "name": "부천시",
+  "population": 800000,
+  "households": 333333
+ },
+ {
+  "code": "41210",
+  "sido": "경기도",
+  "sidoCode": "41",
+  "name": "광명시",
+  "population": 290000,
+  "households": 120833
+ },
+ {
+  "code": "41220",
+  "sido": "경기도",
+  "sidoCode": "41",
+  "name": "평택시",
+  "population": 580000,
+  "households": 241666
+ },
+ {
+  "code": "41250",
+  "sido": "경기도",
+  "sidoCode": "41",
+  "name": "동두천시",
+  "population": 90000,
+  "households": 37500
+ },
+ {
+  "code": "41270",
+  "sido": "경기도",
+  "sidoCode": "41",
+  "name": "안산시",
+  "population": 640000,
+  "households": 266666
+ },
+ {
+  "code": "41280",
+  "sido": "경기도",
+  "sidoCode": "41",
+  "name": "고양시",
+  "population": 1080000,
+  "households": 450000
+ },
+ {
+  "code": "41290",
+  "sido": "경기도",
+  "sidoCode": "41",
+  "name": "과천시",
+  "population": 80000,
+  "households": 33333
+ },
+ {
+  "code": "41310",
+  "sido": "경기도",
+  "sidoCode": "41",
+  "name": "구리시",
+  "population": 190000,
+  "households": 79166
+ },
+ {
+  "code": "41360",
+  "sido": "경기도",
+  "sidoCode": "41",
+  "name": "남양주시",
+  "population": 740000,
+  "households": 308333
+ },
+ {
+  "code": "41390",
+  "sido": "경기도",
+  "sidoCode": "41",
+  "name": "오산시",
+  "population": 230000,
+  "households": 95833
+ },
+ {
+  "code": "41410",
+  "sido": "경기도",
+  "sidoCode": "41",
+  "name": "시흥시",
+  "population": 510000,
+  "households": 212500
+ },
+ {
+  "code": "41430",
+  "sido": "경기도",
+  "sidoCode": "41",
+  "name": "군포시",
+  "population": 270000,
+  "households": 112500
+ },
+ {
+  "code": "41450",
+  "sido": "경기도",
+  "sidoCode": "41",
+  "name": "의왕시",
+  "population": 160000,
+  "households": 66666
+ },
+ {
+  "code": "41460",
+  "sido": "경기도",
+  "sidoCode": "41",
+  "name": "하남시",
+  "population": 320000,
+  "households": 133333
+ },
+ {
+  "code": "41480",
+  "sido": "경기도",
+  "sidoCode": "41",
+  "name": "용인시",
+  "population": 1080000,
+  "households": 450000
+ },
+ {
+  "code": "41500",
+  "sido": "경기도",
+  "sidoCode": "41",
+  "name": "파주시",
+  "population": 480000,
+  "households": 200000
+ },
+ {
+  "code": "41550",
+  "sido": "경기도",
+  "sidoCode": "41",
+  "name": "안성시",
+  "population": 190000,
+  "households": 79166
+ },
+ {
+  "code": "41570",
+  "sido": "경기도",
+  "sidoCode": "41",
+  "name": "김포시",
+  "population": 480000,
+  "households": 200000
+ },
+ {
+  "code": "41590",
+  "sido": "경기도",
+  "sidoCode": "41",
+  "name": "화성시",
+  "population": 920000,
+  "households": 383333
+ },
+ {
+  "code": "41610",
+  "sido": "경기도",
+  "sidoCode": "41",
+  "name": "광주시",
+  "population": 380000,
+  "households": 158333
+ },
+ {
+  "code": "41630",
+  "sido": "경기도",
+  "sidoCode": "41",
+  "name": "양주시",
+  "population": 230000,
+  "households": 95833
+ },
+ {
+  "code": "41650",
+  "sido": "경기도",
+  "sidoCode": "41",
+  "name": "포천시",
+  "population": 150000,
+  "households": 62500
+ },
+ {
+  "code": "41670",
+  "sido": "경기도",
+  "sidoCode": "41",
+  "name": "여주시",
+  "population": 110000,
+  "households": 45833
+ },
+ {
+  "code": "42110",
+  "sido": "강원특별자치도",
+  "sidoCode": "42",
+  "name": "춘천시",
+  "population": 280000,
+  "households": 116666
+ },
+ {
+  "code": "42130",
+  "sido": "강원특별자치도",
+  "sidoCode": "42",
+  "name": "원주시",
+  "population": 360000,
+  "households": 150000
+ },
+ {
+  "code": "42150",
+  "sido": "강원특별자치도",
+  "sidoCode": "42",
+  "name": "강릉시",
+  "population": 210000,
+  "households": 87500
+ },
+ {
+  "code": "42170",
+  "sido": "강원특별자치도",
+  "sidoCode": "42",
+  "name": "동해시",
+  "population": 90000,
+  "households": 37500
+ },
+ {
+  "code": "42190",
+  "sido": "강원특별자치도",
+  "sidoCode": "42",
+  "name": "태백시",
+  "population": 41000,
+  "households": 17083
+ },
+ {
+  "code": "42210",
+  "sido": "강원특별자치도",
+  "sidoCode": "42",
+  "name": "속초시",
+  "population": 81000,
+  "households": 33750
+ },
+ {
+  "code": "42230",
+  "sido": "강원특별자치도",
+  "sidoCode": "42",
+  "name": "삼척시",
+  "population": 67000,
+  "households": 27916
+ },
+ {
+  "code": "42710",
+  "sido": "강원특별자치도",
+  "sidoCode": "42",
+  "name": "홍천군",
+  "population": 67000,
+  "households": 27916
+ },
+ {
+  "code": "43111",
+  "sido": "충청북도",
+  "sidoCode": "43",
+  "name": "청주시 상당구",
+  "population": 200000,
+  "households": 83333
+ },
+ {
+  "code": "43113",
+  "sido": "충청북도",
+  "sidoCode": "43",
+  "name": "청주시 서원구",
+  "population": 220000,
+  "households": 91666
+ },
+ {
+  "code": "43130",
+  "sido": "충청북도",
+  "sidoCode": "43",
+  "name": "충주시",
+  "population": 210000,
+  "households": 87500
+ },
+ {
+  "code": "43150",
+  "sido": "충청북도",
+  "sidoCode": "43",
+  "name": "제천시",
+  "population": 130000,
+  "households": 54166
+ },
+ {
+  "code": "43720",
+  "sido": "충청북도",
+  "sidoCode": "43",
+  "name": "보은군",
+  "population": 32000,
+  "households": 13333
+ },
+ {
+  "code": "43730",
+  "sido": "충청북도",
+  "sidoCode": "43",
+  "name": "옥천군",
+  "population": 50000,
+  "households": 20833
+ },
+ {
+  "code": "44131",
+  "sido": "충청남도",
+  "sidoCode": "44",
+  "name": "천안시 동남구",
+  "population": 250000,
+  "households": 104166
+ },
+ {
+  "code": "44133",
+  "sido": "충청남도",
+  "sidoCode": "44",
+  "name": "천안시 서북구",
+  "population": 410000,
+  "households": 170833
+ },
+ {
+  "code": "44150",
+  "sido": "충청남도",
+  "sidoCode": "44",
+  "name": "공주시",
+  "population": 100000,
+  "households": 41666
+ },
+ {
+  "code": "44180",
+  "sido": "충청남도",
+  "sidoCode": "44",
+  "name": "보령시",
+  "population": 100000,
+  "households": 41666
+ },
+ {
+  "code": "44200",
+  "sido": "충청남도",
+  "sidoCode": "44",
+  "name": "아산시",
+  "population": 340000,
+  "households": 141666
+ },
+ {
+  "code": "44210",
+  "sido": "충청남도",
+  "sidoCode": "44",
+  "name": "서산시",
+  "population": 180000,
+  "households": 75000
+ },
+ {
+  "code": "44230",
+  "sido": "충청남도",
+  "sidoCode": "44",
+  "name": "논산시",
+  "population": 110000,
+  "households": 45833
+ },
+ {
+  "code": "44250",
+  "sido": "충청남도",
+  "sidoCode": "44",
+  "name": "당진시",
+  "population": 170000,
+  "households": 70833
+ },
+ {
+  "code": "45111",
+  "sido": "전북특별자치도",
+  "sidoCode": "45",
+  "name": "전주시 완산구",
+  "population": 340000,
+  "households": 141666
+ },
+ {
+  "code": "45113",
+  "sido": "전북특별자치도",
+  "sidoCode": "45",
+  "name": "전주시 덕진구",
+  "population": 320000,
+  "households": 133333
+ },
+ {
+  "code": "45130",
+  "sido": "전북특별자치도",
+  "sidoCode": "45",
+  "name": "군산시",
+  "population": 260000,
+  "households": 108333
+ },
+ {
+  "code": "45140",
+  "sido": "전북특별자치도",
+  "sidoCode": "45",
+  "name": "익산시",
+  "population": 270000,
+  "households": 112500
+ },
+ {
+  "code": "45180",
+  "sido": "전북특별자치도",
+  "sidoCode": "45",
+  "name": "정읍시",
+  "population": 100000,
+  "households": 41666
+ },
+ {
+  "code": "45190",
+  "sido": "전북특별자치도",
+  "sidoCode": "45",
+  "name": "남원시",
+  "population": 78000,
+  "households": 32500
+ },
+ {
+  "code": "45210",
+  "sido": "전북특별자치도",
+  "sidoCode": "45",
+  "name": "김제시",
+  "population": 80000,
+  "households": 33333
+ },
+ {
+  "code": "46110",
+  "sido": "전라남도",
+  "sidoCode": "46",
+  "name": "목포시",
+  "population": 220000,
+  "households": 91666
+ },
+ {
+  "code": "46130",
+  "sido": "전라남도",
+  "sidoCode": "46",
+  "name": "여수시",
+  "population": 270000,
+  "households": 112500
+ },
+ {
+  "code": "46150",
+  "sido": "전라남도",
+  "sidoCode": "46",
+  "name": "순천시",
+  "population": 280000,
+  "households": 116666
+ },
+ {
+  "code": "46170",
+  "sido": "전라남도",
+  "sidoCode": "46",
+  "name": "나주시",
+  "population": 120000,
+  "households": 50000
+ },
+ {
+  "code": "46230",
+  "sido": "전라남도",
+  "sidoCode": "46",
+  "name": "광양시",
+  "population": 150000,
+  "households": 62500
+ },
+ {
+  "code": "46710",
+  "sido": "전라남도",
+  "sidoCode": "46",
+  "name": "담양군",
+  "population": 45000,
+  "households": 18750
+ },
+ {
+  "code": "46720",
+  "sido": "전라남도",
+  "sidoCode": "46",
+  "name": "곡성군",
+  "population": 28000,
+  "households": 11666
+ },
+ {
+  "code": "47111",
+  "sido": "경상북도",
+  "sidoCode": "47",
+  "name": "포항시 남구",
+  "population": 240000,
+  "households": 100000
+ },
+ {
+  "code": "47113",
+  "sido": "경상북도",
+  "sidoCode": "47",
+  "name": "포항시 북구",
+  "population": 260000,
+  "households": 108333
+ },
+ {
+  "code": "47130",
+  "sido": "경상북도",
+  "sidoCode": "47",
+  "name": "경주시",
+  "population": 250000,
+  "households": 104166
+ },
+ {
+  "code": "47150",
+  "sido": "경상북도",
+  "sidoCode": "47",
+  "name": "김천시",
+  "population": 140000,
+  "households": 58333
+ },
+ {
+  "code": "47170",
+  "sido": "경상북도",
+  "sidoCode": "47",
+  "name": "안동시",
+  "population": 150000,
+  "households": 62500
+ },
+ {
+  "code": "47190",
+  "sido": "경상북도",
+  "sidoCode": "47",
+  "name": "구미시",
+  "population": 410000,
+  "households": 170833
+ },
+ {
+  "code": "47210",
+  "sido": "경상북도",
+  "sidoCode": "47",
+  "name": "영주시",
+  "population": 100000,
+  "households": 41666
+ },
+ {
+  "code": "47230",
+  "sido": "경상북도",
+  "sidoCode": "47",
+  "name": "영천시",
+  "population": 100000,
+  "households": 41666
+ },
+ {
+  "code": "47250",
+  "sido": "경상북도",
+  "sidoCode": "47",
+  "name": "상주시",
+  "population": 95000,
+  "households": 39583
+ },
+ {
+  "code": "47280",
+  "sido": "경상북도",
+  "sidoCode": "47",
+  "name": "경산시",
+  "population": 270000,
+  "households": 112500
+ },
+ {
+  "code": "48121",
+  "sido": "경상남도",
+  "sidoCode": "48",
+  "name": "창원시 의창구",
+  "population": 230000,
+  "households": 95833
+ },
+ {
+  "code": "48123",
+  "sido": "경상남도",
+  "sidoCode": "48",
+  "name": "창원시 성산구",
+  "population": 230000,
+  "households": 95833
+ },
+ {
+  "code": "48125",
+  "sido": "경상남도",
+  "sidoCode": "48",
+  "name": "창원시 마산합포구",
+  "population": 180000,
+  "households": 75000
+ },
+ {
+  "code": "48127",
+  "sido": "경상남도",
+  "sidoCode": "48",
+  "name": "창원시 마산회원구",
+  "population": 200000,
+  "households": 83333
+ },
+ {
+  "code": "48129",
+  "sido": "경상남도",
+  "sidoCode": "48",
+  "name": "창원시 진해구",
+  "population": 190000,
+  "households": 79166
+ },
+ {
+  "code": "48170",
+  "sido": "경상남도",
+  "sidoCode": "48",
+  "name": "진주시",
+  "population": 340000,
+  "households": 141666
+ },
+ {
+  "code": "48220",
+  "sido": "경상남도",
+  "sidoCode": "48",
+  "name": "통영시",
+  "population": 120000,
+  "households": 50000
+ },
+ {
+  "code": "48240",
+  "sido": "경상남도",
+  "sidoCode": "48",
+  "name": "사천시",
+  "population": 110000,
+  "households": 45833
+ },
+ {
+  "code": "48250",
+  "sido": "경상남도",
+  "sidoCode": "48",
+  "name": "김해시",
+  "population": 540000,
+  "households": 225000
+ },
+ {
+  "code": "48270",
+  "sido": "경상남도",
+  "sidoCode": "48",
+  "name": "밀양시",
+  "population": 100000,
+  "households": 41666
+ },
+ {
+  "code": "48310",
+  "sido": "경상남도",
+  "sidoCode": "48",
+  "name": "거제시",
+  "population": 240000,
+  "households": 100000
+ },
+ {
+  "code": "48330",
+  "sido": "경상남도",
+  "sidoCode": "48",
+  "name": "양산시",
+  "population": 360000,
+  "households": 150000
+ },
+ {
+  "code": "50110",
+  "sido": "제주특별자치도",
+  "sidoCode": "50",
+  "name": "제주시",
+  "population": 490000,
+  "households": 204166
+ },
+ {
+  "code": "50130",
+  "sido": "제주특별자치도",
+  "sidoCode": "50",
+  "name": "서귀포시",
+  "population": 180000,
+  "households": 75000
+ }
+]

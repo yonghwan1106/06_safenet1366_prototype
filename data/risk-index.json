@@ -1,0 +1,2144 @@
+[
+ {
+  "sigunguCode": "11740",
+  "score": 65.1,
+  "components": {
+   "counselDensity": 0.933,
+   "recallRate": 0.363,
+   "shelterAvailability": 0.151,
+   "multicultureWeight": 1.26,
+   "childcareWeight": 1.33
+  },
+  "trend": "up",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 1
+ },
+ {
+  "sigunguCode": "11410",
+  "score": 58.4,
+  "components": {
+   "counselDensity": 0.804,
+   "recallRate": 0.31,
+   "shelterAvailability": 0.103,
+   "multicultureWeight": 1.37,
+   "childcareWeight": 1.2
+  },
+  "trend": "down",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 2
+ },
+ {
+  "sigunguCode": "42150",
+  "score": 56.9,
+  "components": {
+   "counselDensity": 0.718,
+   "recallRate": 0.401,
+   "shelterAvailability": 0.132,
+   "multicultureWeight": 1.31,
+   "childcareWeight": 1.3
+  },
+  "trend": "down",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 3
+ },
+ {
+  "sigunguCode": "42230",
+  "score": 51.1,
+  "components": {
+   "counselDensity": 0.75,
+   "recallRate": 0.536,
+   "shelterAvailability": 0.266,
+   "multicultureWeight": 1.32,
+   "childcareWeight": 1.19
+  },
+  "trend": "flat",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 4
+ },
+ {
+  "sigunguCode": "28110",
+  "score": 50.1,
+  "components": {
+   "counselDensity": 0.921,
+   "recallRate": 0.182,
+   "shelterAvailability": 0.199,
+   "multicultureWeight": 1.24,
+   "childcareWeight": 1.24
+  },
+  "trend": "up",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 5
+ },
+ {
+  "sigunguCode": "11530",
+  "score": 48.9,
+  "components": {
+   "counselDensity": 0.846,
+   "recallRate": 0.211,
+   "shelterAvailability": 0.178,
+   "multicultureWeight": 1.27,
+   "childcareWeight": 1.21
+  },
+  "trend": "flat",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 6
+ },
+ {
+  "sigunguCode": "30200",
+  "score": 47.9,
+  "components": {
+   "counselDensity": 0.848,
+   "recallRate": 0.474,
+   "shelterAvailability": 0.263,
+   "multicultureWeight": 1.31,
+   "childcareWeight": 1.04
+  },
+  "trend": "up",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 7
+ },
+ {
+  "sigunguCode": "41670",
+  "score": 47.1,
+  "components": {
+   "counselDensity": 0.911,
+   "recallRate": 0.336,
+   "shelterAvailability": 0.255,
+   "multicultureWeight": 1.15,
+   "childcareWeight": 1.21
+  },
+  "trend": "down",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 8
+ },
+ {
+  "sigunguCode": "42110",
+  "score": 46.9,
+  "components": {
+   "counselDensity": 0.739,
+   "recallRate": 0.461,
+   "shelterAvailability": 0.181,
+   "multicultureWeight": 1.12,
+   "childcareWeight": 1.2
+  },
+  "trend": "flat",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 9
+ },
+ {
+  "sigunguCode": "29200",
+  "score": 46.4,
+  "components": {
+   "counselDensity": 0.614,
+   "recallRate": 0.322,
+   "shelterAvailability": 0.083,
+   "multicultureWeight": 1.15,
+   "childcareWeight": 1.33
+  },
+  "trend": "up",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 10
+ },
+ {
+  "sigunguCode": "43720",
+  "score": 46.3,
+  "components": {
+   "counselDensity": 0.734,
+   "recallRate": 0.329,
+   "shelterAvailability": 0.064,
+   "multicultureWeight": 1.12,
+   "childcareWeight": 1.14
+  },
+  "trend": "up",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 11
+ },
+ {
+  "sigunguCode": "11305",
+  "score": 46.1,
+  "components": {
+   "counselDensity": 0.841,
+   "recallRate": 0.497,
+   "shelterAvailability": 0.354,
+   "multicultureWeight": 1.18,
+   "childcareWeight": 1.29
+  },
+  "trend": "up",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 12
+ },
+ {
+  "sigunguCode": "27200",
+  "score": 45.9,
+  "components": {
+   "counselDensity": 0.848,
+   "recallRate": 0.511,
+   "shelterAvailability": 0.182,
+   "multicultureWeight": 1.0,
+   "childcareWeight": 1.14
+  },
+  "trend": "flat",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 13
+ },
+ {
+  "sigunguCode": "46110",
+  "score": 43.0,
+  "components": {
+   "counselDensity": 0.82,
+   "recallRate": 0.179,
+   "shelterAvailability": 0.183,
+   "multicultureWeight": 1.12,
+   "childcareWeight": 1.26
+  },
+  "trend": "down",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 14
+ },
+ {
+  "sigunguCode": "11290",
+  "score": 41.6,
+  "components": {
+   "counselDensity": 0.633,
+   "recallRate": 0.432,
+   "shelterAvailability": 0.087,
+   "multicultureWeight": 1.09,
+   "childcareWeight": 1.1
+  },
+  "trend": "up",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 15
+ },
+ {
+  "sigunguCode": "45190",
+  "score": 41.5,
+  "components": {
+   "counselDensity": 0.845,
+   "recallRate": 0.178,
+   "shelterAvailability": 0.237,
+   "multicultureWeight": 1.11,
+   "childcareWeight": 1.28
+  },
+  "trend": "down",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 16
+ },
+ {
+  "sigunguCode": "30110",
+  "score": 41.2,
+  "components": {
+   "counselDensity": 0.874,
+   "recallRate": 0.234,
+   "shelterAvailability": 0.25,
+   "multicultureWeight": 1.04,
+   "childcareWeight": 1.27
+  },
+  "trend": "flat",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 17
+ },
+ {
+  "sigunguCode": "48127",
+  "score": 40.8,
+  "components": {
+   "counselDensity": 0.375,
+   "recallRate": 0.46,
+   "shelterAvailability": 0.085,
+   "multicultureWeight": 1.3,
+   "childcareWeight": 1.25
+  },
+  "trend": "flat",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 18
+ },
+ {
+  "sigunguCode": "47210",
+  "score": 40.6,
+  "components": {
+   "counselDensity": 0.369,
+   "recallRate": 0.487,
+   "shelterAvailability": 0.141,
+   "multicultureWeight": 1.38,
+   "childcareWeight": 1.23
+  },
+  "trend": "up",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 19
+ },
+ {
+  "sigunguCode": "47190",
+  "score": 39.1,
+  "components": {
+   "counselDensity": 0.657,
+   "recallRate": 0.246,
+   "shelterAvailability": 0.177,
+   "multicultureWeight": 1.22,
+   "childcareWeight": 1.19
+  },
+  "trend": "up",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 20
+ },
+ {
+  "sigunguCode": "50130",
+  "score": 39.0,
+  "components": {
+   "counselDensity": 0.711,
+   "recallRate": 0.222,
+   "shelterAvailability": 0.19,
+   "multicultureWeight": 1.24,
+   "childcareWeight": 1.13
+  },
+  "trend": "down",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 21
+ },
+ {
+  "sigunguCode": "29155",
+  "score": 38.7,
+  "components": {
+   "counselDensity": 0.935,
+   "recallRate": 0.215,
+   "shelterAvailability": 0.403,
+   "multicultureWeight": 1.28,
+   "childcareWeight": 1.2
+  },
+  "trend": "up",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 22
+ },
+ {
+  "sigunguCode": "45210",
+  "score": 38.5,
+  "components": {
+   "counselDensity": 0.696,
+   "recallRate": 0.523,
+   "shelterAvailability": 0.39,
+   "multicultureWeight": 1.22,
+   "childcareWeight": 1.23
+  },
+  "trend": "flat",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 23
+ },
+ {
+  "sigunguCode": "42130",
+  "score": 38.3,
+  "components": {
+   "counselDensity": 0.632,
+   "recallRate": 0.513,
+   "shelterAvailability": 0.35,
+   "multicultureWeight": 1.38,
+   "childcareWeight": 1.07
+  },
+  "trend": "down",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 24
+ },
+ {
+  "sigunguCode": "28245",
+  "score": 38.0,
+  "components": {
+   "counselDensity": 0.529,
+   "recallRate": 0.367,
+   "shelterAvailability": 0.292,
+   "multicultureWeight": 1.39,
+   "childcareWeight": 1.28
+  },
+  "trend": "down",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 25
+ },
+ {
+  "sigunguCode": "41250",
+  "score": 37.4,
+  "components": {
+   "counselDensity": 0.722,
+   "recallRate": 0.348,
+   "shelterAvailability": 0.245,
+   "multicultureWeight": 1.26,
+   "childcareWeight": 1.0
+  },
+  "trend": "up",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 26
+ },
+ {
+  "sigunguCode": "46170",
+  "score": 37.2,
+  "components": {
+   "counselDensity": 0.653,
+   "recallRate": 0.16,
+   "shelterAvailability": 0.233,
+   "multicultureWeight": 1.27,
+   "childcareWeight": 1.3
+  },
+  "trend": "down",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 27
+ },
+ {
+  "sigunguCode": "44180",
+  "score": 37.1,
+  "components": {
+   "counselDensity": 0.824,
+   "recallRate": 0.268,
+   "shelterAvailability": 0.339,
+   "multicultureWeight": 1.12,
+   "childcareWeight": 1.25
+  },
+  "trend": "up",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 28
+ },
+ {
+  "sigunguCode": "26140",
+  "score": 36.9,
+  "components": {
+   "counselDensity": 0.717,
+   "recallRate": 0.435,
+   "shelterAvailability": 0.369,
+   "multicultureWeight": 1.27,
+   "childcareWeight": 1.13
+  },
+  "trend": "down",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 29
+ },
+ {
+  "sigunguCode": "11260",
+  "score": 36.4,
+  "components": {
+   "counselDensity": 0.93,
+   "recallRate": 0.301,
+   "shelterAvailability": 0.492,
+   "multicultureWeight": 1.33,
+   "childcareWeight": 1.22
+  },
+  "trend": "flat",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 30
+ },
+ {
+  "sigunguCode": "27110",
+  "score": 36.4,
+  "components": {
+   "counselDensity": 0.602,
+   "recallRate": 0.206,
+   "shelterAvailability": 0.197,
+   "multicultureWeight": 1.19,
+   "childcareWeight": 1.31
+  },
+  "trend": "up",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 31
+ },
+ {
+  "sigunguCode": "41220",
+  "score": 36.4,
+  "components": {
+   "counselDensity": 0.658,
+   "recallRate": 0.457,
+   "shelterAvailability": 0.414,
+   "multicultureWeight": 1.35,
+   "childcareWeight": 1.2
+  },
+  "trend": "down",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 32
+ },
+ {
+  "sigunguCode": "11350",
+  "score": 36.3,
+  "components": {
+   "counselDensity": 0.676,
+   "recallRate": 0.364,
+   "shelterAvailability": 0.246,
+   "multicultureWeight": 1.18,
+   "childcareWeight": 1.09
+  },
+  "trend": "down",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 33
+ },
+ {
+  "sigunguCode": "44250",
+  "score": 35.6,
+  "components": {
+   "counselDensity": 0.672,
+   "recallRate": 0.171,
+   "shelterAvailability": 0.169,
+   "multicultureWeight": 1.23,
+   "childcareWeight": 1.11
+  },
+  "trend": "up",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 34
+ },
+ {
+  "sigunguCode": "46720",
+  "score": 35.4,
+  "components": {
+   "counselDensity": 0.811,
+   "recallRate": 0.538,
+   "shelterAvailability": 0.426,
+   "multicultureWeight": 1.16,
+   "childcareWeight": 1.11
+  },
+  "trend": "up",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 35
+ },
+ {
+  "sigunguCode": "11620",
+  "score": 34.8,
+  "components": {
+   "counselDensity": 0.929,
+   "recallRate": 0.455,
+   "shelterAvailability": 0.456,
+   "multicultureWeight": 1.04,
+   "childcareWeight": 1.22
+  },
+  "trend": "down",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 36
+ },
+ {
+  "sigunguCode": "41480",
+  "score": 34.7,
+  "components": {
+   "counselDensity": 0.61,
+   "recallRate": 0.391,
+   "shelterAvailability": 0.226,
+   "multicultureWeight": 1.09,
+   "childcareWeight": 1.15
+  },
+  "trend": "up",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 37
+ },
+ {
+  "sigunguCode": "46150",
+  "score": 34.7,
+  "components": {
+   "counselDensity": 0.575,
+   "recallRate": 0.348,
+   "shelterAvailability": 0.114,
+   "multicultureWeight": 1.02,
+   "childcareWeight": 1.15
+  },
+  "trend": "flat",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 38
+ },
+ {
+  "sigunguCode": "45113",
+  "score": 34.4,
+  "components": {
+   "counselDensity": 0.485,
+   "recallRate": 0.513,
+   "shelterAvailability": 0.288,
+   "multicultureWeight": 1.24,
+   "childcareWeight": 1.15
+  },
+  "trend": "down",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 39
+ },
+ {
+  "sigunguCode": "31170",
+  "score": 33.0,
+  "components": {
+   "counselDensity": 0.287,
+   "recallRate": 0.538,
+   "shelterAvailability": 0.193,
+   "multicultureWeight": 1.39,
+   "childcareWeight": 1.09
+  },
+  "trend": "up",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 40
+ },
+ {
+  "sigunguCode": "11380",
+  "score": 32.9,
+  "components": {
+   "counselDensity": 0.716,
+   "recallRate": 0.238,
+   "shelterAvailability": 0.309,
+   "multicultureWeight": 1.31,
+   "childcareWeight": 1.02
+  },
+  "trend": "up",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 41
+ },
+ {
+  "sigunguCode": "46130",
+  "score": 32.9,
+  "components": {
+   "counselDensity": 0.891,
+   "recallRate": 0.326,
+   "shelterAvailability": 0.425,
+   "multicultureWeight": 1.12,
+   "childcareWeight": 1.14
+  },
+  "trend": "flat",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 42
+ },
+ {
+  "sigunguCode": "42190",
+  "score": 32.8,
+  "components": {
+   "counselDensity": 0.478,
+   "recallRate": 0.352,
+   "shelterAvailability": 0.323,
+   "multicultureWeight": 1.34,
+   "childcareWeight": 1.29
+  },
+  "trend": "up",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 43
+ },
+ {
+  "sigunguCode": "50110",
+  "score": 32.4,
+  "components": {
+   "counselDensity": 0.797,
+   "recallRate": 0.267,
+   "shelterAvailability": 0.35,
+   "multicultureWeight": 1.06,
+   "childcareWeight": 1.19
+  },
+  "trend": "down",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 44
+ },
+ {
+  "sigunguCode": "11170",
+  "score": 32.1,
+  "components": {
+   "counselDensity": 0.579,
+   "recallRate": 0.161,
+   "shelterAvailability": 0.209,
+   "multicultureWeight": 1.26,
+   "childcareWeight": 1.19
+  },
+  "trend": "up",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 45
+ },
+ {
+  "sigunguCode": "48330",
+  "score": 32.1,
+  "components": {
+   "counselDensity": 0.728,
+   "recallRate": 0.19,
+   "shelterAvailability": 0.183,
+   "multicultureWeight": 1.12,
+   "childcareWeight": 1.01
+  },
+  "trend": "flat",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 46
+ },
+ {
+  "sigunguCode": "11545",
+  "score": 32.0,
+  "components": {
+   "counselDensity": 0.486,
+   "recallRate": 0.548,
+   "shelterAvailability": 0.473,
+   "multicultureWeight": 1.39,
+   "childcareWeight": 1.3
+  },
+  "trend": "up",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 47
+ },
+ {
+  "sigunguCode": "45180",
+  "score": 31.9,
+  "components": {
+   "counselDensity": 0.538,
+   "recallRate": 0.388,
+   "shelterAvailability": 0.283,
+   "multicultureWeight": 1.09,
+   "childcareWeight": 1.25
+  },
+  "trend": "down",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 48
+ },
+ {
+  "sigunguCode": "11110",
+  "score": 31.5,
+  "components": {
+   "counselDensity": 0.68,
+   "recallRate": 0.16,
+   "shelterAvailability": 0.27,
+   "multicultureWeight": 1.09,
+   "childcareWeight": 1.26
+  },
+  "trend": "down",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 49
+ },
+ {
+  "sigunguCode": "26170",
+  "score": 31.3,
+  "components": {
+   "counselDensity": 0.539,
+   "recallRate": 0.249,
+   "shelterAvailability": 0.101,
+   "multicultureWeight": 1.01,
+   "childcareWeight": 1.19
+  },
+  "trend": "down",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 50
+ },
+ {
+  "sigunguCode": "44230",
+  "score": 31.3,
+  "components": {
+   "counselDensity": 0.389,
+   "recallRate": 0.495,
+   "shelterAvailability": 0.141,
+   "multicultureWeight": 1.03,
+   "childcareWeight": 1.17
+  },
+  "trend": "down",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 51
+ },
+ {
+  "sigunguCode": "11680",
+  "score": 30.9,
+  "components": {
+   "counselDensity": 0.889,
+   "recallRate": 0.39,
+   "shelterAvailability": 0.441,
+   "multicultureWeight": 1.04,
+   "childcareWeight": 1.13
+  },
+  "trend": "flat",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 52
+ },
+ {
+  "sigunguCode": "41610",
+  "score": 30.9,
+  "components": {
+   "counselDensity": 0.389,
+   "recallRate": 0.183,
+   "shelterAvailability": 0.066,
+   "multicultureWeight": 1.22,
+   "childcareWeight": 1.35
+  },
+  "trend": "flat",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 53
+ },
+ {
+  "sigunguCode": "48270",
+  "score": 30.9,
+  "components": {
+   "counselDensity": 0.866,
+   "recallRate": 0.345,
+   "shelterAvailability": 0.483,
+   "multicultureWeight": 1.25,
+   "childcareWeight": 1.08
+  },
+  "trend": "down",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 54
+ },
+ {
+  "sigunguCode": "11320",
+  "score": 30.8,
+  "components": {
+   "counselDensity": 0.478,
+   "recallRate": 0.234,
+   "shelterAvailability": 0.264,
+   "multicultureWeight": 1.37,
+   "childcareWeight": 1.23
+  },
+  "trend": "down",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 55
+ },
+ {
+  "sigunguCode": "41210",
+  "score": 30.8,
+  "components": {
+   "counselDensity": 0.705,
+   "recallRate": 0.24,
+   "shelterAvailability": 0.209,
+   "multicultureWeight": 1.01,
+   "childcareWeight": 1.09
+  },
+  "trend": "flat",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 56
+ },
+ {
+  "sigunguCode": "28185",
+  "score": 30.1,
+  "components": {
+   "counselDensity": 0.436,
+   "recallRate": 0.256,
+   "shelterAvailability": 0.155,
+   "multicultureWeight": 1.26,
+   "childcareWeight": 1.16
+  },
+  "trend": "up",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 57
+ },
+ {
+  "sigunguCode": "31710",
+  "score": 29.6,
+  "components": {
+   "counselDensity": 0.489,
+   "recallRate": 0.381,
+   "shelterAvailability": 0.254,
+   "multicultureWeight": 1.28,
+   "childcareWeight": 1.0
+  },
+  "trend": "down",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 58
+ },
+ {
+  "sigunguCode": "41310",
+  "score": 29.2,
+  "components": {
+   "counselDensity": 0.52,
+   "recallRate": 0.513,
+   "shelterAvailability": 0.407,
+   "multicultureWeight": 1.06,
+   "childcareWeight": 1.3
+  },
+  "trend": "flat",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 59
+ },
+ {
+  "sigunguCode": "11440",
+  "score": 28.9,
+  "components": {
+   "counselDensity": 0.436,
+   "recallRate": 0.412,
+   "shelterAvailability": 0.367,
+   "multicultureWeight": 1.37,
+   "childcareWeight": 1.16
+  },
+  "trend": "flat",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 60
+ },
+ {
+  "sigunguCode": "41150",
+  "score": 28.5,
+  "components": {
+   "counselDensity": 0.611,
+   "recallRate": 0.15,
+   "shelterAvailability": 0.28,
+   "multicultureWeight": 1.17,
+   "childcareWeight": 1.2
+  },
+  "trend": "down",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 61
+ },
+ {
+  "sigunguCode": "42170",
+  "score": 27.8,
+  "components": {
+   "counselDensity": 0.804,
+   "recallRate": 0.468,
+   "shelterAvailability": 0.503,
+   "multicultureWeight": 1.02,
+   "childcareWeight": 1.19
+  },
+  "trend": "down",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 62
+ },
+ {
+  "sigunguCode": "44150",
+  "score": 27.4,
+  "components": {
+   "counselDensity": 0.754,
+   "recallRate": 0.261,
+   "shelterAvailability": 0.522,
+   "multicultureWeight": 1.3,
+   "childcareWeight": 1.21
+  },
+  "trend": "up",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 63
+ },
+ {
+  "sigunguCode": "47230",
+  "score": 27.4,
+  "components": {
+   "counselDensity": 0.574,
+   "recallRate": 0.437,
+   "shelterAvailability": 0.457,
+   "multicultureWeight": 1.11,
+   "childcareWeight": 1.29
+  },
+  "trend": "flat",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 64
+ },
+ {
+  "sigunguCode": "11650",
+  "score": 27.3,
+  "components": {
+   "counselDensity": 0.581,
+   "recallRate": 0.23,
+   "shelterAvailability": 0.349,
+   "multicultureWeight": 1.06,
+   "childcareWeight": 1.33
+  },
+  "trend": "down",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 65
+ },
+ {
+  "sigunguCode": "41111",
+  "score": 27.3,
+  "components": {
+   "counselDensity": 0.891,
+   "recallRate": 0.399,
+   "shelterAvailability": 0.581,
+   "multicultureWeight": 1.05,
+   "childcareWeight": 1.32
+  },
+  "trend": "down",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 66
+ },
+ {
+  "sigunguCode": "41280",
+  "score": 27.3,
+  "components": {
+   "counselDensity": 0.387,
+   "recallRate": 0.489,
+   "shelterAvailability": 0.415,
+   "multicultureWeight": 1.32,
+   "childcareWeight": 1.23
+  },
+  "trend": "down",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 67
+ },
+ {
+  "sigunguCode": "26290",
+  "score": 26.9,
+  "components": {
+   "counselDensity": 0.523,
+   "recallRate": 0.319,
+   "shelterAvailability": 0.424,
+   "multicultureWeight": 1.29,
+   "childcareWeight": 1.24
+  },
+  "trend": "down",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 68
+ },
+ {
+  "sigunguCode": "47250",
+  "score": 26.4,
+  "components": {
+   "counselDensity": 0.383,
+   "recallRate": 0.371,
+   "shelterAvailability": 0.357,
+   "multicultureWeight": 1.37,
+   "childcareWeight": 1.18
+  },
+  "trend": "up",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 69
+ },
+ {
+  "sigunguCode": "43113",
+  "score": 25.8,
+  "components": {
+   "counselDensity": 0.222,
+   "recallRate": 0.49,
+   "shelterAvailability": 0.195,
+   "multicultureWeight": 1.08,
+   "childcareWeight": 1.28
+  },
+  "trend": "flat",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 70
+ },
+ {
+  "sigunguCode": "28260",
+  "score": 25.6,
+  "components": {
+   "counselDensity": 0.206,
+   "recallRate": 0.477,
+   "shelterAvailability": 0.29,
+   "multicultureWeight": 1.27,
+   "childcareWeight": 1.33
+  },
+  "trend": "up",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 71
+ },
+ {
+  "sigunguCode": "48170",
+  "score": 25.6,
+  "components": {
+   "counselDensity": 0.295,
+   "recallRate": 0.536,
+   "shelterAvailability": 0.316,
+   "multicultureWeight": 1.04,
+   "childcareWeight": 1.3
+  },
+  "trend": "up",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 72
+ },
+ {
+  "sigunguCode": "27140",
+  "score": 25.2,
+  "components": {
+   "counselDensity": 0.532,
+   "recallRate": 0.495,
+   "shelterAvailability": 0.49,
+   "multicultureWeight": 1.02,
+   "childcareWeight": 1.35
+  },
+  "trend": "up",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 73
+ },
+ {
+  "sigunguCode": "48240",
+  "score": 24.8,
+  "components": {
+   "counselDensity": 0.256,
+   "recallRate": 0.463,
+   "shelterAvailability": 0.262,
+   "multicultureWeight": 1.25,
+   "childcareWeight": 1.14
+  },
+  "trend": "up",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 74
+ },
+ {
+  "sigunguCode": "28177",
+  "score": 24.6,
+  "components": {
+   "counselDensity": 0.514,
+   "recallRate": 0.383,
+   "shelterAvailability": 0.468,
+   "multicultureWeight": 1.37,
+   "childcareWeight": 1.07
+  },
+  "trend": "down",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 75
+ },
+ {
+  "sigunguCode": "46230",
+  "score": 24.5,
+  "components": {
+   "counselDensity": 0.913,
+   "recallRate": 0.55,
+   "shelterAvailability": 0.588,
+   "multicultureWeight": 1.11,
+   "childcareWeight": 1.01
+  },
+  "trend": "up",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 76
+ },
+ {
+  "sigunguCode": "47111",
+  "score": 24.2,
+  "components": {
+   "counselDensity": 0.843,
+   "recallRate": 0.282,
+   "shelterAvailability": 0.605,
+   "multicultureWeight": 1.12,
+   "childcareWeight": 1.33
+  },
+  "trend": "down",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 77
+ },
+ {
+  "sigunguCode": "26110",
+  "score": 24.0,
+  "components": {
+   "counselDensity": 0.399,
+   "recallRate": 0.499,
+   "shelterAvailability": 0.389,
+   "multicultureWeight": 1.08,
+   "childcareWeight": 1.19
+  },
+  "trend": "down",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 78
+ },
+ {
+  "sigunguCode": "11230",
+  "score": 23.9,
+  "components": {
+   "counselDensity": 0.469,
+   "recallRate": 0.288,
+   "shelterAvailability": 0.262,
+   "multicultureWeight": 1.02,
+   "childcareWeight": 1.16
+  },
+  "trend": "up",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 79
+ },
+ {
+  "sigunguCode": "41430",
+  "score": 23.7,
+  "components": {
+   "counselDensity": 0.506,
+   "recallRate": 0.367,
+   "shelterAvailability": 0.383,
+   "multicultureWeight": 1.08,
+   "childcareWeight": 1.15
+  },
+  "trend": "down",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 80
+ },
+ {
+  "sigunguCode": "44131",
+  "score": 23.4,
+  "components": {
+   "counselDensity": 0.613,
+   "recallRate": 0.291,
+   "shelterAvailability": 0.413,
+   "multicultureWeight": 1.12,
+   "childcareWeight": 1.08
+  },
+  "trend": "down",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 81
+ },
+ {
+  "sigunguCode": "26260",
+  "score": 22.3,
+  "components": {
+   "counselDensity": 0.632,
+   "recallRate": 0.247,
+   "shelterAvailability": 0.428,
+   "multicultureWeight": 1.16,
+   "childcareWeight": 1.03
+  },
+  "trend": "down",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 82
+ },
+ {
+  "sigunguCode": "41570",
+  "score": 22.3,
+  "components": {
+   "counselDensity": 0.682,
+   "recallRate": 0.204,
+   "shelterAvailability": 0.419,
+   "multicultureWeight": 1.02,
+   "childcareWeight": 1.13
+  },
+  "trend": "up",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 83
+ },
+ {
+  "sigunguCode": "43730",
+  "score": 22.3,
+  "components": {
+   "counselDensity": 0.43,
+   "recallRate": 0.383,
+   "shelterAvailability": 0.429,
+   "multicultureWeight": 1.21,
+   "childcareWeight": 1.15
+  },
+  "trend": "down",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 84
+ },
+ {
+  "sigunguCode": "48310",
+  "score": 22.1,
+  "components": {
+   "counselDensity": 0.891,
+   "recallRate": 0.549,
+   "shelterAvailability": 0.647,
+   "multicultureWeight": 1.17,
+   "childcareWeight": 1.03
+  },
+  "trend": "down",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 85
+ },
+ {
+  "sigunguCode": "28140",
+  "score": 22.0,
+  "components": {
+   "counselDensity": 0.503,
+   "recallRate": 0.527,
+   "shelterAvailability": 0.506,
+   "multicultureWeight": 1.23,
+   "childcareWeight": 1.01
+  },
+  "trend": "up",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 86
+ },
+ {
+  "sigunguCode": "44200",
+  "score": 21.7,
+  "components": {
+   "counselDensity": 0.406,
+   "recallRate": 0.54,
+   "shelterAvailability": 0.493,
+   "multicultureWeight": 1.28,
+   "childcareWeight": 1.04
+  },
+  "trend": "flat",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 87
+ },
+ {
+  "sigunguCode": "42710",
+  "score": 21.1,
+  "components": {
+   "counselDensity": 0.549,
+   "recallRate": 0.48,
+   "shelterAvailability": 0.524,
+   "multicultureWeight": 1.13,
+   "childcareWeight": 1.09
+  },
+  "trend": "up",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 88
+ },
+ {
+  "sigunguCode": "11590",
+  "score": 20.9,
+  "components": {
+   "counselDensity": 0.284,
+   "recallRate": 0.324,
+   "shelterAvailability": 0.413,
+   "multicultureWeight": 1.38,
+   "childcareWeight": 1.31
+  },
+  "trend": "flat",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 89
+ },
+ {
+  "sigunguCode": "29110",
+  "score": 20.7,
+  "components": {
+   "counselDensity": 0.738,
+   "recallRate": 0.231,
+   "shelterAvailability": 0.557,
+   "multicultureWeight": 1.11,
+   "childcareWeight": 1.17
+  },
+  "trend": "up",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 90
+ },
+ {
+  "sigunguCode": "30170",
+  "score": 20.7,
+  "components": {
+   "counselDensity": 0.861,
+   "recallRate": 0.16,
+   "shelterAvailability": 0.639,
+   "multicultureWeight": 1.13,
+   "childcareWeight": 1.33
+  },
+  "trend": "down",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 91
+ },
+ {
+  "sigunguCode": "45140",
+  "score": 20.6,
+  "components": {
+   "counselDensity": 0.398,
+   "recallRate": 0.182,
+   "shelterAvailability": 0.242,
+   "multicultureWeight": 1.22,
+   "childcareWeight": 1.05
+  },
+  "trend": "flat",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 92
+ },
+ {
+  "sigunguCode": "11140",
+  "score": 20.5,
+  "components": {
+   "counselDensity": 0.756,
+   "recallRate": 0.368,
+   "shelterAvailability": 0.522,
+   "multicultureWeight": 1.01,
+   "childcareWeight": 1.03
+  },
+  "trend": "up",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 93
+ },
+ {
+  "sigunguCode": "43150",
+  "score": 20.4,
+  "components": {
+   "counselDensity": 0.264,
+   "recallRate": 0.438,
+   "shelterAvailability": 0.441,
+   "multicultureWeight": 1.3,
+   "childcareWeight": 1.24
+  },
+  "trend": "down",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 94
+ },
+ {
+  "sigunguCode": "27290",
+  "score": 20.0,
+  "components": {
+   "counselDensity": 0.435,
+   "recallRate": 0.17,
+   "shelterAvailability": 0.431,
+   "multicultureWeight": 1.37,
+   "childcareWeight": 1.19
+  },
+  "trend": "up",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 95
+ },
+ {
+  "sigunguCode": "45130",
+  "score": 20.0,
+  "components": {
+   "counselDensity": 0.666,
+   "recallRate": 0.394,
+   "shelterAvailability": 0.642,
+   "multicultureWeight": 1.38,
+   "childcareWeight": 1.07
+  },
+  "trend": "up",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 96
+ },
+ {
+  "sigunguCode": "47150",
+  "score": 20.0,
+  "components": {
+   "counselDensity": 0.471,
+   "recallRate": 0.453,
+   "shelterAvailability": 0.55,
+   "multicultureWeight": 1.3,
+   "childcareWeight": 1.07
+  },
+  "trend": "down",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 97
+ },
+ {
+  "sigunguCode": "48123",
+  "score": 20.0,
+  "components": {
+   "counselDensity": 0.567,
+   "recallRate": 0.209,
+   "shelterAvailability": 0.481,
+   "multicultureWeight": 1.14,
+   "childcareWeight": 1.19
+  },
+  "trend": "down",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 98
+ },
+ {
+  "sigunguCode": "41650",
+  "score": 19.9,
+  "components": {
+   "counselDensity": 0.35,
+   "recallRate": 0.158,
+   "shelterAvailability": 0.172,
+   "multicultureWeight": 1.05,
+   "childcareWeight": 1.23
+  },
+  "trend": "down",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 99
+ },
+ {
+  "sigunguCode": "47280",
+  "score": 19.9,
+  "components": {
+   "counselDensity": 0.848,
+   "recallRate": 0.26,
+   "shelterAvailability": 0.682,
+   "multicultureWeight": 1.17,
+   "childcareWeight": 1.33
+  },
+  "trend": "down",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 100
+ },
+ {
+  "sigunguCode": "26710",
+  "score": 19.7,
+  "components": {
+   "counselDensity": 0.274,
+   "recallRate": 0.311,
+   "shelterAvailability": 0.321,
+   "multicultureWeight": 1.34,
+   "childcareWeight": 1.09
+  },
+  "trend": "up",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 101
+ },
+ {
+  "sigunguCode": "36110",
+  "score": 19.7,
+  "components": {
+   "counselDensity": 0.715,
+   "recallRate": 0.526,
+   "shelterAvailability": 0.64,
+   "multicultureWeight": 1.08,
+   "childcareWeight": 1.15
+  },
+  "trend": "down",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 102
+ },
+ {
+  "sigunguCode": "41131",
+  "score": 19.4,
+  "components": {
+   "counselDensity": 0.432,
+   "recallRate": 0.313,
+   "shelterAvailability": 0.372,
+   "multicultureWeight": 1.12,
+   "childcareWeight": 1.04
+  },
+  "trend": "flat",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 103
+ },
+ {
+  "sigunguCode": "11470",
+  "score": 19.3,
+  "components": {
+   "counselDensity": 0.305,
+   "recallRate": 0.448,
+   "shelterAvailability": 0.481,
+   "multicultureWeight": 1.3,
+   "childcareWeight": 1.15
+  },
+  "trend": "down",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 104
+ },
+ {
+  "sigunguCode": "31110",
+  "score": 19.3,
+  "components": {
+   "counselDensity": 0.367,
+   "recallRate": 0.414,
+   "shelterAvailability": 0.369,
+   "multicultureWeight": 1.11,
+   "childcareWeight": 1.02
+  },
+  "trend": "flat",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 105
+ },
+ {
+  "sigunguCode": "29140",
+  "score": 18.8,
+  "components": {
+   "counselDensity": 0.269,
+   "recallRate": 0.319,
+   "shelterAvailability": 0.271,
+   "multicultureWeight": 1.0,
+   "childcareWeight": 1.27
+  },
+  "trend": "down",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 106
+ },
+ {
+  "sigunguCode": "27170",
+  "score": 17.7,
+  "components": {
+   "counselDensity": 0.927,
+   "recallRate": 0.521,
+   "shelterAvailability": 0.729,
+   "multicultureWeight": 1.07,
+   "childcareWeight": 1.17
+  },
+  "trend": "up",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 107
+ },
+ {
+  "sigunguCode": "48220",
+  "score": 17.5,
+  "components": {
+   "counselDensity": 0.594,
+   "recallRate": 0.333,
+   "shelterAvailability": 0.628,
+   "multicultureWeight": 1.16,
+   "childcareWeight": 1.23
+  },
+  "trend": "up",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 108
+ },
+ {
+  "sigunguCode": "31140",
+  "score": 17.3,
+  "components": {
+   "counselDensity": 0.463,
+   "recallRate": 0.354,
+   "shelterAvailability": 0.594,
+   "multicultureWeight": 1.34,
+   "childcareWeight": 1.12
+  },
+  "trend": "up",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 109
+ },
+ {
+  "sigunguCode": "41270",
+  "score": 17.0,
+  "components": {
+   "counselDensity": 0.784,
+   "recallRate": 0.238,
+   "shelterAvailability": 0.693,
+   "multicultureWeight": 1.28,
+   "childcareWeight": 1.16
+  },
+  "trend": "down",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 110
+ },
+ {
+  "sigunguCode": "31200",
+  "score": 16.7,
+  "components": {
+   "counselDensity": 0.647,
+   "recallRate": 0.288,
+   "shelterAvailability": 0.679,
+   "multicultureWeight": 1.17,
+   "childcareWeight": 1.34
+  },
+  "trend": "up",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 111
+ },
+ {
+  "sigunguCode": "27230",
+  "score": 16.6,
+  "components": {
+   "counselDensity": 0.414,
+   "recallRate": 0.429,
+   "shelterAvailability": 0.634,
+   "multicultureWeight": 1.31,
+   "childcareWeight": 1.23
+  },
+  "trend": "flat",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 112
+ },
+ {
+  "sigunguCode": "41170",
+  "score": 16.6,
+  "components": {
+   "counselDensity": 0.442,
+   "recallRate": 0.327,
+   "shelterAvailability": 0.591,
+   "multicultureWeight": 1.2,
+   "childcareWeight": 1.28
+  },
+  "trend": "down",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 113
+ },
+ {
+  "sigunguCode": "41135",
+  "score": 16.5,
+  "components": {
+   "counselDensity": 0.699,
+   "recallRate": 0.302,
+   "shelterAvailability": 0.649,
+   "multicultureWeight": 1.07,
+   "childcareWeight": 1.2
+  },
+  "trend": "flat",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 114
+ },
+ {
+  "sigunguCode": "45111",
+  "score": 16.4,
+  "components": {
+   "counselDensity": 0.289,
+   "recallRate": 0.456,
+   "shelterAvailability": 0.535,
+   "multicultureWeight": 1.32,
+   "childcareWeight": 1.08
+  },
+  "trend": "down",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 115
+ },
+ {
+  "sigunguCode": "48250",
+  "score": 16.0,
+  "components": {
+   "counselDensity": 0.839,
+   "recallRate": 0.491,
+   "shelterAvailability": 0.737,
+   "multicultureWeight": 1.15,
+   "childcareWeight": 1.11
+  },
+  "trend": "down",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 116
+ },
+ {
+  "sigunguCode": "41550",
+  "score": 15.9,
+  "components": {
+   "counselDensity": 0.936,
+   "recallRate": 0.364,
+   "shelterAvailability": 0.776,
+   "multicultureWeight": 1.24,
+   "childcareWeight": 1.23
+  },
+  "trend": "up",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 117
+ },
+ {
+  "sigunguCode": "41500",
+  "score": 15.8,
+  "components": {
+   "counselDensity": 0.492,
+   "recallRate": 0.418,
+   "shelterAvailability": 0.689,
+   "multicultureWeight": 1.29,
+   "childcareWeight": 1.29
+  },
+  "trend": "up",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 118
+ },
+ {
+  "sigunguCode": "30230",
+  "score": 15.7,
+  "components": {
+   "counselDensity": 0.844,
+   "recallRate": 0.239,
+   "shelterAvailability": 0.703,
+   "multicultureWeight": 1.18,
+   "childcareWeight": 1.11
+  },
+  "trend": "up",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 119
+ },
+ {
+  "sigunguCode": "41360",
+  "score": 15.2,
+  "components": {
+   "counselDensity": 0.394,
+   "recallRate": 0.249,
+   "shelterAvailability": 0.56,
+   "multicultureWeight": 1.31,
+   "childcareWeight": 1.18
+  },
+  "trend": "down",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 120
+ },
+ {
+  "sigunguCode": "41290",
+  "score": 14.9,
+  "components": {
+   "counselDensity": 0.647,
+   "recallRate": 0.53,
+   "shelterAvailability": 0.763,
+   "multicultureWeight": 1.25,
+   "childcareWeight": 1.25
+  },
+  "trend": "down",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 121
+ },
+ {
+  "sigunguCode": "44210",
+  "score": 14.9,
+  "components": {
+   "counselDensity": 0.277,
+   "recallRate": 0.155,
+   "shelterAvailability": 0.277,
+   "multicultureWeight": 1.19,
+   "childcareWeight": 1.12
+  },
+  "trend": "up",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 122
+ },
+ {
+  "sigunguCode": "48129",
+  "score": 14.6,
+  "components": {
+   "counselDensity": 0.49,
+   "recallRate": 0.415,
+   "shelterAvailability": 0.707,
+   "multicultureWeight": 1.39,
+   "childcareWeight": 1.17
+  },
+  "trend": "up",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 123
+ },
+ {
+  "sigunguCode": "47113",
+  "score": 14.5,
+  "components": {
+   "counselDensity": 0.228,
+   "recallRate": 0.185,
+   "shelterAvailability": 0.252,
+   "multicultureWeight": 1.05,
+   "childcareWeight": 1.27
+  },
+  "trend": "down",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 124
+ },
+ {
+  "sigunguCode": "11710",
+  "score": 14.4,
+  "components": {
+   "counselDensity": 0.38,
+   "recallRate": 0.246,
+   "shelterAvailability": 0.504,
+   "multicultureWeight": 1.03,
+   "childcareWeight": 1.26
+  },
+  "trend": "up",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 125
+ },
+ {
+  "sigunguCode": "41450",
+  "score": 14.1,
+  "components": {
+   "counselDensity": 0.91,
+   "recallRate": 0.158,
+   "shelterAvailability": 0.755,
+   "multicultureWeight": 1.23,
+   "childcareWeight": 1.17
+  },
+  "trend": "flat",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 126
+ },
+ {
+  "sigunguCode": "44133",
+  "score": 14.0,
+  "components": {
+   "counselDensity": 0.344,
+   "recallRate": 0.198,
+   "shelterAvailability": 0.479,
+   "multicultureWeight": 1.3,
+   "childcareWeight": 1.06
+  },
+  "trend": "up",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 127
+ },
+ {
+  "sigunguCode": "41190",
+  "score": 13.7,
+  "components": {
+   "counselDensity": 0.327,
+   "recallRate": 0.184,
+   "shelterAvailability": 0.462,
+   "multicultureWeight": 1.25,
+   "childcareWeight": 1.12
+  },
+  "trend": "up",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 128
+ },
+ {
+  "sigunguCode": "43111",
+  "score": 13.4,
+  "components": {
+   "counselDensity": 0.409,
+   "recallRate": 0.33,
+   "shelterAvailability": 0.65,
+   "multicultureWeight": 1.23,
+   "childcareWeight": 1.23
+  },
+  "trend": "flat",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 129
+ },
+ {
+  "sigunguCode": "48125",
+  "score": 13.1,
+  "components": {
+   "counselDensity": 0.483,
+   "recallRate": 0.523,
+   "shelterAvailability": 0.746,
+   "multicultureWeight": 1.39,
+   "childcareWeight": 1.08
+  },
+  "trend": "flat",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 130
+ },
+ {
+  "sigunguCode": "11560",
+  "score": 13.0,
+  "components": {
+   "counselDensity": 0.71,
+   "recallRate": 0.196,
+   "shelterAvailability": 0.758,
+   "multicultureWeight": 1.3,
+   "childcareWeight": 1.27
+  },
+  "trend": "flat",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 131
+ },
+ {
+  "sigunguCode": "28710",
+  "score": 12.8,
+  "components": {
+   "counselDensity": 0.398,
+   "recallRate": 0.506,
+   "shelterAvailability": 0.644,
+   "multicultureWeight": 1.06,
+   "childcareWeight": 1.1
+  },
+  "trend": "up",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 132
+ },
+ {
+  "sigunguCode": "26200",
+  "score": 12.5,
+  "components": {
+   "counselDensity": 0.365,
+   "recallRate": 0.178,
+   "shelterAvailability": 0.555,
+   "multicultureWeight": 1.09,
+   "childcareWeight": 1.32
+  },
+  "trend": "flat",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 133
+ },
+ {
+  "sigunguCode": "28200",
+  "score": 12.4,
+  "components": {
+   "counselDensity": 0.207,
+   "recallRate": 0.398,
+   "shelterAvailability": 0.5,
+   "multicultureWeight": 1.04,
+   "childcareWeight": 1.19
+  },
+  "trend": "down",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 134
+ },
+ {
+  "sigunguCode": "30140",
+  "score": 12.2,
+  "components": {
+   "counselDensity": 0.93,
+   "recallRate": 0.45,
+   "shelterAvailability": 0.791,
+   "multicultureWeight": 1.09,
+   "childcareWeight": 1.06
+  },
+  "trend": "up",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 135
+ },
+ {
+  "sigunguCode": "41410",
+  "score": 12.2,
+  "components": {
+   "counselDensity": 0.26,
+   "recallRate": 0.21,
+   "shelterAvailability": 0.356,
+   "multicultureWeight": 1.06,
+   "childcareWeight": 1.07
+  },
+  "trend": "flat",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 136
+ },
+ {
+  "sigunguCode": "48121",
+  "score": 11.6,
+  "components": {
+   "counselDensity": 0.4,
+   "recallRate": 0.151,
+   "shelterAvailability": 0.631,
+   "multicultureWeight": 1.33,
+   "childcareWeight": 1.2
+  },
+  "trend": "down",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 137
+ },
+ {
+  "sigunguCode": "28237",
+  "score": 11.5,
+  "components": {
+   "counselDensity": 0.399,
+   "recallRate": 0.523,
+   "shelterAvailability": 0.755,
+   "multicultureWeight": 1.35,
+   "childcareWeight": 1.13
+  },
+  "trend": "up",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 138
+ },
+ {
+  "sigunguCode": "41390",
+  "score": 11.4,
+  "components": {
+   "counselDensity": 0.379,
+   "recallRate": 0.326,
+   "shelterAvailability": 0.621,
+   "multicultureWeight": 1.09,
+   "childcareWeight": 1.12
+  },
+  "trend": "down",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 139
+ },
+ {
+  "sigunguCode": "47130",
+  "score": 11.4,
+  "components": {
+   "counselDensity": 0.819,
+   "recallRate": 0.15,
+   "shelterAvailability": 0.745,
+   "multicultureWeight": 1.18,
+   "childcareWeight": 1.02
+  },
+  "trend": "down",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 140
+ },
+ {
+  "sigunguCode": "41590",
+  "score": 10.7,
+  "components": {
+   "counselDensity": 0.541,
+   "recallRate": 0.285,
+   "shelterAvailability": 0.754,
+   "multicultureWeight": 1.11,
+   "childcareWeight": 1.33
+  },
+  "trend": "flat",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 141
+ },
+ {
+  "sigunguCode": "11200",
+  "score": 10.2,
+  "components": {
+   "counselDensity": 0.537,
+   "recallRate": 0.261,
+   "shelterAvailability": 0.745,
+   "multicultureWeight": 1.3,
+   "childcareWeight": 1.06
+  },
+  "trend": "flat",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 142
+ },
+ {
+  "sigunguCode": "43130",
+  "score": 9.7,
+  "components": {
+   "counselDensity": 0.41,
+   "recallRate": 0.388,
+   "shelterAvailability": 0.754,
+   "multicultureWeight": 1.22,
+   "childcareWeight": 1.18
+  },
+  "trend": "up",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 143
+ },
+ {
+  "sigunguCode": "46710",
+  "score": 9.5,
+  "components": {
+   "counselDensity": 0.553,
+   "recallRate": 0.411,
+   "shelterAvailability": 0.783,
+   "multicultureWeight": 1.07,
+   "childcareWeight": 1.2
+  },
+  "trend": "down",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 144
+ },
+ {
+  "sigunguCode": "41460",
+  "score": 9.4,
+  "components": {
+   "counselDensity": 0.424,
+   "recallRate": 0.306,
+   "shelterAvailability": 0.763,
+   "multicultureWeight": 1.33,
+   "childcareWeight": 1.19
+  },
+  "trend": "down",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 145
+ },
+ {
+  "sigunguCode": "29170",
+  "score": 8.7,
+  "components": {
+   "counselDensity": 0.256,
+   "recallRate": 0.503,
+   "shelterAvailability": 0.773,
+   "multicultureWeight": 1.22,
+   "childcareWeight": 1.29
+  },
+  "trend": "down",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 146
+ },
+ {
+  "sigunguCode": "42210",
+  "score": 8.7,
+  "components": {
+   "counselDensity": 0.525,
+   "recallRate": 0.295,
+   "shelterAvailability": 0.763,
+   "multicultureWeight": 1.18,
+   "childcareWeight": 1.05
+  },
+  "trend": "up",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 147
+ },
+ {
+  "sigunguCode": "26230",
+  "score": 8.3,
+  "components": {
+   "counselDensity": 0.253,
+   "recallRate": 0.245,
+   "shelterAvailability": 0.585,
+   "multicultureWeight": 1.09,
+   "childcareWeight": 1.05
+  },
+  "trend": "down",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 148
+ },
+ {
+  "sigunguCode": "47170",
+  "score": 5.8,
+  "components": {
+   "counselDensity": 0.298,
+   "recallRate": 0.265,
+   "shelterAvailability": 0.755,
+   "multicultureWeight": 1.19,
+   "childcareWeight": 1.01
+  },
+  "trend": "down",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 149
+ },
+ {
+  "sigunguCode": "11215",
+  "score": 5.2,
+  "components": {
+   "counselDensity": 0.455,
+   "recallRate": 0.212,
+   "shelterAvailability": 0.816,
+   "multicultureWeight": 1.13,
+   "childcareWeight": 1.03
+  },
+  "trend": "up",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 150
+ },
+ {
+  "sigunguCode": "11500",
+  "score": 5.1,
+  "components": {
+   "counselDensity": 0.5,
+   "recallRate": 0.238,
+   "shelterAvailability": 0.848,
+   "multicultureWeight": 1.2,
+   "childcareWeight": 1.03
+  },
+  "trend": "up",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 151
+ },
+ {
+  "sigunguCode": "27260",
+  "score": 5.1,
+  "components": {
+   "counselDensity": 0.316,
+   "recallRate": 0.269,
+   "shelterAvailability": 0.825,
+   "multicultureWeight": 1.23,
+   "childcareWeight": 1.19
+  },
+  "trend": "down",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 152
+ },
+ {
+  "sigunguCode": "41630",
+  "score": 3.8,
+  "components": {
+   "counselDensity": 0.368,
+   "recallRate": 0.177,
+   "shelterAvailability": 0.816,
+   "multicultureWeight": 1.02,
+   "childcareWeight": 1.01
+  },
+  "trend": "up",
+  "updatedAt": "2026-05-03T00:00:00Z",
+  "rank": 153
+ }
+]

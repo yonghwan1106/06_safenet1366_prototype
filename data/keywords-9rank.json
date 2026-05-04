@@ -1,0 +1,18 @@
+[
+  {"severity": 1, "category": "emotional", "patterns": ["스트레스", "피곤", "기분 상", "답답", "외로", "지쳐"], "weight": 1, "routingHint": "self-care"},
+  {"severity": 2, "category": "emotional", "patterns": ["말다툼", "잔소리", "잔잔히 화", "삐쳐", "냉랭"], "weight": 1, "routingHint": "self-care"},
+  {"severity": 3, "category": "emotional", "patterns": ["자주 다투", "부부 갈등", "잦은 다툼", "냉전", "감정 폭발"], "weight": 2, "routingHint": "self-care"},
+  {"severity": 4, "category": "emotional", "patterns": ["소리 지르", "고함", "욕설", "비난", "무시당"], "weight": 2, "routingHint": "counselor-1366"},
+  {"severity": 4, "category": "economic", "patterns": ["생활비 안 줘", "돈 통제", "용돈 끊", "월급 뺏"], "weight": 2, "routingHint": "counselor-1366"},
+  {"severity": 5, "category": "physical", "patterns": ["밀쳐", "꼬집", "잡아 흔들", "벽에 밀", "팔을 잡아"], "weight": 3, "routingHint": "counselor-1366"},
+  {"severity": 5, "category": "emotional", "patterns": ["아이 앞에서", "자녀 앞", "협박", "가두", "외출 금지"], "weight": 3, "routingHint": "counselor-1366"},
+  {"severity": 6, "category": "physical", "patterns": ["때려", "맞았", "뺨 맞", "발로 차", "주먹"], "weight": 4, "routingHint": "counselor-1366"},
+  {"severity": 6, "category": "stalking", "patterns": ["계속 따라", "감시", "전화 폭주", "찾아와", "기다리고 있"], "weight": 3, "routingHint": "counselor-1366"},
+  {"severity": 7, "category": "physical", "patterns": ["멍이 들", "피가 났", "병원에 갈 정도", "심하게 맞", "다쳤"], "weight": 4, "routingHint": "emergency-112"},
+  {"severity": 7, "category": "sexual", "patterns": ["강제로", "원치 않", "성적", "거부했는데"], "weight": 4, "routingHint": "emergency-112"},
+  {"severity": 8, "category": "physical", "patterns": ["목 졸", "기절", "의식을 잃", "갈비뼈", "응급실"], "weight": 5, "routingHint": "emergency-112"},
+  {"severity": 8, "category": "child", "patterns": ["아이를 때", "아이가 다", "임신 중인데 폭행", "유산 위험"], "weight": 5, "routingHint": "emergency-112"},
+  {"severity": 9, "category": "physical", "patterns": ["칼", "흉기", "죽일 것 같", "죽이겠", "살해 협박", "총", "목 조"], "weight": 5, "routingHint": "emergency-112"},
+  {"severity": 9, "category": "emotional", "patterns": ["죽고 싶", "자살", "극단적 선택", "더 이상 못 살"], "weight": 5, "routingHint": "emergency-112"},
+  {"severity": 9, "category": "child", "patterns": ["아이 위험", "아이를 데리고", "아이가 무서워", "아이도 맞"], "weight": 5, "routingHint": "emergency-112"}
+]
