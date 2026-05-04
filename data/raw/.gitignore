@@ -1,0 +1,5 @@
+# Raw 5종 공공데이터는 gitignore (대용량 + 라이선스)
+*.csv
+*.xlsx
+*.xls
+*.zip

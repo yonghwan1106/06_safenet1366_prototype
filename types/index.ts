@@ -32,6 +32,13 @@ export interface RiskIndex {
   updatedAt: string;            // ISO
 }
 
+export interface ShelterForecast7d {
+  availability: number;        // 0~1, D+7 예측 가용률
+  capacity: number;
+  occupied: number;            // D+7 예측 점유 수
+  trend: 'up' | 'down' | 'flat'; // 위험 관점 추세 (수요↑=up)
+}
+
 export interface Shelter {
   id: string;
   name: string;
@@ -43,6 +50,7 @@ export interface Shelter {
   type: ShelterType;
   multilingual: boolean;
   phone: string;                // masked, e.g. "010-XXXX-1234"
+  forecast_7d?: ShelterForecast7d;
 }
 
 export interface KeywordRule {

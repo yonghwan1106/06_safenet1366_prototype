@@ -4,9 +4,72 @@ import { DataBadge } from '@/components/shared/DataBadge';
 
 export default function Home() {
   return (
-    <div className="bg-gradient-to-b from-purple-50 via-white to-slate-50">
+    <div className="bg-gradient-to-b from-purple-50 via-white to-slate-50 relative overflow-hidden">
+      {/* Hero 배경 일러스트 — 추상 파형, 보라→틸 그라디언트 */}
+      <svg
+        aria-hidden="true"
+        className="pointer-events-none absolute -top-10 -right-20 hidden md:block opacity-50 select-none"
+        width="720"
+        height="520"
+        viewBox="0 0 720 520"
+        fill="none"
+      >
+        <defs>
+          <linearGradient id="safenet-wave" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stopColor="#7C3AED" stopOpacity="0.95" />
+            <stop offset="55%" stopColor="#9333EA" stopOpacity="0.65" />
+            <stop offset="100%" stopColor="#0D9488" stopOpacity="0.85" />
+          </linearGradient>
+          <linearGradient id="safenet-wave-fade" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stopColor="#7C3AED" stopOpacity="0" />
+            <stop offset="50%" stopColor="#7C3AED" stopOpacity="0.18" />
+            <stop offset="100%" stopColor="#0D9488" stopOpacity="0" />
+          </linearGradient>
+        </defs>
+        {/* 큰 파형 곡선 — 위험 신호의 분산을 추상화 */}
+        <path
+          d="M-40 260 C 120 120, 240 380, 380 240 S 600 100, 760 280"
+          stroke="url(#safenet-wave)"
+          strokeWidth="2.5"
+          fill="none"
+          strokeLinecap="round"
+        />
+        <path
+          d="M-40 320 C 140 200, 260 420, 400 300 S 620 160, 780 340"
+          stroke="url(#safenet-wave)"
+          strokeWidth="1.5"
+          fill="none"
+          strokeLinecap="round"
+          opacity="0.6"
+        />
+        <path
+          d="M-40 200 C 100 100, 220 320, 380 200 S 580 80, 760 240"
+          stroke="url(#safenet-wave)"
+          strokeWidth="1"
+          fill="none"
+          strokeLinecap="round"
+          opacity="0.4"
+        />
+        {/* 위험 등급 데이터 포인트 (1~9등급 분산을 시각화) */}
+        {[
+          { x: 80, y: 245, r: 4, c: '#16A34A' },
+          { x: 160, y: 180, r: 5, c: '#16A34A' },
+          { x: 240, y: 270, r: 4, c: '#16A34A' },
+          { x: 320, y: 220, r: 6, c: '#D97706' },
+          { x: 410, y: 260, r: 7, c: '#D97706' },
+          { x: 480, y: 180, r: 5, c: '#D97706' },
+          { x: 560, y: 230, r: 8, c: '#DC2626' },
+          { x: 620, y: 290, r: 9, c: '#DC2626' },
+          { x: 680, y: 250, r: 7, c: '#DC2626' },
+        ].map((p, i) => (
+          <circle key={i} cx={p.x} cy={p.y} r={p.r} fill={p.c} opacity="0.85" />
+        ))}
+        {/* 우상단 grid 패턴 */}
+        <rect x="540" y="40" width="160" height="120" fill="url(#safenet-wave-fade)" rx="8" />
+      </svg>
+
       {/* Hero */}
-      <section className="mx-auto max-w-6xl px-4 pt-16 pb-12">
+      <section className="relative mx-auto max-w-6xl px-4 pt-16 pb-12">
         <div className="text-xs font-semibold tracking-[0.3em] text-purple-700 uppercase mb-4">
           The SafeNet Review · Vol. I
         </div>

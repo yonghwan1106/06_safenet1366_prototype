@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "test:e2e": "python tests/e2e/demo_flow.py",
+    "test:e2e:prod": "BASE_URL=https://06-safenet1366-prototype.vercel.app python tests/e2e/demo_flow.py",
+    "etl": "python scripts/etl/build_processed.py"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.92.0",

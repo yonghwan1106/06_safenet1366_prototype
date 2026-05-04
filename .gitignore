@@ -39,6 +39,9 @@ yarn-error.log*
 # omc state
 .omc/
 
+# e2e screenshots (회귀 시 매번 생성됨, repo 방어)
+tests/e2e/screenshots/*.png
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

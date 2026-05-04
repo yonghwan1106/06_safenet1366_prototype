@@ -9,7 +9,13 @@
   "occupied": 15,
   "type": "long",
   "multilingual": true,
-  "phone": "11-XXXX-8622"
+  "phone": "11-XXXX-8622",
+  "forecast_7d": {
+   "availability": 0.366,
+   "capacity": 40,
+   "occupied": 25,
+   "trend": "flat"
+  }
  },
  {
   "id": "s002",
@@ -21,7 +27,13 @@
   "occupied": 16,
   "type": "short",
   "multilingual": false,
-  "phone": "11-XXXX-7951"
+  "phone": "11-XXXX-7951",
+  "forecast_7d": {
+   "availability": 0.71,
+   "capacity": 40,
+   "occupied": 12,
+   "trend": "up"
+  }
  },
  {
   "id": "s003",
@@ -33,7 +45,13 @@
   "occupied": 11,
   "type": "short",
   "multilingual": true,
-  "phone": "11-XXXX-7248"
+  "phone": "11-XXXX-7248",
+  "forecast_7d": {
+   "availability": 0.54,
+   "capacity": 20,
+   "occupied": 9,
+   "trend": "up"
+  }
  },
  {
   "id": "s004",
@@ -45,7 +63,13 @@
   "occupied": 21,
   "type": "long",
   "multilingual": false,
-  "phone": "11-XXXX-1132"
+  "phone": "11-XXXX-1132",
+  "forecast_7d": {
+   "availability": 0.698,
+   "capacity": 40,
+   "occupied": 12,
+   "trend": "flat"
+  }
  },
  {
   "id": "s005",
@@ -57,7 +81,13 @@
   "occupied": 8,
   "type": "emergency",
   "multilingual": false,
-  "phone": "11-XXXX-6772"
+  "phone": "11-XXXX-6772",
+  "forecast_7d": {
+   "availability": 0.512,
+   "capacity": 10,
+   "occupied": 5,
+   "trend": "flat"
+  }
  },
  {
   "id": "s006",
@@ -69,7 +99,13 @@
   "occupied": 10,
   "type": "long",
   "multilingual": false,
-  "phone": "11-XXXX-3153"
+  "phone": "11-XXXX-3153",
+  "forecast_7d": {
+   "availability": 0.438,
+   "capacity": 15,
+   "occupied": 8,
+   "trend": "up"
+  }
  },
  {
   "id": "s007",
@@ -81,7 +117,13 @@
   "occupied": 12,
   "type": "short",
   "multilingual": false,
-  "phone": "11-XXXX-5465"
+  "phone": "11-XXXX-5465",
+  "forecast_7d": {
+   "availability": 0.723,
+   "capacity": 30,
+   "occupied": 8,
+   "trend": "flat"
+  }
  },
  {
   "id": "s008",
@@ -93,7 +135,13 @@
   "occupied": 17,
   "type": "short",
   "multilingual": false,
-  "phone": "11-XXXX-8673"
+  "phone": "11-XXXX-8673",
+  "forecast_7d": {
+   "availability": 0.462,
+   "capacity": 20,
+   "occupied": 11,
+   "trend": "up"
+  }
  },
  {
   "id": "s009",
@@ -105,7 +153,13 @@
   "occupied": 3,
   "type": "short",
   "multilingual": false,
-  "phone": "11-XXXX-6992"
+  "phone": "11-XXXX-6992",
+  "forecast_7d": {
+   "availability": 0.439,
+   "capacity": 10,
+   "occupied": 6,
+   "trend": "up"
+  }
  },
  {
   "id": "s010",
@@ -117,7 +171,13 @@
   "occupied": 12,
   "type": "short",
   "multilingual": false,
-  "phone": "11-XXXX-7086"
+  "phone": "11-XXXX-7086",
+  "forecast_7d": {
+   "availability": 0.525,
+   "capacity": 20,
+   "occupied": 10,
+   "trend": "down"
+  }
  },
  {
   "id": "s011",
@@ -129,7 +189,13 @@
   "occupied": 7,
   "type": "emergency",
   "multilingual": false,
-  "phone": "11-XXXX-8606"
+  "phone": "11-XXXX-8606",
+  "forecast_7d": {
+   "availability": 0.743,
+   "capacity": 10,
+   "occupied": 3,
+   "trend": "up"
+  }
  },
  {
   "id": "s012",
@@ -141,7 +207,13 @@
   "occupied": 14,
   "type": "short",
   "multilingual": false,
-  "phone": "11-XXXX-2902"
+  "phone": "11-XXXX-2902",
+  "forecast_7d": {
+   "availability": 0.354,
+   "capacity": 20,
+   "occupied": 13,
+   "trend": "up"
+  }
  },
  {
   "id": "s013",
@@ -153,7 +225,13 @@
   "occupied": 4,
   "type": "long",
   "multilingual": false,
-  "phone": "11-XXXX-9850"
+  "phone": "11-XXXX-9850",
+  "forecast_7d": {
+   "availability": 0.634,
+   "capacity": 10,
+   "occupied": 4,
+   "trend": "down"
+  }
  },
  {
   "id": "s014",
@@ -165,7 +243,13 @@
   "occupied": 20,
   "type": "short",
   "multilingual": false,
-  "phone": "11-XXXX-5583"
+  "phone": "11-XXXX-5583",
+  "forecast_7d": {
+   "availability": 0.49,
+   "capacity": 30,
+   "occupied": 15,
+   "trend": "flat"
+  }
  },
  {
   "id": "s015",
@@ -177,7 +261,13 @@
   "occupied": 17,
   "type": "long",
   "multilingual": false,
-  "phone": "11-XXXX-6876"
+  "phone": "11-XXXX-6876",
+  "forecast_7d": {
+   "availability": 0.278,
+   "capacity": 30,
+   "occupied": 22,
+   "trend": "up"
+  }
  },
  {
   "id": "s016",
@@ -189,7 +279,13 @@
   "occupied": 9,
   "type": "long",
   "multilingual": false,
-  "phone": "11-XXXX-1349"
+  "phone": "11-XXXX-1349",
+  "forecast_7d": {
+   "availability": 0.398,
+   "capacity": 10,
+   "occupied": 6,
+   "trend": "up"
+  }
  },
  {
   "id": "s017",
@@ -201,7 +297,13 @@
   "occupied": 12,
   "type": "emergency",
   "multilingual": false,
-  "phone": "11-XXXX-4817"
+  "phone": "11-XXXX-4817",
+  "forecast_7d": {
+   "availability": 0.192,
+   "capacity": 15,
+   "occupied": 12,
+   "trend": "up"
+  }
  },
  {
   "id": "s018",
@@ -213,7 +315,13 @@
   "occupied": 12,
   "type": "emergency",
   "multilingual": false,
-  "phone": "11-XXXX-3858"
+  "phone": "11-XXXX-3858",
+  "forecast_7d": {
+   "availability": 0.401,
+   "capacity": 15,
+   "occupied": 9,
+   "trend": "up"
+  }
  },
  {
   "id": "s019",
@@ -225,7 +333,13 @@
   "occupied": 4,
   "type": "short",
   "multilingual": true,
-  "phone": "11-XXXX-7897"
+  "phone": "11-XXXX-7897",
+  "forecast_7d": {
+   "availability": 0.407,
+   "capacity": 15,
+   "occupied": 9,
+   "trend": "flat"
+  }
  },
  {
   "id": "s020",
@@ -237,7 +351,13 @@
   "occupied": 14,
   "type": "long",
   "multilingual": false,
-  "phone": "11-XXXX-8405"
+  "phone": "11-XXXX-8405",
+  "forecast_7d": {
+   "availability": 0.56,
+   "capacity": 40,
+   "occupied": 18,
+   "trend": "flat"
+  }
  },
  {
   "id": "s021",
@@ -249,7 +369,13 @@
   "occupied": 13,
   "type": "emergency",
   "multilingual": false,
-  "phone": "11-XXXX-7580"
+  "phone": "11-XXXX-7580",
+  "forecast_7d": {
+   "availability": 0.515,
+   "capacity": 40,
+   "occupied": 19,
+   "trend": "flat"
+  }
  },
  {
   "id": "s022",
@@ -261,7 +387,13 @@
   "occupied": 6,
   "type": "long",
   "multilingual": true,
-  "phone": "11-XXXX-3067"
+  "phone": "11-XXXX-3067",
+  "forecast_7d": {
+   "availability": 0.39,
+   "capacity": 10,
+   "occupied": 6,
+   "trend": "flat"
+  }
  },
  {
   "id": "s023",
@@ -273,7 +405,13 @@
   "occupied": 26,
   "type": "short",
   "multilingual": false,
-  "phone": "26-XXXX-8048"
+  "phone": "26-XXXX-8048",
+  "forecast_7d": {
+   "availability": 0.711,
+   "capacity": 40,
+   "occupied": 12,
+   "trend": "up"
+  }
  },
  {
   "id": "s024",
@@ -285,7 +423,13 @@
   "occupied": 30,
   "type": "short",
   "multilingual": true,
-  "phone": "26-XXXX-8430"
+  "phone": "26-XXXX-8430",
+  "forecast_7d": {
+   "availability": 0.27,
+   "capacity": 40,
+   "occupied": 29,
+   "trend": "up"
+  }
  },
  {
   "id": "s025",
@@ -297,7 +441,13 @@
   "occupied": 17,
   "type": "short",
   "multilingual": false,
-  "phone": "26-XXXX-3500"
+  "phone": "26-XXXX-3500",
+  "forecast_7d": {
+   "availability": 0.622,
+   "capacity": 30,
+   "occupied": 11,
+   "trend": "flat"
+  }
  },
  {
   "id": "s026",
@@ -309,7 +459,13 @@
   "occupied": 10,
   "type": "long",
   "multilingual": false,
-  "phone": "26-XXXX-3131"
+  "phone": "26-XXXX-3131",
+  "forecast_7d": {
+   "availability": 0.438,
+   "capacity": 30,
+   "occupied": 17,
+   "trend": "flat"
+  }
  },
  {
   "id": "s027",
@@ -321,7 +477,13 @@
   "occupied": 13,
   "type": "long",
   "multilingual": false,
-  "phone": "26-XXXX-7929"
+  "phone": "26-XXXX-7929",
+  "forecast_7d": {
+   "availability": 0.528,
+   "capacity": 40,
+   "occupied": 19,
+   "trend": "flat"
+  }
  },
  {
   "id": "s028",
@@ -333,7 +495,13 @@
   "occupied": 9,
   "type": "emergency",
   "multilingual": true,
-  "phone": "26-XXXX-8900"
+  "phone": "26-XXXX-8900",
+  "forecast_7d": {
+   "availability": 0.423,
+   "capacity": 10,
+   "occupied": 6,
+   "trend": "up"
+  }
  },
  {
   "id": "s029",
@@ -345,7 +513,13 @@
   "occupied": 12,
   "type": "short",
   "multilingual": false,
-  "phone": "26-XXXX-8030"
+  "phone": "26-XXXX-8030",
+  "forecast_7d": {
+   "availability": 0.626,
+   "capacity": 15,
+   "occupied": 6,
+   "trend": "up"
+  }
  },
  {
   "id": "s030",
@@ -357,7 +531,13 @@
   "occupied": 27,
   "type": "long",
   "multilingual": true,
-  "phone": "26-XXXX-3955"
+  "phone": "26-XXXX-3955",
+  "forecast_7d": {
+   "availability": 0.497,
+   "capacity": 40,
+   "occupied": 20,
+   "trend": "up"
+  }
  },
  {
   "id": "s031",
@@ -369,7 +549,13 @@
   "occupied": 15,
   "type": "emergency",
   "multilingual": false,
-  "phone": "26-XXXX-7566"
+  "phone": "26-XXXX-7566",
+  "forecast_7d": {
+   "availability": 0.738,
+   "capacity": 20,
+   "occupied": 5,
+   "trend": "flat"
+  }
  },
  {
   "id": "s032",
@@ -381,7 +567,13 @@
   "occupied": 3,
   "type": "emergency",
   "multilingual": false,
-  "phone": "26-XXXX-6314"
+  "phone": "26-XXXX-6314",
+  "forecast_7d": {
+   "availability": 0.361,
+   "capacity": 10,
+   "occupied": 6,
+   "trend": "flat"
+  }
  },
  {
   "id": "s033",
@@ -393,7 +585,13 @@
   "occupied": 27,
   "type": "emergency",
   "multilingual": false,
-  "phone": "26-XXXX-5458"
+  "phone": "26-XXXX-5458",
+  "forecast_7d": {
+   "availability": 0.325,
+   "capacity": 40,
+   "occupied": 27,
+   "trend": "up"
+  }
  },
  {
   "id": "s034",
@@ -405,7 +603,13 @@
   "occupied": 18,
   "type": "long",
   "multilingual": true,
-  "phone": "27-XXXX-8043"
+  "phone": "27-XXXX-8043",
+  "forecast_7d": {
+   "availability": 0.237,
+   "capacity": 30,
+   "occupied": 23,
+   "trend": "up"
+  }
  },
  {
   "id": "s035",
@@ -417,7 +621,13 @@
   "occupied": 24,
   "type": "long",
   "multilingual": true,
-  "phone": "27-XXXX-4349"
+  "phone": "27-XXXX-4349",
+  "forecast_7d": {
+   "availability": 0.326,
+   "capacity": 40,
+   "occupied": 27,
+   "trend": "up"
+  }
  },
  {
   "id": "s036",
@@ -429,7 +639,13 @@
   "occupied": 18,
   "type": "emergency",
   "multilingual": true,
-  "phone": "27-XXXX-8055"
+  "phone": "27-XXXX-8055",
+  "forecast_7d": {
+   "availability": 0.457,
+   "capacity": 20,
+   "occupied": 11,
+   "trend": "up"
+  }
  },
  {
   "id": "s037",
@@ -441,7 +657,13 @@
   "occupied": 9,
   "type": "emergency",
   "multilingual": false,
-  "phone": "27-XXXX-8532"
+  "phone": "27-XXXX-8532",
+  "forecast_7d": {
+   "availability": 0.756,
+   "capacity": 15,
+   "occupied": 4,
+   "trend": "flat"
+  }
  },
  {
   "id": "s038",
@@ -453,7 +675,13 @@
   "occupied": 13,
   "type": "emergency",
   "multilingual": false,
-  "phone": "27-XXXX-6321"
+  "phone": "27-XXXX-6321",
+  "forecast_7d": {
+   "availability": 0.541,
+   "capacity": 20,
+   "occupied": 9,
+   "trend": "flat"
+  }
  },
  {
   "id": "s039",
@@ -465,7 +693,13 @@
   "occupied": 12,
   "type": "emergency",
   "multilingual": false,
-  "phone": "27-XXXX-2734"
+  "phone": "27-XXXX-2734",
+  "forecast_7d": {
+   "availability": 0.364,
+   "capacity": 15,
+   "occupied": 10,
+   "trend": "up"
+  }
  },
  {
   "id": "s040",
@@ -477,7 +711,13 @@
   "occupied": 8,
   "type": "short",
   "multilingual": false,
-  "phone": "27-XXXX-4630"
+  "phone": "27-XXXX-4630",
+  "forecast_7d": {
+   "availability": 0.516,
+   "capacity": 15,
+   "occupied": 7,
+   "trend": "flat"
+  }
  },
  {
   "id": "s041",
@@ -489,7 +729,13 @@
   "occupied": 5,
   "type": "short",
   "multilingual": false,
-  "phone": "27-XXXX-3419"
+  "phone": "27-XXXX-3419",
+  "forecast_7d": {
+   "availability": 0.517,
+   "capacity": 15,
+   "occupied": 7,
+   "trend": "down"
+  }
  },
  {
   "id": "s042",
@@ -501,7 +747,13 @@
   "occupied": 6,
   "type": "long",
   "multilingual": true,
-  "phone": "28-XXXX-9095"
+  "phone": "28-XXXX-9095",
+  "forecast_7d": {
+   "availability": 0.56,
+   "capacity": 15,
+   "occupied": 7,
+   "trend": "down"
+  }
  },
  {
   "id": "s043",
@@ -513,7 +765,13 @@
   "occupied": 31,
   "type": "long",
   "multilingual": false,
-  "phone": "28-XXXX-6295"
+  "phone": "28-XXXX-6295",
+  "forecast_7d": {
+   "availability": 0.247,
+   "capacity": 40,
+   "occupied": 30,
+   "trend": "up"
+  }
  },
  {
   "id": "s044",
@@ -525,7 +783,13 @@
   "occupied": 7,
   "type": "short",
   "multilingual": false,
-  "phone": "28-XXXX-6766"
+  "phone": "28-XXXX-6766",
+  "forecast_7d": {
+   "availability": 0.726,
+   "capacity": 20,
+   "occupied": 5,
+   "trend": "down"
+  }
  },
  {
   "id": "s045",
@@ -537,7 +801,13 @@
   "occupied": 13,
   "type": "short",
   "multilingual": true,
-  "phone": "28-XXXX-2479"
+  "phone": "28-XXXX-2479",
+  "forecast_7d": {
+   "availability": 0.468,
+   "capacity": 40,
+   "occupied": 21,
+   "trend": "flat"
+  }
  },
  {
   "id": "s046",
@@ -549,7 +819,13 @@
   "occupied": 21,
   "type": "long",
   "multilingual": true,
-  "phone": "28-XXXX-8792"
+  "phone": "28-XXXX-8792",
+  "forecast_7d": {
+   "availability": 0.499,
+   "capacity": 40,
+   "occupied": 20,
+   "trend": "up"
+  }
  },
  {
   "id": "s047",
@@ -561,7 +837,13 @@
   "occupied": 5,
   "type": "long",
   "multilingual": true,
-  "phone": "28-XXXX-5059"
+  "phone": "28-XXXX-5059",
+  "forecast_7d": {
+   "availability": 0.592,
+   "capacity": 10,
+   "occupied": 4,
+   "trend": "down"
+  }
  },
  {
   "id": "s048",
@@ -573,7 +855,13 @@
   "occupied": 19,
   "type": "short",
   "multilingual": false,
-  "phone": "28-XXXX-6543"
+  "phone": "28-XXXX-6543",
+  "forecast_7d": {
+   "availability": 0.631,
+   "capacity": 30,
+   "occupied": 11,
+   "trend": "down"
+  }
  },
  {
   "id": "s049",
@@ -585,7 +873,13 @@
   "occupied": 13,
   "type": "long",
   "multilingual": false,
-  "phone": "28-XXXX-5128"
+  "phone": "28-XXXX-5128",
+  "forecast_7d": {
+   "availability": 0.649,
+   "capacity": 40,
+   "occupied": 14,
+   "trend": "down"
+  }
  },
  {
   "id": "s050",
@@ -597,7 +891,13 @@
   "occupied": 34,
   "type": "short",
   "multilingual": true,
-  "phone": "28-XXXX-7421"
+  "phone": "28-XXXX-7421",
+  "forecast_7d": {
+   "availability": 0.302,
+   "capacity": 40,
+   "occupied": 28,
+   "trend": "up"
+  }
  },
  {
   "id": "s051",
@@ -609,7 +909,13 @@
   "occupied": 10,
   "type": "short",
   "multilingual": false,
-  "phone": "28-XXXX-9624"
+  "phone": "28-XXXX-9624",
+  "forecast_7d": {
+   "availability": 0.423,
+   "capacity": 15,
+   "occupied": 9,
+   "trend": "up"
+  }
  },
  {
   "id": "s052",
@@ -621,7 +927,13 @@
   "occupied": 21,
   "type": "short",
   "multilingual": false,
-  "phone": "28-XXXX-8967"
+  "phone": "28-XXXX-8967",
+  "forecast_7d": {
+   "availability": 0.461,
+   "capacity": 40,
+   "occupied": 22,
+   "trend": "flat"
+  }
  },
  {
   "id": "s053",
@@ -633,7 +945,13 @@
   "occupied": 6,
   "type": "emergency",
   "multilingual": false,
-  "phone": "28-XXXX-9843"
+  "phone": "28-XXXX-9843",
+  "forecast_7d": {
+   "availability": 0.793,
+   "capacity": 15,
+   "occupied": 3,
+   "trend": "flat"
+  }
  },
  {
   "id": "s054",
@@ -645,7 +963,13 @@
   "occupied": 12,
   "type": "long",
   "multilingual": false,
-  "phone": "29-XXXX-3658"
+  "phone": "29-XXXX-3658",
+  "forecast_7d": {
+   "availability": 0.699,
+   "capacity": 40,
+   "occupied": 12,
+   "trend": "down"
+  }
  },
  {
   "id": "s055",
@@ -657,7 +981,13 @@
   "occupied": 12,
   "type": "short",
   "multilingual": false,
-  "phone": "29-XXXX-4891"
+  "phone": "29-XXXX-4891",
+  "forecast_7d": {
+   "availability": 0.458,
+   "capacity": 15,
+   "occupied": 8,
+   "trend": "flat"
+  }
  },
  {
   "id": "s056",
@@ -669,7 +999,13 @@
   "occupied": 19,
   "type": "short",
   "multilingual": false,
-  "phone": "29-XXXX-4178"
+  "phone": "29-XXXX-4178",
+  "forecast_7d": {
+   "availability": 0.662,
+   "capacity": 40,
+   "occupied": 14,
+   "trend": "down"
+  }
  },
  {
   "id": "s057",
@@ -681,7 +1017,13 @@
   "occupied": 14,
   "type": "short",
   "multilingual": false,
-  "phone": "29-XXXX-7859"
+  "phone": "29-XXXX-7859",
+  "forecast_7d": {
+   "availability": 0.696,
+   "capacity": 20,
+   "occupied": 6,
+   "trend": "flat"
+  }
  },
  {
   "id": "s058",
@@ -693,7 +1035,13 @@
   "occupied": 12,
   "type": "short",
   "multilingual": false,
-  "phone": "29-XXXX-2680"
+  "phone": "29-XXXX-2680",
+  "forecast_7d": {
+   "availability": 0.479,
+   "capacity": 15,
+   "occupied": 8,
+   "trend": "up"
+  }
  },
  {
   "id": "s059",
@@ -705,7 +1053,13 @@
   "occupied": 34,
   "type": "short",
   "multilingual": false,
-  "phone": "29-XXXX-3414"
+  "phone": "29-XXXX-3414",
+  "forecast_7d": {
+   "availability": 0.332,
+   "capacity": 40,
+   "occupied": 27,
+   "trend": "up"
+  }
  },
  {
   "id": "s060",
@@ -717,7 +1071,13 @@
   "occupied": 10,
   "type": "emergency",
   "multilingual": false,
-  "phone": "29-XXXX-7495"
+  "phone": "29-XXXX-7495",
+  "forecast_7d": {
+   "availability": 0.562,
+   "capacity": 30,
+   "occupied": 13,
+   "trend": "down"
+  }
  },
  {
   "id": "s061",
@@ -729,7 +1089,13 @@
   "occupied": 8,
   "type": "emergency",
   "multilingual": false,
-  "phone": "29-XXXX-6493"
+  "phone": "29-XXXX-6493",
+  "forecast_7d": {
+   "availability": 0.813,
+   "capacity": 15,
+   "occupied": 3,
+   "trend": "flat"
+  }
  },
  {
   "id": "s062",
@@ -741,7 +1107,13 @@
   "occupied": 4,
   "type": "long",
   "multilingual": false,
-  "phone": "29-XXXX-1086"
+  "phone": "29-XXXX-1086",
+  "forecast_7d": {
+   "availability": 0.594,
+   "capacity": 15,
+   "occupied": 6,
+   "trend": "down"
+  }
  },
  {
   "id": "s063",
@@ -753,7 +1125,13 @@
   "occupied": 3,
   "type": "long",
   "multilingual": false,
-  "phone": "29-XXXX-7934"
+  "phone": "29-XXXX-7934",
+  "forecast_7d": {
+   "availability": 0.436,
+   "capacity": 10,
+   "occupied": 6,
+   "trend": "flat"
+  }
  },
  {
   "id": "s064",
@@ -765,7 +1143,13 @@
   "occupied": 7,
   "type": "short",
   "multilingual": true,
-  "phone": "30-XXXX-9189"
+  "phone": "30-XXXX-9189",
+  "forecast_7d": {
+   "availability": 0.514,
+   "capacity": 20,
+   "occupied": 10,
+   "trend": "up"
+  }
  },
  {
   "id": "s065",
@@ -777,7 +1161,13 @@
   "occupied": 7,
   "type": "emergency",
   "multilingual": false,
-  "phone": "30-XXXX-4941"
+  "phone": "30-XXXX-4941",
+  "forecast_7d": {
+   "availability": 0.362,
+   "capacity": 10,
+   "occupied": 6,
+   "trend": "up"
+  }
  },
  {
   "id": "s066",
@@ -789,7 +1179,13 @@
   "occupied": 10,
   "type": "long",
   "multilingual": false,
-  "phone": "30-XXXX-9316"
+  "phone": "30-XXXX-9316",
+  "forecast_7d": {
+   "availability": 0.535,
+   "capacity": 15,
+   "occupied": 7,
+   "trend": "up"
+  }
  },
  {
   "id": "s067",
@@ -801,7 +1197,13 @@
   "occupied": 26,
   "type": "short",
   "multilingual": false,
-  "phone": "30-XXXX-6850"
+  "phone": "30-XXXX-6850",
+  "forecast_7d": {
+   "availability": 0.554,
+   "capacity": 30,
+   "occupied": 13,
+   "trend": "up"
+  }
  },
  {
   "id": "s068",
@@ -813,7 +1215,13 @@
   "occupied": 9,
   "type": "short",
   "multilingual": true,
-  "phone": "31-XXXX-6772"
+  "phone": "31-XXXX-6772",
+  "forecast_7d": {
+   "availability": 0.718,
+   "capacity": 20,
+   "occupied": 6,
+   "trend": "down"
+  }
  },
  {
   "id": "s069",
@@ -825,7 +1233,13 @@
   "occupied": 20,
   "type": "long",
   "multilingual": false,
-  "phone": "31-XXXX-3986"
+  "phone": "31-XXXX-3986",
+  "forecast_7d": {
+   "availability": 0.736,
+   "capacity": 40,
+   "occupied": 11,
+   "trend": "flat"
+  }
  },
  {
   "id": "s070",
@@ -837,7 +1251,13 @@
   "occupied": 7,
   "type": "emergency",
   "multilingual": false,
-  "phone": "31-XXXX-6170"
+  "phone": "31-XXXX-6170",
+  "forecast_7d": {
+   "availability": 0.542,
+   "capacity": 10,
+   "occupied": 5,
+   "trend": "up"
+  }
  },
  {
   "id": "s071",
@@ -849,7 +1269,13 @@
   "occupied": 12,
   "type": "emergency",
   "multilingual": true,
-  "phone": "31-XXXX-1783"
+  "phone": "31-XXXX-1783",
+  "forecast_7d": {
+   "availability": 0.587,
+   "capacity": 20,
+   "occupied": 8,
+   "trend": "down"
+  }
  },
  {
   "id": "s072",
@@ -861,7 +1287,13 @@
   "occupied": 9,
   "type": "short",
   "multilingual": false,
-  "phone": "31-XXXX-7334"
+  "phone": "31-XXXX-7334",
+  "forecast_7d": {
+   "availability": 0.57,
+   "capacity": 20,
+   "occupied": 9,
+   "trend": "up"
+  }
  },
  {
   "id": "s073",
@@ -873,7 +1305,13 @@
   "occupied": 18,
   "type": "long",
   "multilingual": true,
-  "phone": "31-XXXX-2353"
+  "phone": "31-XXXX-2353",
+  "forecast_7d": {
+   "availability": 0.459,
+   "capacity": 20,
+   "occupied": 11,
+   "trend": "up"
+  }
  },
  {
   "id": "s074",
@@ -885,7 +1323,13 @@
   "occupied": 5,
   "type": "emergency",
   "multilingual": true,
-  "phone": "31-XXXX-5843"
+  "phone": "31-XXXX-5843",
+  "forecast_7d": {
+   "availability": 0.701,
+   "capacity": 10,
+   "occupied": 3,
+   "trend": "down"
+  }
  },
  {
   "id": "s075",
@@ -897,7 +1341,13 @@
   "occupied": 11,
   "type": "short",
   "multilingual": true,
-  "phone": "31-XXXX-6776"
+  "phone": "31-XXXX-6776",
+  "forecast_7d": {
+   "availability": 0.339,
+   "capacity": 20,
+   "occupied": 13,
+   "trend": "flat"
+  }
  },
  {
   "id": "s076",
@@ -909,7 +1359,13 @@
   "occupied": 14,
   "type": "short",
   "multilingual": false,
-  "phone": "31-XXXX-3621"
+  "phone": "31-XXXX-3621",
+  "forecast_7d": {
+   "availability": 0.532,
+   "capacity": 30,
+   "occupied": 14,
+   "trend": "flat"
+  }
  },
  {
   "id": "s077",
@@ -921,7 +1377,13 @@
   "occupied": 12,
   "type": "long",
   "multilingual": false,
-  "phone": "36-XXXX-7272"
+  "phone": "36-XXXX-7272",
+  "forecast_7d": {
+   "availability": 0.279,
+   "capacity": 15,
+   "occupied": 11,
+   "trend": "up"
+  }
  },
  {
   "id": "s078",
@@ -933,7 +1395,13 @@
   "occupied": 12,
   "type": "short",
   "multilingual": false,
-  "phone": "36-XXXX-2259"
+  "phone": "36-XXXX-2259",
+  "forecast_7d": {
+   "availability": 0.726,
+   "capacity": 40,
+   "occupied": 11,
+   "trend": "down"
+  }
  },
  {
   "id": "s079",
@@ -945,7 +1413,13 @@
   "occupied": 15,
   "type": "emergency",
   "multilingual": false,
-  "phone": "36-XXXX-1424"
+  "phone": "36-XXXX-1424",
+  "forecast_7d": {
+   "availability": 0.723,
+   "capacity": 40,
+   "occupied": 11,
+   "trend": "down"
+  }
  },
  {
   "id": "s080",
@@ -957,7 +1431,13 @@
   "occupied": 19,
   "type": "short",
   "multilingual": true,
-  "phone": "41-XXXX-5678"
+  "phone": "41-XXXX-5678",
+  "forecast_7d": {
+   "availability": 0.462,
+   "capacity": 30,
+   "occupied": 16,
+   "trend": "up"
+  }
  },
  {
   "id": "s081",
@@ -969,7 +1449,13 @@
   "occupied": 12,
   "type": "long",
   "multilingual": false,
-  "phone": "41-XXXX-2438"
+  "phone": "41-XXXX-2438",
+  "forecast_7d": {
+   "availability": 0.898,
+   "capacity": 30,
+   "occupied": 3,
+   "trend": "down"
+  }
  },
  {
   "id": "s082",
@@ -981,7 +1467,13 @@
   "occupied": 14,
   "type": "short",
   "multilingual": false,
-  "phone": "41-XXXX-3852"
+  "phone": "41-XXXX-3852",
+  "forecast_7d": {
+   "availability": 0.434,
+   "capacity": 20,
+   "occupied": 11,
+   "trend": "up"
+  }
  },
  {
   "id": "s083",
@@ -993,7 +1485,13 @@
   "occupied": 12,
   "type": "emergency",
   "multilingual": false,
-  "phone": "41-XXXX-1430"
+  "phone": "41-XXXX-1430",
+  "forecast_7d": {
+   "availability": 0.675,
+   "capacity": 20,
+   "occupied": 6,
+   "trend": "down"
+  }
  },
  {
   "id": "s084",
@@ -1005,7 +1503,13 @@
   "occupied": 21,
   "type": "short",
   "multilingual": false,
-  "phone": "41-XXXX-8842"
+  "phone": "41-XXXX-8842",
+  "forecast_7d": {
+   "availability": 0.551,
+   "capacity": 40,
+   "occupied": 18,
+   "trend": "up"
+  }
  },
  {
   "id": "s085",
@@ -1017,7 +1521,13 @@
   "occupied": 25,
   "type": "emergency",
   "multilingual": false,
-  "phone": "41-XXXX-9476"
+  "phone": "41-XXXX-9476",
+  "forecast_7d": {
+   "availability": 0.429,
+   "capacity": 30,
+   "occupied": 17,
+   "trend": "up"
+  }
  },
  {
   "id": "s086",
@@ -1029,7 +1539,13 @@
   "occupied": 28,
   "type": "long",
   "multilingual": false,
-  "phone": "41-XXXX-1907"
+  "phone": "41-XXXX-1907",
+  "forecast_7d": {
+   "availability": 0.377,
+   "capacity": 40,
+   "occupied": 25,
+   "trend": "up"
+  }
  },
  {
   "id": "s087",
@@ -1041,7 +1557,13 @@
   "occupied": 15,
   "type": "emergency",
   "multilingual": true,
-  "phone": "41-XXXX-9501"
+  "phone": "41-XXXX-9501",
+  "forecast_7d": {
+   "availability": 0.627,
+   "capacity": 40,
+   "occupied": 15,
+   "trend": "up"
+  }
  },
  {
   "id": "s088",
@@ -1053,7 +1575,13 @@
   "occupied": 16,
   "type": "short",
   "multilingual": true,
-  "phone": "41-XXXX-5961"
+  "phone": "41-XXXX-5961",
+  "forecast_7d": {
+   "availability": 0.641,
+   "capacity": 20,
+   "occupied": 7,
+   "trend": "up"
+  }
  },
  {
   "id": "s089",
@@ -1065,7 +1593,13 @@
   "occupied": 6,
   "type": "emergency",
   "multilingual": false,
-  "phone": "41-XXXX-6531"
+  "phone": "41-XXXX-6531",
+  "forecast_7d": {
+   "availability": 0.737,
+   "capacity": 10,
+   "occupied": 3,
+   "trend": "flat"
+  }
  },
  {
   "id": "s090",
@@ -1077,7 +1611,13 @@
   "occupied": 13,
   "type": "long",
   "multilingual": true,
-  "phone": "41-XXXX-4453"
+  "phone": "41-XXXX-4453",
+  "forecast_7d": {
+   "availability": 0.519,
+   "capacity": 40,
+   "occupied": 19,
+   "trend": "up"
+  }
  },
  {
   "id": "s091",
@@ -1089,7 +1629,13 @@
   "occupied": 22,
   "type": "short",
   "multilingual": false,
-  "phone": "41-XXXX-5949"
+  "phone": "41-XXXX-5949",
+  "forecast_7d": {
+   "availability": 0.493,
+   "capacity": 40,
+   "occupied": 20,
+   "trend": "up"
+  }
  },
  {
   "id": "s092",
@@ -1101,7 +1647,13 @@
   "occupied": 14,
   "type": "short",
   "multilingual": false,
-  "phone": "41-XXXX-4342"
+  "phone": "41-XXXX-4342",
+  "forecast_7d": {
+   "availability": 0.521,
+   "capacity": 30,
+   "occupied": 14,
+   "trend": "down"
+  }
  },
  {
   "id": "s093",
@@ -1113,7 +1665,13 @@
   "occupied": 7,
   "type": "short",
   "multilingual": true,
-  "phone": "41-XXXX-7070"
+  "phone": "41-XXXX-7070",
+  "forecast_7d": {
+   "availability": 0.55,
+   "capacity": 15,
+   "occupied": 7,
+   "trend": "up"
+  }
  },
  {
   "id": "s094",
@@ -1125,7 +1683,13 @@
   "occupied": 5,
   "type": "emergency",
   "multilingual": true,
-  "phone": "41-XXXX-5754"
+  "phone": "41-XXXX-5754",
+  "forecast_7d": {
+   "availability": 0.602,
+   "capacity": 10,
+   "occupied": 4,
+   "trend": "up"
+  }
  },
  {
   "id": "s095",
@@ -1137,7 +1701,13 @@
   "occupied": 22,
   "type": "long",
   "multilingual": true,
-  "phone": "41-XXXX-3610"
+  "phone": "41-XXXX-3610",
+  "forecast_7d": {
+   "availability": 0.607,
+   "capacity": 40,
+   "occupied": 16,
+   "trend": "up"
+  }
  },
  {
   "id": "s096",
@@ -1149,7 +1719,13 @@
   "occupied": 28,
   "type": "emergency",
   "multilingual": true,
-  "phone": "41-XXXX-7442"
+  "phone": "41-XXXX-7442",
+  "forecast_7d": {
+   "availability": 0.541,
+   "capacity": 30,
+   "occupied": 14,
+   "trend": "flat"
+  }
  },
  {
   "id": "s097",
@@ -1161,7 +1737,13 @@
   "occupied": 23,
   "type": "emergency",
   "multilingual": true,
-  "phone": "41-XXXX-8710"
+  "phone": "41-XXXX-8710",
+  "forecast_7d": {
+   "availability": 0.735,
+   "capacity": 40,
+   "occupied": 11,
+   "trend": "down"
+  }
  },
  {
   "id": "s098",
@@ -1173,7 +1755,13 @@
   "occupied": 8,
   "type": "short",
   "multilingual": false,
-  "phone": "41-XXXX-6995"
+  "phone": "41-XXXX-6995",
+  "forecast_7d": {
+   "availability": 0.57,
+   "capacity": 10,
+   "occupied": 4,
+   "trend": "up"
+  }
  },
  {
   "id": "s099",
@@ -1185,7 +1773,13 @@
   "occupied": 13,
   "type": "long",
   "multilingual": true,
-  "phone": "41-XXXX-2946"
+  "phone": "41-XXXX-2946",
+  "forecast_7d": {
+   "availability": 0.516,
+   "capacity": 20,
+   "occupied": 10,
+   "trend": "down"
+  }
  },
  {
   "id": "s100",
@@ -1197,7 +1791,13 @@
   "occupied": 13,
   "type": "long",
   "multilingual": false,
-  "phone": "41-XXXX-1659"
+  "phone": "41-XXXX-1659",
+  "forecast_7d": {
+   "availability": 0.379,
+   "capacity": 20,
+   "occupied": 12,
+   "trend": "up"
+  }
  },
  {
   "id": "s101",
@@ -1209,7 +1809,13 @@
   "occupied": 19,
   "type": "short",
   "multilingual": false,
-  "phone": "41-XXXX-6218"
+  "phone": "41-XXXX-6218",
+  "forecast_7d": {
+   "availability": 0.318,
+   "capacity": 30,
+   "occupied": 20,
+   "trend": "up"
+  }
  },
  {
   "id": "s102",
@@ -1221,7 +1827,13 @@
   "occupied": 13,
   "type": "emergency",
   "multilingual": false,
-  "phone": "41-XXXX-2795"
+  "phone": "41-XXXX-2795",
+  "forecast_7d": {
+   "availability": 0.74,
+   "capacity": 20,
+   "occupied": 5,
+   "trend": "flat"
+  }
  },
  {
   "id": "s103",
@@ -1233,7 +1845,13 @@
   "occupied": 20,
   "type": "long",
   "multilingual": false,
-  "phone": "41-XXXX-4728"
+  "phone": "41-XXXX-4728",
+  "forecast_7d": {
+   "availability": 0.552,
+   "capacity": 30,
+   "occupied": 13,
+   "trend": "flat"
+  }
  },
  {
   "id": "s104",
@@ -1245,7 +1863,13 @@
   "occupied": 6,
   "type": "short",
   "multilingual": true,
-  "phone": "41-XXXX-4968"
+  "phone": "41-XXXX-4968",
+  "forecast_7d": {
+   "availability": 0.305,
+   "capacity": 10,
+   "occupied": 7,
+   "trend": "up"
+  }
  },
  {
   "id": "s105",
@@ -1257,7 +1881,13 @@
   "occupied": 4,
   "type": "long",
   "multilingual": true,
-  "phone": "41-XXXX-9221"
+  "phone": "41-XXXX-9221",
+  "forecast_7d": {
+   "availability": 0.478,
+   "capacity": 10,
+   "occupied": 5,
+   "trend": "flat"
+  }
  },
  {
   "id": "s106",
@@ -1269,7 +1899,13 @@
   "occupied": 35,
   "type": "long",
   "multilingual": true,
-  "phone": "41-XXXX-8837"
+  "phone": "41-XXXX-8837",
+  "forecast_7d": {
+   "availability": 0.374,
+   "capacity": 40,
+   "occupied": 25,
+   "trend": "up"
+  }
  },
  {
   "id": "s107",
@@ -1281,7 +1917,13 @@
   "occupied": 21,
   "type": "long",
   "multilingual": false,
-  "phone": "41-XXXX-5331"
+  "phone": "41-XXXX-5331",
+  "forecast_7d": {
+   "availability": 0.506,
+   "capacity": 40,
+   "occupied": 20,
+   "trend": "down"
+  }
  },
  {
   "id": "s108",
@@ -1293,7 +1935,13 @@
   "occupied": 13,
   "type": "short",
   "multilingual": false,
-  "phone": "41-XXXX-4396"
+  "phone": "41-XXXX-4396",
+  "forecast_7d": {
+   "availability": 0.358,
+   "capacity": 15,
+   "occupied": 10,
+   "trend": "up"
+  }
  },
  {
   "id": "s109",
@@ -1305,7 +1953,13 @@
   "occupied": 15,
   "type": "long",
   "multilingual": true,
-  "phone": "41-XXXX-2996"
+  "phone": "41-XXXX-2996",
+  "forecast_7d": {
+   "availability": 0.71,
+   "capacity": 30,
+   "occupied": 9,
+   "trend": "flat"
+  }
  },
  {
   "id": "s110",
@@ -1317,7 +1971,13 @@
   "occupied": 29,
   "type": "short",
   "multilingual": false,
-  "phone": "41-XXXX-3399"
+  "phone": "41-XXXX-3399",
+  "forecast_7d": {
+   "availability": 0.628,
+   "capacity": 40,
+   "occupied": 15,
+   "trend": "up"
+  }
  },
  {
   "id": "s111",
@@ -1329,7 +1989,13 @@
   "occupied": 18,
   "type": "short",
   "multilingual": false,
-  "phone": "42-XXXX-4505"
+  "phone": "42-XXXX-4505",
+  "forecast_7d": {
+   "availability": 0.568,
+   "capacity": 20,
+   "occupied": 9,
+   "trend": "up"
+  }
  },
  {
   "id": "s112",
@@ -1341,7 +2007,13 @@
   "occupied": 30,
   "type": "emergency",
   "multilingual": true,
-  "phone": "42-XXXX-9700"
+  "phone": "42-XXXX-9700",
+  "forecast_7d": {
+   "availability": 0.537,
+   "capacity": 40,
+   "occupied": 19,
+   "trend": "down"
+  }
  },
  {
   "id": "s113",
@@ -1353,7 +2025,13 @@
   "occupied": 5,
   "type": "long",
   "multilingual": false,
-  "phone": "42-XXXX-1084"
+  "phone": "42-XXXX-1084",
+  "forecast_7d": {
+   "availability": 0.636,
+   "capacity": 15,
+   "occupied": 5,
+   "trend": "flat"
+  }
  },
  {
   "id": "s114",
@@ -1365,7 +2043,13 @@
   "occupied": 8,
   "type": "short",
   "multilingual": true,
-  "phone": "42-XXXX-1969"
+  "phone": "42-XXXX-1969",
+  "forecast_7d": {
+   "availability": 0.705,
+   "capacity": 15,
+   "occupied": 4,
+   "trend": "up"
+  }
  },
  {
   "id": "s115",
@@ -1377,7 +2061,13 @@
   "occupied": 7,
   "type": "emergency",
   "multilingual": false,
-  "phone": "42-XXXX-3868"
+  "phone": "42-XXXX-3868",
+  "forecast_7d": {
+   "availability": 0.593,
+   "capacity": 10,
+   "occupied": 4,
+   "trend": "down"
+  }
  },
  {
   "id": "s116",
@@ -1389,7 +2079,13 @@
   "occupied": 26,
   "type": "short",
   "multilingual": false,
-  "phone": "42-XXXX-4052"
+  "phone": "42-XXXX-4052",
+  "forecast_7d": {
+   "availability": 0.409,
+   "capacity": 30,
+   "occupied": 18,
+   "trend": "up"
+  }
  },
  {
   "id": "s117",
@@ -1401,7 +2097,13 @@
   "occupied": 17,
   "type": "short",
   "multilingual": true,
-  "phone": "42-XXXX-9901"
+  "phone": "42-XXXX-9901",
+  "forecast_7d": {
+   "availability": 0.496,
+   "capacity": 20,
+   "occupied": 10,
+   "trend": "up"
+  }
  },
  {
   "id": "s118",
@@ -1413,7 +2115,13 @@
   "occupied": 24,
   "type": "emergency",
   "multilingual": false,
-  "phone": "42-XXXX-6417"
+  "phone": "42-XXXX-6417",
+  "forecast_7d": {
+   "availability": 0.765,
+   "capacity": 40,
+   "occupied": 9,
+   "trend": "flat"
+  }
  },
  {
   "id": "s119",
@@ -1425,7 +2133,13 @@
   "occupied": 11,
   "type": "short",
   "multilingual": false,
-  "phone": "42-XXXX-4164"
+  "phone": "42-XXXX-4164",
+  "forecast_7d": {
+   "availability": 0.647,
+   "capacity": 15,
+   "occupied": 5,
+   "trend": "up"
+  }
  },
  {
   "id": "s120",
@@ -1437,7 +2151,13 @@
   "occupied": 25,
   "type": "emergency",
   "multilingual": false,
-  "phone": "42-XXXX-8822"
+  "phone": "42-XXXX-8822",
+  "forecast_7d": {
+   "availability": 0.389,
+   "capacity": 30,
+   "occupied": 18,
+   "trend": "up"
+  }
  },
  {
   "id": "s121",
@@ -1449,7 +2169,13 @@
   "occupied": 18,
   "type": "short",
   "multilingual": false,
-  "phone": "42-XXXX-5947"
+  "phone": "42-XXXX-5947",
+  "forecast_7d": {
+   "availability": 0.361,
+   "capacity": 20,
+   "occupied": 13,
+   "trend": "up"
+  }
  },
  {
   "id": "s122",
@@ -1461,7 +2187,13 @@
   "occupied": 12,
   "type": "emergency",
   "multilingual": false,
-  "phone": "43-XXXX-3616"
+  "phone": "43-XXXX-3616",
+  "forecast_7d": {
+   "availability": 0.654,
+   "capacity": 40,
+   "occupied": 14,
+   "trend": "down"
+  }
  },
  {
   "id": "s123",
@@ -1473,7 +2205,13 @@
   "occupied": 36,
   "type": "short",
   "multilingual": false,
-  "phone": "43-XXXX-4618"
+  "phone": "43-XXXX-4618",
+  "forecast_7d": {
+   "availability": 0.539,
+   "capacity": 40,
+   "occupied": 18,
+   "trend": "up"
+  }
  },
  {
   "id": "s124",
@@ -1485,7 +2223,13 @@
   "occupied": 21,
   "type": "emergency",
   "multilingual": false,
-  "phone": "43-XXXX-2341"
+  "phone": "43-XXXX-2341",
+  "forecast_7d": {
+   "availability": 0.502,
+   "capacity": 40,
+   "occupied": 20,
+   "trend": "down"
+  }
  },
  {
   "id": "s125",
@@ -1497,7 +2241,13 @@
   "occupied": 23,
   "type": "emergency",
   "multilingual": false,
-  "phone": "43-XXXX-9281"
+  "phone": "43-XXXX-9281",
+  "forecast_7d": {
+   "availability": 0.33,
+   "capacity": 40,
+   "occupied": 27,
+   "trend": "up"
+  }
  },
  {
   "id": "s126",
@@ -1509,7 +2259,13 @@
   "occupied": 7,
   "type": "long",
   "multilingual": false,
-  "phone": "44-XXXX-9361"
+  "phone": "44-XXXX-9361",
+  "forecast_7d": {
+   "availability": 0.529,
+   "capacity": 15,
+   "occupied": 7,
+   "trend": "up"
+  }
  },
  {
   "id": "s127",
@@ -1521,7 +2277,13 @@
   "occupied": 5,
   "type": "short",
   "multilingual": false,
-  "phone": "44-XXXX-6049"
+  "phone": "44-XXXX-6049",
+  "forecast_7d": {
+   "availability": 0.433,
+   "capacity": 10,
+   "occupied": 6,
+   "trend": "up"
+  }
  },
  {
   "id": "s128",
@@ -1533,7 +2295,13 @@
   "occupied": 13,
   "type": "emergency",
   "multilingual": false,
-  "phone": "44-XXXX-2044"
+  "phone": "44-XXXX-2044",
+  "forecast_7d": {
+   "availability": 0.707,
+   "capacity": 30,
+   "occupied": 9,
+   "trend": "down"
+  }
  },
  {
   "id": "s129",
@@ -1545,7 +2313,13 @@
   "occupied": 37,
   "type": "short",
   "multilingual": false,
-  "phone": "44-XXXX-3218"
+  "phone": "44-XXXX-3218",
+  "forecast_7d": {
+   "availability": 0.545,
+   "capacity": 40,
+   "occupied": 18,
+   "trend": "up"
+  }
  },
  {
   "id": "s130",
@@ -1557,7 +2331,13 @@
   "occupied": 16,
   "type": "short",
   "multilingual": false,
-  "phone": "44-XXXX-9835"
+  "phone": "44-XXXX-9835",
+  "forecast_7d": {
+   "availability": 0.544,
+   "capacity": 30,
+   "occupied": 14,
+   "trend": "up"
+  }
  },
  {
   "id": "s131",
@@ -1569,7 +2349,13 @@
   "occupied": 10,
   "type": "short",
   "multilingual": false,
-  "phone": "44-XXXX-4648"
+  "phone": "44-XXXX-4648",
+  "forecast_7d": {
+   "availability": 0.588,
+   "capacity": 15,
+   "occupied": 6,
+   "trend": "up"
+  }
  },
  {
   "id": "s132",
@@ -1581,7 +2367,13 @@
   "occupied": 9,
   "type": "long",
   "multilingual": false,
-  "phone": "44-XXXX-4762"
+  "phone": "44-XXXX-4762",
+  "forecast_7d": {
+   "availability": 0.347,
+   "capacity": 10,
+   "occupied": 7,
+   "trend": "up"
+  }
  },
  {
   "id": "s133",
@@ -1593,7 +2385,13 @@
   "occupied": 8,
   "type": "long",
   "multilingual": false,
-  "phone": "44-XXXX-1527"
+  "phone": "44-XXXX-1527",
+  "forecast_7d": {
+   "availability": 0.593,
+   "capacity": 15,
+   "occupied": 6,
+   "trend": "down"
+  }
  },
  {
   "id": "s134",
@@ -1605,7 +2403,13 @@
   "occupied": 20,
   "type": "long",
   "multilingual": true,
-  "phone": "44-XXXX-1797"
+  "phone": "44-XXXX-1797",
+  "forecast_7d": {
+   "availability": 0.451,
+   "capacity": 30,
+   "occupied": 16,
+   "trend": "up"
+  }
  },
  {
   "id": "s135",
@@ -1617,7 +2421,13 @@
   "occupied": 11,
   "type": "emergency",
   "multilingual": true,
-  "phone": "44-XXXX-5739"
+  "phone": "44-XXXX-5739",
+  "forecast_7d": {
+   "availability": 0.517,
+   "capacity": 15,
+   "occupied": 7,
+   "trend": "up"
+  }
  },
  {
   "id": "s136",
@@ -1629,7 +2439,13 @@
   "occupied": 20,
   "type": "long",
   "multilingual": false,
-  "phone": "44-XXXX-7775"
+  "phone": "44-XXXX-7775",
+  "forecast_7d": {
+   "availability": 0.384,
+   "capacity": 40,
+   "occupied": 25,
+   "trend": "up"
+  }
  },
  {
   "id": "s137",
@@ -1641,7 +2457,13 @@
   "occupied": 6,
   "type": "short",
   "multilingual": true,
-  "phone": "45-XXXX-6642"
+  "phone": "45-XXXX-6642",
+  "forecast_7d": {
+   "availability": 0.476,
+   "capacity": 10,
+   "occupied": 5,
+   "trend": "up"
+  }
  },
  {
   "id": "s138",
@@ -1653,7 +2475,13 @@
   "occupied": 24,
   "type": "short",
   "multilingual": false,
-  "phone": "45-XXXX-9813"
+  "phone": "45-XXXX-9813",
+  "forecast_7d": {
+   "availability": 0.431,
+   "capacity": 30,
+   "occupied": 17,
+   "trend": "up"
+  }
  },
  {
   "id": "s139",
@@ -1665,7 +2493,13 @@
   "occupied": 13,
   "type": "short",
   "multilingual": false,
-  "phone": "45-XXXX-7761"
+  "phone": "45-XXXX-7761",
+  "forecast_7d": {
+   "availability": 0.623,
+   "capacity": 30,
+   "occupied": 11,
+   "trend": "flat"
+  }
  },
  {
   "id": "s140",
@@ -1677,7 +2511,13 @@
   "occupied": 19,
   "type": "short",
   "multilingual": false,
-  "phone": "45-XXXX-8369"
+  "phone": "45-XXXX-8369",
+  "forecast_7d": {
+   "availability": 0.385,
+   "capacity": 30,
+   "occupied": 18,
+   "trend": "up"
+  }
  },
  {
   "id": "s141",
@@ -1689,7 +2529,13 @@
   "occupied": 6,
   "type": "long",
   "multilingual": false,
-  "phone": "45-XXXX-2192"
+  "phone": "45-XXXX-2192",
+  "forecast_7d": {
+   "availability": 0.421,
+   "capacity": 10,
+   "occupied": 6,
+   "trend": "up"
+  }
  },
  {
   "id": "s142",
@@ -1701,7 +2547,13 @@
   "occupied": 12,
   "type": "short",
   "multilingual": true,
-  "phone": "45-XXXX-1251"
+  "phone": "45-XXXX-1251",
+  "forecast_7d": {
+   "availability": 0.617,
+   "capacity": 15,
+   "occupied": 6,
+   "trend": "flat"
+  }
  },
  {
   "id": "s143",
@@ -1713,7 +2565,13 @@
   "occupied": 26,
   "type": "short",
   "multilingual": false,
-  "phone": "45-XXXX-7236"
+  "phone": "45-XXXX-7236",
+  "forecast_7d": {
+   "availability": 0.348,
+   "capacity": 30,
+   "occupied": 20,
+   "trend": "up"
+  }
  },
  {
   "id": "s144",
@@ -1725,7 +2583,13 @@
   "occupied": 19,
   "type": "short",
   "multilingual": false,
-  "phone": "45-XXXX-8692"
+  "phone": "45-XXXX-8692",
+  "forecast_7d": {
+   "availability": 0.395,
+   "capacity": 30,
+   "occupied": 18,
+   "trend": "up"
+  }
  },
  {
   "id": "s145",
@@ -1737,7 +2601,13 @@
   "occupied": 17,
   "type": "emergency",
   "multilingual": false,
-  "phone": "45-XXXX-1265"
+  "phone": "45-XXXX-1265",
+  "forecast_7d": {
+   "availability": 0.51,
+   "capacity": 20,
+   "occupied": 10,
+   "trend": "up"
+  }
  },
  {
   "id": "s146",
@@ -1749,7 +2619,13 @@
   "occupied": 13,
   "type": "emergency",
   "multilingual": false,
-  "phone": "45-XXXX-5026"
+  "phone": "45-XXXX-5026",
+  "forecast_7d": {
+   "availability": 0.566,
+   "capacity": 20,
+   "occupied": 9,
+   "trend": "up"
+  }
  },
  {
   "id": "s147",
@@ -1761,7 +2637,13 @@
   "occupied": 9,
   "type": "short",
   "multilingual": false,
-  "phone": "46-XXXX-6770"
+  "phone": "46-XXXX-6770",
+  "forecast_7d": {
+   "availability": 0.433,
+   "capacity": 20,
+   "occupied": 11,
+   "trend": "up"
+  }
  },
  {
   "id": "s148",
@@ -1773,7 +2655,13 @@
   "occupied": 12,
   "type": "emergency",
   "multilingual": false,
-  "phone": "46-XXXX-1794"
+  "phone": "46-XXXX-1794",
+  "forecast_7d": {
+   "availability": 0.575,
+   "capacity": 30,
+   "occupied": 13,
+   "trend": "flat"
+  }
  },
  {
   "id": "s149",
@@ -1785,7 +2673,13 @@
   "occupied": 5,
   "type": "emergency",
   "multilingual": false,
-  "phone": "46-XXXX-7114"
+  "phone": "46-XXXX-7114",
+  "forecast_7d": {
+   "availability": 0.818,
+   "capacity": 10,
+   "occupied": 2,
+   "trend": "flat"
+  }
  },
  {
   "id": "s150",
@@ -1797,7 +2691,13 @@
   "occupied": 35,
   "type": "short",
   "multilingual": true,
-  "phone": "46-XXXX-9673"
+  "phone": "46-XXXX-9673",
+  "forecast_7d": {
+   "availability": 0.542,
+   "capacity": 40,
+   "occupied": 18,
+   "trend": "flat"
+  }
  },
  {
   "id": "s151",
@@ -1809,7 +2709,13 @@
   "occupied": 37,
   "type": "short",
   "multilingual": false,
-  "phone": "46-XXXX-3937"
+  "phone": "46-XXXX-3937",
+  "forecast_7d": {
+   "availability": 0.421,
+   "capacity": 40,
+   "occupied": 23,
+   "trend": "up"
+  }
  },
  {
   "id": "s152",
@@ -1821,7 +2727,13 @@
   "occupied": 8,
   "type": "short",
   "multilingual": false,
-  "phone": "46-XXXX-5379"
+  "phone": "46-XXXX-5379",
+  "forecast_7d": {
+   "availability": 0.227,
+   "capacity": 10,
+   "occupied": 8,
+   "trend": "up"
+  }
  },
  {
   "id": "s153",
@@ -1833,7 +2745,13 @@
   "occupied": 5,
   "type": "long",
   "multilingual": true,
-  "phone": "46-XXXX-2320"
+  "phone": "46-XXXX-2320",
+  "forecast_7d": {
+   "availability": 0.643,
+   "capacity": 10,
+   "occupied": 4,
+   "trend": "up"
+  }
  },
  {
   "id": "s154",
@@ -1845,7 +2763,13 @@
   "occupied": 3,
   "type": "long",
   "multilingual": true,
-  "phone": "46-XXXX-3807"
+  "phone": "46-XXXX-3807",
+  "forecast_7d": {
+   "availability": 0.757,
+   "capacity": 10,
+   "occupied": 2,
+   "trend": "flat"
+  }
  },
  {
   "id": "s155",
@@ -1857,7 +2781,13 @@
   "occupied": 13,
   "type": "emergency",
   "multilingual": true,
-  "phone": "47-XXXX-8790"
+  "phone": "47-XXXX-8790",
+  "forecast_7d": {
+   "availability": 0.414,
+   "capacity": 20,
+   "occupied": 12,
+   "trend": "flat"
+  }
  },
  {
   "id": "s156",
@@ -1869,7 +2799,13 @@
   "occupied": 6,
   "type": "long",
   "multilingual": false,
-  "phone": "47-XXXX-1539"
+  "phone": "47-XXXX-1539",
+  "forecast_7d": {
+   "availability": 0.456,
+   "capacity": 20,
+   "occupied": 11,
+   "trend": "flat"
+  }
  },
  {
   "id": "s157",
@@ -1881,7 +2817,13 @@
   "occupied": 9,
   "type": "short",
   "multilingual": false,
-  "phone": "47-XXXX-5903"
+  "phone": "47-XXXX-5903",
+  "forecast_7d": {
+   "availability": 0.527,
+   "capacity": 10,
+   "occupied": 5,
+   "trend": "flat"
+  }
  },
  {
   "id": "s158",
@@ -1893,7 +2835,13 @@
   "occupied": 9,
   "type": "short",
   "multilingual": false,
-  "phone": "47-XXXX-3292"
+  "phone": "47-XXXX-3292",
+  "forecast_7d": {
+   "availability": 0.269,
+   "capacity": 15,
+   "occupied": 11,
+   "trend": "up"
+  }
  },
  {
   "id": "s159",
@@ -1905,7 +2853,13 @@
   "occupied": 6,
   "type": "emergency",
   "multilingual": true,
-  "phone": "47-XXXX-7499"
+  "phone": "47-XXXX-7499",
+  "forecast_7d": {
+   "availability": 0.658,
+   "capacity": 10,
+   "occupied": 3,
+   "trend": "flat"
+  }
  },
  {
   "id": "s160",
@@ -1917,7 +2871,13 @@
   "occupied": 6,
   "type": "emergency",
   "multilingual": false,
-  "phone": "47-XXXX-7150"
+  "phone": "47-XXXX-7150",
+  "forecast_7d": {
+   "availability": 0.862,
+   "capacity": 20,
+   "occupied": 3,
+   "trend": "down"
+  }
  },
  {
   "id": "s161",
@@ -1929,7 +2889,13 @@
   "occupied": 29,
   "type": "emergency",
   "multilingual": false,
-  "phone": "47-XXXX-2344"
+  "phone": "47-XXXX-2344",
+  "forecast_7d": {
+   "availability": 0.351,
+   "capacity": 40,
+   "occupied": 26,
+   "trend": "up"
+  }
  },
  {
   "id": "s162",
@@ -1941,7 +2907,13 @@
   "occupied": 22,
   "type": "emergency",
   "multilingual": true,
-  "phone": "47-XXXX-6050"
+  "phone": "47-XXXX-6050",
+  "forecast_7d": {
+   "availability": 0.668,
+   "capacity": 30,
+   "occupied": 10,
+   "trend": "up"
+  }
  },
  {
   "id": "s163",
@@ -1953,7 +2925,13 @@
   "occupied": 7,
   "type": "long",
   "multilingual": false,
-  "phone": "47-XXXX-2692"
+  "phone": "47-XXXX-2692",
+  "forecast_7d": {
+   "availability": 0.707,
+   "capacity": 20,
+   "occupied": 6,
+   "trend": "flat"
+  }
  },
  {
   "id": "s164",
@@ -1965,7 +2943,13 @@
   "occupied": 6,
   "type": "short",
   "multilingual": false,
-  "phone": "47-XXXX-2387"
+  "phone": "47-XXXX-2387",
+  "forecast_7d": {
+   "availability": 0.493,
+   "capacity": 10,
+   "occupied": 5,
+   "trend": "up"
+  }
  },
  {
   "id": "s165",
@@ -1977,7 +2961,13 @@
   "occupied": 35,
   "type": "short",
   "multilingual": true,
-  "phone": "48-XXXX-5405"
+  "phone": "48-XXXX-5405",
+  "forecast_7d": {
+   "availability": 0.468,
+   "capacity": 40,
+   "occupied": 21,
+   "trend": "up"
+  }
  },
  {
   "id": "s166",
@@ -1989,7 +2979,13 @@
   "occupied": 9,
   "type": "short",
   "multilingual": true,
-  "phone": "48-XXXX-2260"
+  "phone": "48-XXXX-2260",
+  "forecast_7d": {
+   "availability": 0.566,
+   "capacity": 20,
+   "occupied": 9,
+   "trend": "flat"
+  }
  },
  {
   "id": "s167",
@@ -2001,7 +2997,13 @@
   "occupied": 11,
   "type": "emergency",
   "multilingual": true,
-  "phone": "48-XXXX-1110"
+  "phone": "48-XXXX-1110",
+  "forecast_7d": {
+   "availability": 0.299,
+   "capacity": 15,
+   "occupied": 11,
+   "trend": "up"
+  }
  },
  {
   "id": "s168",
@@ -2013,7 +3015,13 @@
   "occupied": 16,
   "type": "short",
   "multilingual": false,
-  "phone": "48-XXXX-3230"
+  "phone": "48-XXXX-3230",
+  "forecast_7d": {
+   "availability": 0.537,
+   "capacity": 20,
+   "occupied": 9,
+   "trend": "up"
+  }
  },
  {
   "id": "s169",
@@ -2025,7 +3033,13 @@
   "occupied": 10,
   "type": "short",
   "multilingual": false,
-  "phone": "48-XXXX-5775"
+  "phone": "48-XXXX-5775",
+  "forecast_7d": {
+   "availability": 0.426,
+   "capacity": 20,
+   "occupied": 11,
+   "trend": "flat"
+  }
  },
  {
   "id": "s170",
@@ -2037,7 +3051,13 @@
   "occupied": 27,
   "type": "short",
   "multilingual": false,
-  "phone": "48-XXXX-4273"
+  "phone": "48-XXXX-4273",
+  "forecast_7d": {
+   "availability": 0.25,
+   "capacity": 30,
+   "occupied": 22,
+   "trend": "up"
+  }
  },
  {
   "id": "s171",
@@ -2049,7 +3069,13 @@
   "occupied": 16,
   "type": "long",
   "multilingual": true,
-  "phone": "48-XXXX-5773"
+  "phone": "48-XXXX-5773",
+  "forecast_7d": {
+   "availability": 0.6,
+   "capacity": 40,
+   "occupied": 16,
+   "trend": "up"
+  }
  },
  {
   "id": "s172",
@@ -2061,7 +3087,13 @@
   "occupied": 8,
   "type": "short",
   "multilingual": true,
-  "phone": "48-XXXX-3525"
+  "phone": "48-XXXX-3525",
+  "forecast_7d": {
+   "availability": 0.322,
+   "capacity": 10,
+   "occupied": 7,
+   "trend": "up"
+  }
  },
  {
   "id": "s173",
@@ -2073,7 +3105,13 @@
   "occupied": 24,
   "type": "long",
   "multilingual": false,
-  "phone": "48-XXXX-9300"
+  "phone": "48-XXXX-9300",
+  "forecast_7d": {
+   "availability": 0.457,
+   "capacity": 30,
+   "occupied": 16,
+   "trend": "up"
+  }
  },
  {
   "id": "s174",
@@ -2085,7 +3123,13 @@
   "occupied": 19,
   "type": "long",
   "multilingual": false,
-  "phone": "48-XXXX-2392"
+  "phone": "48-XXXX-2392",
+  "forecast_7d": {
+   "availability": 0.463,
+   "capacity": 30,
+   "occupied": 16,
+   "trend": "up"
+  }
  },
  {
   "id": "s175",
@@ -2097,7 +3141,13 @@
   "occupied": 7,
   "type": "long",
   "multilingual": false,
-  "phone": "48-XXXX-7547"
+  "phone": "48-XXXX-7547",
+  "forecast_7d": {
+   "availability": 0.39,
+   "capacity": 10,
+   "occupied": 6,
+   "trend": "up"
+  }
  },
  {
   "id": "s176",
@@ -2109,7 +3159,13 @@
   "occupied": 18,
   "type": "emergency",
   "multilingual": false,
-  "phone": "48-XXXX-9499"
+  "phone": "48-XXXX-9499",
+  "forecast_7d": {
+   "availability": 0.501,
+   "capacity": 20,
+   "occupied": 10,
+   "trend": "up"
+  }
  },
  {
   "id": "s177",
@@ -2121,7 +3177,13 @@
   "occupied": 17,
   "type": "long",
   "multilingual": false,
-  "phone": "48-XXXX-3469"
+  "phone": "48-XXXX-3469",
+  "forecast_7d": {
+   "availability": 0.532,
+   "capacity": 40,
+   "occupied": 19,
+   "trend": "down"
+  }
  },
  {
   "id": "s178",
@@ -2133,7 +3195,13 @@
   "occupied": 6,
   "type": "emergency",
   "multilingual": false,
-  "phone": "48-XXXX-3321"
+  "phone": "48-XXXX-3321",
+  "forecast_7d": {
+   "availability": 0.507,
+   "capacity": 10,
+   "occupied": 5,
+   "trend": "up"
+  }
  },
  {
   "id": "s179",
@@ -2145,7 +3213,13 @@
   "occupied": 11,
   "type": "emergency",
   "multilingual": false,
-  "phone": "48-XXXX-8412"
+  "phone": "48-XXXX-8412",
+  "forecast_7d": {
+   "availability": 0.352,
+   "capacity": 20,
+   "occupied": 13,
+   "trend": "up"
+  }
  },
  {
   "id": "s180",
@@ -2157,7 +3231,13 @@
   "occupied": 6,
   "type": "emergency",
   "multilingual": false,
-  "phone": "48-XXXX-3692"
+  "phone": "48-XXXX-3692",
+  "forecast_7d": {
+   "availability": 0.589,
+   "capacity": 20,
+   "occupied": 8,
+   "trend": "up"
+  }
  },
  {
   "id": "s181",
@@ -2169,7 +3249,13 @@
   "occupied": 9,
   "type": "short",
   "multilingual": true,
-  "phone": "48-XXXX-7636"
+  "phone": "48-XXXX-7636",
+  "forecast_7d": {
+   "availability": 0.308,
+   "capacity": 15,
+   "occupied": 10,
+   "trend": "up"
+  }
  },
  {
   "id": "s182",
@@ -2181,7 +3267,13 @@
   "occupied": 6,
   "type": "emergency",
   "multilingual": false,
-  "phone": "48-XXXX-8037"
+  "phone": "48-XXXX-8037",
+  "forecast_7d": {
+   "availability": 0.557,
+   "capacity": 15,
+   "occupied": 7,
+   "trend": "down"
+  }
  },
  {
   "id": "s183",
@@ -2193,7 +3285,13 @@
   "occupied": 9,
   "type": "emergency",
   "multilingual": false,
-  "phone": "48-XXXX-9796"
+  "phone": "48-XXXX-9796",
+  "forecast_7d": {
+   "availability": 0.564,
+   "capacity": 30,
+   "occupied": 13,
+   "trend": "down"
+  }
  },
  {
   "id": "s184",
@@ -2205,7 +3303,13 @@
   "occupied": 11,
   "type": "long",
   "multilingual": false,
-  "phone": "50-XXXX-7431"
+  "phone": "50-XXXX-7431",
+  "forecast_7d": {
+   "availability": 0.674,
+   "capacity": 30,
+   "occupied": 10,
+   "trend": "down"
+  }
  },
  {
   "id": "s185",
@@ -2217,6 +3321,12 @@
   "occupied": 10,
   "type": "long",
   "multilingual": false,
-  "phone": "50-XXXX-2388"
+  "phone": "50-XXXX-2388",
+  "forecast_7d": {
+   "availability": 0.488,
+   "capacity": 20,
+   "occupied": 10,
+   "trend": "up"
+  }
  }
 ]

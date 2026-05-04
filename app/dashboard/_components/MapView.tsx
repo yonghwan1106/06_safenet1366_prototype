@@ -209,7 +209,7 @@ export default function MapView({
                   }}
                 >
                   <Popup>
-                    <div className="text-sm space-y-1">
+                    <div className="text-sm space-y-1 min-w-[200px]">
                       <div className="font-bold">{sh.name}</div>
                       <div className="text-xs text-slate-600">
                         {sh.type === 'emergency'
@@ -223,6 +223,24 @@ export default function MapView({
                         가용 {sh.capacity - sh.occupied}/{sh.capacity}석 ·{' '}
                         <span style={{ color }}>{(occRate * 100).toFixed(0)}% 점유</span>
                       </div>
+                      {sh.forecast_7d && (
+                        <div className="text-xs mt-1.5 pt-1.5 border-t border-slate-200">
+                          <span className="font-semibold text-slate-700">D+7 예측</span>{' '}
+                          가용 {sh.forecast_7d.capacity - sh.forecast_7d.occupied}석{' '}
+                          <span className="text-slate-500">
+                            ({(sh.forecast_7d.availability * 100).toFixed(0)}%)
+                          </span>{' '}
+                          <span className={
+                            sh.forecast_7d.trend === 'up'
+                              ? 'text-rose-700 font-semibold'
+                              : sh.forecast_7d.trend === 'down'
+                                ? 'text-emerald-700 font-semibold'
+                                : 'text-slate-500'
+                          }>
+                            {sh.forecast_7d.trend === 'up' ? '↑ 수요 증가' : sh.forecast_7d.trend === 'down' ? '↓ 여유 확대' : '→ 보합'}
+                          </span>
+                        </div>
+                      )}
                       <div className="text-xs text-slate-500">{sh.phone}</div>
                     </div>
                   </Popup>
