@@ -101,7 +101,7 @@ export default function MapView({
           </button>
         </div>
       </div>
-      <div style={{ height: 480 }}>
+      <div className="h-[320px] sm:h-[400px] lg:h-[480px]">
         <MapContainer
           center={[center.lat, center.lng]}
           zoom={9}

@@ -71,7 +71,7 @@ export function SidoGrid({ sigungus, risks, selectedSido, onSelect }: Props) {
           <span>고</span>
         </div>
       </div>
-      <div className="grid gap-1" style={{ gridTemplateColumns: 'repeat(6, 1fr)', maxWidth: 600 }}>
+      <div className="grid gap-1 mx-auto sm:mx-0" style={{ gridTemplateColumns: 'repeat(6, 1fr)', maxWidth: 480 }}>
         {Array.from({ length: 36 }).map((_, i) => {
           const x = i % 6;
           const y = Math.floor(i / 6);

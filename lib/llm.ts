@@ -75,13 +75,19 @@ const client = new Anthropic({
   apiKey: process.env.ANTHROPIC_API_KEY,
 });
 
+export interface PriorTurn {
+  role: 'user' | 'assistant';
+  content: string;
+}
+
 export async function generateBotMessage(args: {
   utterance: string;
   severity: Severity;
   routing: Routing;
   matched: string[];
+  history?: PriorTurn[];
 }): Promise<string> {
-  const { utterance, severity, routing, matched } = args;
+  const { utterance, severity, routing, matched, history = [] } = args;
 
   const matchedHint =
     matched.length > 0 ? ` (룰 매칭 키워드: ${matched.join(', ')})` : '';
@@ -93,6 +99,12 @@ export async function generateBotMessage(args: {
 
 이 사용자에게 시스템 규약에 따른 한국어 응답을 작성해 주세요.`;
 
+  // 이전 대화 history를 user/assistant 멀티턴으로 재구성한 뒤,
+  // 마지막 user 메시지에 현재 발화 + 룰 트리아지 메타정보를 결합한다.
+  const priorMessages: Array<{ role: 'user' | 'assistant'; content: string }> = history
+    .filter((h) => h.content.trim().length > 0)
+    .slice(-7); // 직전 7턴
+
   const response = await client.messages.create({
     model: 'claude-haiku-4-5',
     max_tokens: 512,
@@ -103,7 +115,7 @@ export async function generateBotMessage(args: {
         cache_control: { type: 'ephemeral' },
       },
     ],
-    messages: [{ role: 'user', content: userMessage }],
+    messages: [...priorMessages, { role: 'user', content: userMessage }],
   });
 
   const text = response.content

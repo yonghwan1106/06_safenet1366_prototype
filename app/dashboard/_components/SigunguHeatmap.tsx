@@ -16,7 +16,7 @@ export function SigunguHeatmap({ sigungus, riskMap, selectedSigungu, onSelect }:
   return (
     <div className="bg-white rounded-xl border p-4">
       <h3 className="font-bold text-slate-800 mb-3">{sigungus[0].sido} — 시군구 히트맵 ({sigungus.length}개)</h3>
-      <div className="grid gap-1.5" style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(70px, 1fr))' }}>
+      <div className="grid gap-1 sm:gap-1.5" style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(56px, 1fr))' }}>
         {sigungus.map((sg) => {
           const r = riskMap.get(sg.code);
           const score = r?.score || 0;

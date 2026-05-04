@@ -3,24 +3,43 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --color-accent: #0d9488;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --font-sans: 'Pretendard Variable', Pretendard, sans-serif;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Pretendard Variable', Pretendard, sans-serif;
+}
+
+/* 응급(severity 7-9) 펄스 — 빨간 글로우가 1.6초마다 부드럽게 박동 */
+@keyframes safenet-danger-pulse {
+  0%, 100% {
+    box-shadow: 0 0 0 4px rgba(220, 38, 38, 0.15), 0 8px 24px rgba(220, 38, 38, 0.20);
+  }
+  50% {
+    box-shadow: 0 0 0 8px rgba(220, 38, 38, 0.25), 0 12px 32px rgba(220, 38, 38, 0.35);
+  }
+}
+
+/* 응급 카드 등장 — 아래에서 부드럽게 슬라이드업 */
+@keyframes safenet-fadein-up {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadein-up {
+  animation: safenet-fadein-up 0.45s ease-out;
 }

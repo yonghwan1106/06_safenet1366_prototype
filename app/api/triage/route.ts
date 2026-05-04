@@ -4,6 +4,7 @@ import { z } from 'zod';
 import { makeTriageResult, runRuleTriage } from '@/lib/triage/ruleEngine';
 import { makeAnonId } from '@/lib/triage/anonymize';
 import { generateBotMessage, isAvoidantResponse } from '@/lib/llm';
+import { maskPII } from '@/lib/triage/maskPII';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
@@ -11,6 +12,15 @@ export const dynamic = 'force-dynamic';
 const Body = z.object({
   utterance: z.string().min(1).max(500),
   sessionToken: z.string().min(8).max(64),
+  history: z
+    .array(
+      z.object({
+        role: z.enum(['user', 'assistant']),
+        content: z.string().max(2000),
+      }),
+    )
+    .max(8)
+    .optional(),
 });
 
 export async function POST(req: NextRequest) {
@@ -20,7 +30,9 @@ export async function POST(req: NextRequest) {
     if (!parsed.success) {
       return NextResponse.json({ error: '입력 형식 오류' }, { status: 400 });
     }
-    const { utterance, sessionToken } = parsed.data;
+    const { utterance: rawUtterance, sessionToken, history } = parsed.data;
+    // PII 마스킹 — LLM 호출·익명 통계 집계 직전에 한 번 적용 (utterance 자체는 휘발).
+    const { text: utterance, hits: piiHits } = maskPII(rawUtterance);
     const anonId = await makeAnonId(sessionToken);
     const result = await makeTriageResult(utterance, anonId);
 
@@ -28,11 +40,17 @@ export async function POST(req: NextRequest) {
     if (process.env.ANTHROPIC_API_KEY) {
       try {
         const { severity, matched } = runRuleTriage(utterance);
+        // 이전 대화 history도 PII 마스킹 후 전달
+        const safeHistory = (history ?? []).map((h) => ({
+          role: h.role,
+          content: maskPII(h.content).text,
+        }));
         const llmMessage = await generateBotMessage({
           utterance,
           severity,
           routing: result.routing,
           matched,
+          history: safeHistory,
         });
         if (llmMessage && !isAvoidantResponse(llmMessage)) {
           result.message = llmMessage;
@@ -44,6 +62,10 @@ export async function POST(req: NextRequest) {
       }
     }
 
+    // PII 마스킹 통계 (개수만, 원본 미저장)
+    if (Object.keys(piiHits).length > 0) {
+      console.info(`[triage] PII masked anonId=${anonId}`, piiHits);
+    }
     return NextResponse.json(result);
   } catch (e) {
     return NextResponse.json({ error: '서버 오류' }, { status: 500 });

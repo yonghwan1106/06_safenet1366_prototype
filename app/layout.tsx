@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 import { Header } from '@/components/shared/Header';
 import { Footer } from '@/components/shared/Footer';
+import { Tour } from '@/components/demo/Tour';
 
 export const metadata: Metadata = {
   title: '세이프넷 1366 — AI 가정폭력 위험 조기경보',
@@ -23,6 +24,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
+        <Tour />
       </body>
     </html>
   );

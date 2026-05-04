@@ -34,8 +34,17 @@ export function MessageBubble({ msg }: { msg: ChatMessage }) {
 function SeverityBanner({ triage }: { triage: NonNullable<ChatMessage['triage']> }) {
   const c = severityToColor(triage.severity);
   const Icon = triage.severity >= 7 ? ShieldAlert : triage.severity >= 4 ? AlertTriangle : ShieldCheck;
+  const danger = c.zone === 'danger';
   return (
-    <div className="ml-9 rounded-xl border-2 p-3 space-y-2" style={{ backgroundColor: c.bg, borderColor: c.text + '40' }}>
+    <div
+      className={`ml-9 rounded-xl border-2 p-3 space-y-2 ${danger ? 'animate-fadein-up shadow-lg' : ''}`}
+      style={{
+        backgroundColor: c.bg,
+        borderColor: c.border,
+        boxShadow: danger ? `0 0 0 4px ${c.accent}26, 0 8px 24px ${c.accent}33` : undefined,
+        animation: danger ? 'safenet-danger-pulse 1.6s ease-in-out infinite' : undefined,
+      }}
+    >
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-2 font-bold" style={{ color: c.text }}>
           <Icon className="size-4" />

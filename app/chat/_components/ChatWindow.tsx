@@ -27,10 +27,18 @@ export function ChatWindow() {
     setText('');
     setLoading(true);
     try {
+      // 최근 8턴 (user/bot)만 컨텍스트로 동봉. system은 서버에서 추가.
+      const history = messages
+        .filter((m) => m.role !== 'system')
+        .slice(-8)
+        .map((m) => ({
+          role: m.role === 'bot' ? 'assistant' : 'user',
+          content: m.content,
+        }));
       const res = await fetch('/api/triage', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ utterance: content, sessionToken }),
+        body: JSON.stringify({ utterance: content, sessionToken, history }),
       });
       const data: TriageResult = await res.json();
       push({ id: crypto.randomUUID(), role: 'bot', content: data.message, triage: data, ts: Date.now() });
@@ -47,7 +55,7 @@ export function ChatWindow() {
   const lastTriage = [...messages].reverse().find((m) => m.triage)?.triage;
 
   return (
-    <div className="rounded-2xl bg-white border shadow-sm overflow-hidden flex flex-col" style={{ height: '70vh' }}>
+    <div className="rounded-2xl bg-white border shadow-sm overflow-hidden flex flex-col h-[calc(100dvh-180px)] min-h-[480px] max-h-[80vh]">
       <div className="px-4 py-3 bg-purple-700 text-white flex items-center justify-between">
         <div className="flex items-center gap-2">
           <div className="size-8 rounded-full bg-white/20 flex items-center justify-center">🛡️</div>
