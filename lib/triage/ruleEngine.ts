@@ -1,6 +1,33 @@
 // SafeNet 1366 — 9등급 위험 트리아지 룰 엔진
-import type { KeywordRule, Severity, Routing, TriageResult, SelfCareCard } from '@/types';
+import type { KeywordRule, Severity, Routing, TriageResult, SelfCareCard, Shelter } from '@/types';
 import keywordsRaw from '@/data/keywords-9rank.json';
+import sheltersRaw from '@/data/shelters.json';
+
+const SHELTERS = sheltersRaw as Shelter[];
+
+/**
+ * 발화에서 시군구 코드를 추정하거나, 명시적 sigunguCode가 있으면
+ * 그 시군구의 가용 보호시설(잔여 좌석 ≥1) 중 가장 잔여가 많은 1개를 반환.
+ * 매칭 실패 시 임의 1개(데모 안전장치).
+ */
+export function nearestShelter(sigunguCode?: string): Shelter | null {
+  if (!SHELTERS.length) return null;
+  const inSigungu = sigunguCode
+    ? SHELTERS.filter((s) => s.sigunguCode === sigunguCode)
+    : [];
+  const inSido = sigunguCode
+    ? SHELTERS.filter((s) => s.sigunguCode.startsWith(sigunguCode.slice(0, 2)))
+    : [];
+  const pool = inSigungu.length > 0 ? inSigungu : inSido.length > 0 ? inSido : SHELTERS;
+  // 잔여 좌석 ≥1, 다국어 우선, 잔여 많은 순
+  const sorted = [...pool].sort((a, b) => {
+    const aRem = (a.capacity || 0) - (a.occupied || 0);
+    const bRem = (b.capacity || 0) - (b.occupied || 0);
+    if (a.multilingual !== b.multilingual) return a.multilingual ? -1 : 1;
+    return bRem - aRem;
+  });
+  return sorted[0] ?? null;
+}
 
 // Next.js JSON import이 default-wrapped 가능 → 안전하게 정규화
 const RULES = (Array.isArray(keywordsRaw) ? keywordsRaw : (keywordsRaw as { default?: unknown }).default ?? []) as KeywordRule[];

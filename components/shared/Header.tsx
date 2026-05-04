@@ -7,7 +7,9 @@ import { useState } from 'react';
 const NAV = [
   { href: '/chat', label: '시민 챗봇' },
   { href: '/dashboard', label: '자치구 대시보드' },
-  { href: '/admin/triage', label: '관리자 시뮬' },
+  { href: '/admin/triage', label: '시뮬' },
+  { href: '/admin/roi', label: 'ROI' },
+  { href: '/data', label: '데이터' },
   { href: '/about', label: '소개' },
 ];
 

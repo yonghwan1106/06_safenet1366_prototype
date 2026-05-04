@@ -1,7 +1,7 @@
 // POST /api/triage — 9등급 위험 트리아지 + Claude Haiku 4.5 응답 생성
 import { NextRequest, NextResponse } from 'next/server';
 import { z } from 'zod';
-import { makeTriageResult, runRuleTriage } from '@/lib/triage/ruleEngine';
+import { makeTriageResult, runRuleTriage, nearestShelter } from '@/lib/triage/ruleEngine';
 import { makeAnonId } from '@/lib/triage/anonymize';
 import { generateBotMessage, isAvoidantResponse } from '@/lib/llm';
 import { maskPII } from '@/lib/triage/maskPII';
@@ -45,12 +45,27 @@ export async function POST(req: NextRequest) {
           role: h.role,
           content: maskPII(h.content).text,
         }));
+        // 가까운 보호시설 1개를 LLM 컨텍스트에 주입 (severity 7-9에서만)
+        let shelterCtx: { name: string; remaining: number; multilingual: boolean; phone: string; type: string } | null = null;
+        if (severity >= 4) {
+          const sh = nearestShelter(undefined);
+          if (sh) {
+            shelterCtx = {
+              name: sh.name,
+              remaining: Math.max(0, (sh.capacity ?? 0) - (sh.occupied ?? 0)),
+              multilingual: !!sh.multilingual,
+              phone: sh.phone,
+              type: sh.type,
+            };
+          }
+        }
         const llmMessage = await generateBotMessage({
           utterance,
           severity,
           routing: result.routing,
           matched,
           history: safeHistory,
+          shelter: shelterCtx,
         });
         if (llmMessage && !isAvoidantResponse(llmMessage)) {
           result.message = llmMessage;
