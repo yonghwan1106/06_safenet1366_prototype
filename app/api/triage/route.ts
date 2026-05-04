@@ -3,7 +3,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { z } from 'zod';
 import { makeTriageResult, runRuleTriage } from '@/lib/triage/ruleEngine';
 import { makeAnonId } from '@/lib/triage/anonymize';
-import { generateBotMessage } from '@/lib/llm';
+import { generateBotMessage, isAvoidantResponse } from '@/lib/llm';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
@@ -34,9 +34,10 @@ export async function POST(req: NextRequest) {
           routing: result.routing,
           matched,
         });
-        if (llmMessage) {
+        if (llmMessage && !isAvoidantResponse(llmMessage)) {
           result.message = llmMessage;
         }
+        // 회피성 응답이면 룰 기반 메시지를 그대로 사용 (이미 result.message에 있음)
       } catch (llmErr) {
         // LLM 실패 시 룰 기반 메시지 그대로 사용 (서비스 연속성 우선)
         console.error('LLM generation failed, falling back to rule message:', llmErr);
