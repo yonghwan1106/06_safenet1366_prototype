@@ -2,17 +2,14 @@
 import { useMemo, useState } from 'react';
 import dynamic from 'next/dynamic';
 import type { Sigungu, RiskIndex, Shelter } from '@/types';
-import { SidoGrid } from './SidoGrid';
-import { SigunguHeatmap } from './SigunguHeatmap';
-import { RiskRankTable } from './RiskRankTable';
-import { ShelterPanel } from './ShelterPanel';
-import { ComponentChart } from './ComponentChart';
+import { KpiBar } from './KpiBar';
+import { HotspotPanel } from './HotspotPanel';
+import { DetailPanel } from './DetailPanel';
 
-// Leaflet은 SSR 미지원 — dynamic import로 클라이언트만 로드
 const MapView = dynamic(() => import('./MapView'), {
   ssr: false,
   loading: () => (
-    <div className="bg-white rounded-xl border h-[480px] flex items-center justify-center text-slate-500">
+    <div className="bg-white rounded-xl border h-full min-h-[480px] flex items-center justify-center text-slate-500">
       지도 불러오는 중...
     </div>
   ),
@@ -25,79 +22,77 @@ interface Props {
 }
 
 export function DashboardClient({ sigungus, risks, shelters }: Props) {
-  const [selectedSido, setSelectedSido] = useState<string>('11'); // 서울
+  const [selectedSido, setSelectedSido] = useState<string | null>(null);
   const [selectedSigungu, setSelectedSigungu] = useState<string | null>(null);
 
-  const sidoList = useMemo(() => {
-    const map = new Map<string, string>();
-    sigungus.forEach((s) => map.set(s.sidoCode, s.sido));
-    return Array.from(map.entries()).map(([code, name]) => ({ code, name }));
-  }, [sigungus]);
-
-  const filteredSigungus = useMemo(
-    () => sigungus.filter((s) => s.sidoCode === selectedSido),
-    [sigungus, selectedSido]
-  );
   const riskMap = useMemo(() => new Map(risks.map((r) => [r.sigunguCode, r])), [risks]);
-  const selectedRisk = selectedSigungu ? riskMap.get(selectedSigungu) : null;
+  const sigunguByCode = useMemo(() => new Map(sigungus.map((s) => [s.code, s])), [sigungus]);
+
+  const handleSelectSigungu = (code: string) => {
+    const sg = sigunguByCode.get(code);
+    if (!sg) return;
+    setSelectedSigungu(code);
+    // 시도가 다르면 시도 변경 (지도가 그 시도로 줌)
+    if (sg.sidoCode !== selectedSido) {
+      setSelectedSido(sg.sidoCode);
+    }
+  };
+
+  const handleSelectSido = (code: string | null) => {
+    setSelectedSido(code);
+    // 시도 변경 시 시군구 선택 해제 (다른 시도 시군구 잔류 방지)
+    setSelectedSigungu(null);
+  };
+
+  const selectedSg = selectedSigungu ? sigunguByCode.get(selectedSigungu) : null;
+  const selectedRisk = selectedSigungu ? riskMap.get(selectedSigungu) ?? null : null;
   const selectedShelters = useMemo(
     () => (selectedSigungu ? shelters.filter((s) => s.sigunguCode === selectedSigungu) : []),
-    [shelters, selectedSigungu]
+    [shelters, selectedSigungu],
   );
 
   return (
     <div className="space-y-4">
-      {/* Tabs */}
-      <div className="bg-white rounded-xl border p-3 flex gap-1 flex-wrap">
-        {sidoList.map((s) => (
-          <button
-            key={s.code}
-            onClick={() => { setSelectedSido(s.code); setSelectedSigungu(null); }}
-            className={`text-xs px-3 py-1.5 rounded-md transition ${
-              selectedSido === s.code
-                ? 'bg-purple-700 text-white font-semibold'
-                : 'text-slate-600 hover:bg-slate-100'
-            }`}
-          >
-            {s.name}
-          </button>
-        ))}
+      {/* Tier 1 — KPI Bar */}
+      <KpiBar sigungus={sigungus} risks={risks} shelters={shelters} />
+
+      {/* Tier 2 — Map (65%) + Hotspot (35%) */}
+      <div className="grid lg:grid-cols-[2fr_1fr] gap-4 min-h-[560px]">
+        <MapView
+          sigungus={sigungus}
+          riskMap={riskMap}
+          shelters={shelters}
+          selectedSido={selectedSido}
+          onSelectSido={handleSelectSido}
+        />
+        <HotspotPanel
+          sigungus={sigungus}
+          risks={risks}
+          selectedSido={selectedSido}
+          selectedSigungu={selectedSigungu}
+          onSelectSigungu={handleSelectSigungu}
+        />
       </div>
 
-      {/* 17 시도 격자 (전국 한눈에) */}
-      <SidoGrid sigungus={sigungus} risks={risks} selectedSido={selectedSido} onSelect={(c) => { setSelectedSido(c); setSelectedSigungu(null); }} />
+      {/* Tier 3 — 시군구 상세 (선택 시) */}
+      {selectedSg && (
+        <DetailPanel
+          sigungu={selectedSg}
+          risk={selectedRisk}
+          shelters={selectedShelters}
+          onClose={() => setSelectedSigungu(null)}
+        />
+      )}
 
-      {/* 실제 지도 (Leaflet + OpenStreetMap) */}
-      <MapView
-        sigungus={sigungus}
-        riskMap={riskMap}
-        shelters={shelters}
-        selectedSido={selectedSido}
-        selectedSigungu={selectedSigungu}
-        onSelectSigungu={setSelectedSigungu}
-      />
-
-      {/* 메인: 좌측 시군구 히트맵 + 우측 Top30 + 상세 */}
-      <div className="grid lg:grid-cols-3 gap-4">
-        <div className="lg:col-span-2 space-y-4">
-          <SigunguHeatmap
-            sigungus={filteredSigungus}
-            riskMap={riskMap}
-            selectedSigungu={selectedSigungu}
-            onSelect={setSelectedSigungu}
-          />
-          {selectedRisk && (
-            <ComponentChart components={selectedRisk.components} score={selectedRisk.score} />
-          )}
+      {/* 빈 상태 가이드 */}
+      {!selectedSg && (
+        <div className="bg-gradient-to-br from-purple-50 to-slate-50 border-2 border-dashed border-purple-200 rounded-xl p-6 text-center text-sm text-slate-600">
+          <div className="font-bold text-purple-700 mb-1">▾ 시군구를 선택하면 상세 분석이 펼쳐집니다</div>
+          <div className="text-xs">
+            지도에서 시도 마커를 클릭 → 우측 Top 5에서 시군구 선택 → Risk-Index 5 컴포넌트 분해 + 보호시설 D+7 예측 표시
+          </div>
         </div>
-        <div className="space-y-4">
-          <RiskRankTable risks={risks} sigungus={sigungus} onSelect={(code) => {
-            const sg = sigungus.find((s) => s.code === code);
-            if (sg) { setSelectedSido(sg.sidoCode); setSelectedSigungu(code); }
-          }} />
-          {selectedSigungu && <ShelterPanel shelters={selectedShelters} sigungu={sigungus.find((s) => s.code === selectedSigungu)!} />}
-        </div>
-      </div>
+      )}
     </div>
   );
 }
