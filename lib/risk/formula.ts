@@ -25,8 +25,42 @@ export function riskColorScale(score: number): string {
   return '#7a0000';
 }
 
-export function severityToColor(severity: number): { bg: string; text: string; label: string } {
-  if (severity <= 3) return { bg: '#dcfce7', text: '#166534', label: '저위험' };
-  if (severity <= 6) return { bg: '#fef3c7', text: '#92400e', label: '중위험' };
-  return { bg: '#fee2e2', text: '#991b1b', label: '응급' };
+// 위험도 3존 색상 시스템 — 플랜 표준 팔레트
+// 1-3 안전(녹) / 4-6 주의(황) / 7-9 응급(적)
+export function severityToColor(severity: number): {
+  bg: string;
+  text: string;
+  border: string;
+  accent: string;
+  label: string;
+  zone: 'safe' | 'warning' | 'danger';
+} {
+  if (severity <= 3) {
+    return {
+      bg: '#dcfce7',
+      text: '#166534',
+      border: '#86efac',
+      accent: '#16A34A',
+      label: '안전',
+      zone: 'safe',
+    };
+  }
+  if (severity <= 6) {
+    return {
+      bg: '#fef3c7',
+      text: '#92400e',
+      border: '#fcd34d',
+      accent: '#D97706',
+      label: '주의',
+      zone: 'warning',
+    };
+  }
+  return {
+    bg: '#fee2e2',
+    text: '#991b1b',
+    border: '#fca5a5',
+    accent: '#DC2626',
+    label: '응급',
+    zone: 'danger',
+  };
 }

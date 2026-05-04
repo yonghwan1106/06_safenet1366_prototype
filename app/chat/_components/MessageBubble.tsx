@@ -59,9 +59,25 @@ function SeverityBanner({ triage }: { triage: NonNullable<ChatMessage['triage']>
         </div>
       )}
       {triage.routing === 'counselor-1366' && (
-        <a href="tel:1366" className="block text-center bg-amber-600 text-white rounded-lg py-2 font-bold text-sm">
+        <a href="tel:1366" className="block text-center bg-amber-600 text-white rounded-lg py-2 font-bold text-sm hover:bg-amber-700 transition">
           📞 1366 즉시 연결
         </a>
+      )}
+      {triage.routing === 'emergency-112' && (
+        <div className="space-y-2">
+          <a
+            href="tel:112"
+            className="block text-center bg-red-600 text-white rounded-lg py-2 font-bold text-sm hover:bg-red-700 transition animate-pulse"
+          >
+            🚨 112 즉시 신고
+          </a>
+          <a
+            href="tel:1366"
+            className="block text-center bg-white text-red-700 border-2 border-red-300 rounded-lg py-2 font-semibold text-sm hover:bg-red-50 transition"
+          >
+            📞 1366 상담사 연결 (보호시설 안내)
+          </a>
+        </div>
       )}
     </div>
   );

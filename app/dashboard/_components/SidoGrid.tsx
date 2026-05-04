@@ -2,6 +2,7 @@
 import { useMemo } from 'react';
 import type { Sigungu, RiskIndex } from '@/types';
 import { riskColorScale } from '@/lib/risk/formula';
+import { DataBadge } from '@/components/shared/DataBadge';
 
 // 17 시도 한반도 격자 배치
 const LAYOUT: Record<string, [number, number]> = {
@@ -57,8 +58,11 @@ export function SidoGrid({ sigungus, risks, selectedSido, onSelect }: Props) {
 
   return (
     <div className="bg-white rounded-xl border p-4">
-      <div className="flex items-center justify-between mb-3">
-        <h3 className="font-bold text-slate-800">전국 17개 시도 — 평균 Risk-Index</h3>
+      <div className="flex items-center justify-between mb-3 flex-wrap gap-2">
+        <div className="flex items-center gap-2">
+          <h3 className="font-bold text-slate-800">전국 17개 시도 — 평균 Risk-Index</h3>
+          <DataBadge source="가정폭력 실태조사·1366 운영실적·성평등지수 융합" simulated compact />
+        </div>
         <div className="flex gap-1 items-center text-xs text-slate-500">
           <span>저</span>
           {[15, 30, 45, 60, 75, 90].map((v) => (

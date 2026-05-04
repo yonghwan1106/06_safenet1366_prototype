@@ -1,5 +1,6 @@
 import Link from 'next/link';
-import { MessageCircle, BarChart3, Sliders, ArrowRight, Shield, Database, Zap, Lock } from 'lucide-react';
+import { MessageCircle, BarChart3, Sliders, ArrowRight, Shield, Database, Zap, Lock, Play } from 'lucide-react';
+import { DataBadge } from '@/components/shared/DataBadge';
 
 export default function Home() {
   return (
@@ -20,22 +21,34 @@ export default function Home() {
         </p>
 
         <div className="mt-10 flex flex-wrap gap-3">
-          <Link href="/chat" className="inline-flex items-center gap-2 rounded-full bg-purple-700 px-6 py-3 text-white font-semibold shadow-lg shadow-purple-200 hover:bg-purple-800 transition">
+          <Link
+            href="/?demo=1"
+            className="inline-flex items-center gap-2 rounded-full bg-purple-700 px-6 py-3 text-white font-semibold shadow-lg shadow-purple-300 hover:bg-purple-800 transition group relative overflow-hidden"
+          >
+            <span className="absolute inset-0 bg-gradient-to-r from-purple-500/0 via-white/20 to-purple-500/0 -translate-x-full group-hover:translate-x-full transition-transform duration-700" />
+            <Play className="size-4 fill-current" />
+            5분 시연 시작
+            <ArrowRight className="size-4" />
+          </Link>
+          <Link href="/chat" className="inline-flex items-center gap-2 rounded-full border-2 border-purple-700 px-6 py-3 text-purple-700 font-semibold hover:bg-purple-50 transition">
             시민 챗봇 체험 <ArrowRight className="size-4" />
           </Link>
-          <Link href="/dashboard" className="inline-flex items-center gap-2 rounded-full border-2 border-purple-700 px-6 py-3 text-purple-700 font-semibold hover:bg-purple-50 transition">
+          <Link href="/dashboard" className="inline-flex items-center gap-2 rounded-full border-2 border-slate-300 px-6 py-3 text-slate-700 font-semibold hover:bg-slate-50 transition">
             자치구 대시보드 <ArrowRight className="size-4" />
           </Link>
+        </div>
+        <div className="mt-3 text-xs text-slate-500">
+          ※ &quot;5분 시연 시작&quot;: 4단계 자동 투어 (랜딩 → 챗봇 → 시뮬레이터 → 대시보드)
         </div>
       </section>
 
       {/* Stats Strip */}
       <section className="mx-auto max-w-6xl px-4 py-8">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 border-y-2 border-slate-900 py-6">
-          <Stat n="30만" l="2025 1366 연간 상담" />
-          <Stat n="38%" l="재상담률 (재학대 차단 실패)" />
-          <Stat n="500억" l="연 잠재 피해비용 절감 추정" />
-          <Stat n="9등급" l="AI 위험 트리아지 자동 분류" />
+          <Stat n="30만" l="2025 1366 연간 상담" badge={{ source: '여성가족부 1366 운영실적', updated: '2024' }} />
+          <Stat n="38%" l="재상담률 (재학대 차단 실패)" badge={{ source: '가정폭력 실태조사', updated: '2022', simulated: false }} />
+          <Stat n="500억" l="연 잠재 피해비용 절감 추정" badge={{ source: '정책 임팩트 시뮬', simulated: true }} />
+          <Stat n="9등급" l="AI 위험 트리아지 자동 분류" badge={{ source: 'Claude Haiku 4.5 + 룰엔진', updated: '본 프로토타입' }} />
         </div>
       </section>
 
@@ -89,11 +102,16 @@ export default function Home() {
   );
 }
 
-function Stat({ n, l }: { n: string; l: string }) {
+function Stat({ n, l, badge }: { n: string; l: string; badge?: { source: string; updated?: string; simulated?: boolean } }) {
   return (
     <div>
       <div className="text-3xl md:text-4xl font-extrabold italic text-purple-800">{n}</div>
       <div className="text-xs text-slate-600 mt-1">{l}</div>
+      {badge && (
+        <div className="mt-1.5">
+          <DataBadge {...badge} compact />
+        </div>
+      )}
     </div>
   );
 }
