@@ -1,11 +1,22 @@
 'use client';
 import { useMemo, useState } from 'react';
+import dynamic from 'next/dynamic';
 import type { Sigungu, RiskIndex, Shelter } from '@/types';
 import { SidoGrid } from './SidoGrid';
 import { SigunguHeatmap } from './SigunguHeatmap';
 import { RiskRankTable } from './RiskRankTable';
 import { ShelterPanel } from './ShelterPanel';
 import { ComponentChart } from './ComponentChart';
+
+// Leaflet은 SSR 미지원 — dynamic import로 클라이언트만 로드
+const MapView = dynamic(() => import('./MapView'), {
+  ssr: false,
+  loading: () => (
+    <div className="bg-white rounded-xl border h-[480px] flex items-center justify-center text-slate-500">
+      지도 불러오는 중...
+    </div>
+  ),
+});
 
 interface Props {
   sigungus: Sigungu[];
@@ -55,6 +66,16 @@ export function DashboardClient({ sigungus, risks, shelters }: Props) {
 
       {/* 17 시도 격자 (전국 한눈에) */}
       <SidoGrid sigungus={sigungus} risks={risks} selectedSido={selectedSido} onSelect={(c) => { setSelectedSido(c); setSelectedSigungu(null); }} />
+
+      {/* 실제 지도 (Leaflet + OpenStreetMap) */}
+      <MapView
+        sigungus={sigungus}
+        riskMap={riskMap}
+        shelters={shelters}
+        selectedSido={selectedSido}
+        selectedSigungu={selectedSigungu}
+        onSelectSigungu={setSelectedSigungu}
+      />
 
       {/* 메인: 좌측 시군구 히트맵 + 우측 Top30 + 상세 */}
       <div className="grid lg:grid-cols-3 gap-4">
