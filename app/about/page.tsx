@@ -1,4 +1,5 @@
-import { Database, Lock, Calculator, GitBranch } from 'lucide-react';
+import Link from 'next/link';
+import { Database, Lock, Calculator, GitBranch, Trash2, Save, ShieldOff } from 'lucide-react';
 
 export const metadata = { title: '소개 — 세이프넷 1366' };
 
@@ -68,6 +69,62 @@ export default function AboutPage() {
           <li>모든 모델 학습은 연합학습(Federated Learning) 도입 검토 — 지자체 데이터 외부 반출 0</li>
           <li>본 데모는 시뮬 데이터로 동작하며, 입력 발화는 페이지 종료 시 클라이언트 메모리에서 폐기됨</li>
         </ul>
+      </section>
+
+      <section className="bg-white rounded-xl border p-6">
+        <div className="flex items-center gap-2 mb-1">
+          <ShieldOff className="size-5 text-purple-700" />
+          <h2 className="text-xl font-bold">데이터 보존 정책 (30일 TTL)</h2>
+        </div>
+        <p className="text-xs text-slate-500 mb-4">
+          저장하는 것과 저장하지 않는 것을 명확히 분리합니다. 운영 시 Vercel KV / 외부 Postgres 30일 TTL,
+          본 데모는 메모리 ring buffer (서버 재시작 시 휘발).
+        </p>
+        <div className="grid sm:grid-cols-2 gap-3">
+          <div className="rounded-lg border-2 border-rose-200 bg-rose-50 p-4">
+            <div className="flex items-center gap-2 font-bold text-rose-900">
+              <Trash2 className="size-4" /> 절대 저장 안 함
+            </div>
+            <ul className="mt-2 space-y-1 text-xs text-rose-900/90 list-disc pl-4">
+              <li>발화 원문 (utterance)</li>
+              <li>전화번호·주소·주민번호 (PII 마스킹 후 휘발)</li>
+              <li>이메일·신용카드·기타 식별자</li>
+              <li>가해자 추정 정보</li>
+            </ul>
+          </div>
+          <div className="rounded-lg border-2 border-emerald-200 bg-emerald-50 p-4">
+            <div className="flex items-center gap-2 font-bold text-emerald-900">
+              <Save className="size-4" /> 익명 메타만 30일 보존
+            </div>
+            <ul className="mt-2 space-y-1 text-xs text-emerald-900/90 list-disc pl-4">
+              <li>SHA-256 익명 ID (4바이트 truncate, 식별 불가)</li>
+              <li>severity 1~9 등급</li>
+              <li>routing 라우팅 결정</li>
+              <li>시군구 코드(5자리, 읍면동 미포함)</li>
+              <li>timestamp (시간대 분석용)</li>
+            </ul>
+          </div>
+        </div>
+        <div className="mt-4 rounded-lg bg-slate-900 text-slate-100 p-4 font-mono text-xs leading-relaxed overflow-x-auto">
+          <div className="text-purple-300 font-semibold uppercase tracking-wider text-[10px] mb-2">파이프라인</div>
+{`사용자 발화 → maskPII()  ← 010-XXXX, 주소, 주민번호 마스킹
+            ↓
+       runRuleTriage()  ← 키워드 룰 매칭 (utterance 휘발)
+            ↓
+   generateBotMessage() ← Claude Haiku 4.5 (응답 후 utterance 휘발)
+            ↓
+       recordEvent()    ← {anonId, severity, routing, sigunguCode, ts}
+                          (utterance 미포함, 30일 TTL)
+            ↓
+        readStats()     ← 시도·severity·시간대 집계 (개인 식별 불가)`}
+        </div>
+        <p className="mt-3 text-xs text-slate-500">
+          익명 통계는{' '}
+          <Link href="/api/stats" className="text-purple-700 hover:underline font-semibold">
+            /api/stats
+          </Link>{' '}
+          에서 JSON으로 즉시 확인 가능합니다 (운영 시 인증 필요).
+        </p>
       </section>
 
       <section className="bg-white rounded-xl border p-6">

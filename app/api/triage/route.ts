@@ -5,6 +5,7 @@ import { makeTriageResult, runRuleTriage, nearestShelter } from '@/lib/triage/ru
 import { makeAnonId } from '@/lib/triage/anonymize';
 import { generateBotMessage, isAvoidantResponse } from '@/lib/llm';
 import { maskPII } from '@/lib/triage/maskPII';
+import { recordEvent } from '@/lib/store/eventLog';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
@@ -82,9 +83,21 @@ export async function POST(req: NextRequest) {
     }
 
     // PII 마스킹 통계 (개수만, 원본 미저장)
-    if (Object.keys(piiHits).length > 0) {
+    const piiTotal = Object.values(piiHits).reduce((a, b) => a + b, 0);
+    if (piiTotal > 0) {
       console.info(`[triage] PII masked anonId=${anonId}`, piiHits);
     }
+
+    // 익명 이벤트 로그 — utterance 비저장, 30일 TTL
+    await recordEvent({
+      anonId,
+      severity: result.severity,
+      routing: result.routing,
+      sigunguCode: undefined, // 본선 진출 시 사용자 시군구 추정으로 채움
+      ts: Date.now(),
+      piiHits: piiTotal,
+    });
+
     return NextResponse.json(result);
   } catch (e) {
     return NextResponse.json({ error: '서버 오류' }, { status: 500 });
