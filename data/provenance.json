@@ -1,0 +1,42 @@
+{
+  "generatedAt": "2026-05-04T00:00:00Z",
+  "datasets": {
+    "counselDensity": {
+      "name": "여성긴급전화 1366 운영실적",
+      "publicId": "15089597",
+      "year": "2023",
+      "definition": "1366 연 상담건수 / 인구 (1만명당)",
+      "method": "포아송 분포 + 시도 가중치 시뮬"
+    },
+    "recallRate": {
+      "name": "가정폭력 실태조사",
+      "publicId": "3072073",
+      "year": "2022",
+      "definition": "최초 신고 후 동일 가구 재상담 발생 비율",
+      "method": "베타 분포(α=2.5, β=4.0) 시뮬, 평균 0.38"
+    },
+    "shelterAvailability": {
+      "name": "피해자 지원시설 운영실적",
+      "publicId": "15089597",
+      "year": "2023",
+      "definition": "(capacity - occupied) / capacity",
+      "method": "shelters.json 집계 (시군구 단위)"
+    },
+    "multicultureWeight": {
+      "name": "가족실태조사 - 다문화가구",
+      "publicId": "15054982",
+      "year": "2021",
+      "definition": "1.0 + (시군구 다문화가구 비율 - 전국평균) × 5",
+      "method": "정규화 1.0~1.5"
+    },
+    "childcareWeight": {
+      "name": "가족실태조사 - 영유아·돌봄",
+      "publicId": "15054982",
+      "year": "2021",
+      "definition": "1.0 + (시군구 영유아 비율 - 전국평균) × 4",
+      "method": "정규화 1.0~1.5"
+    }
+  },
+  "method": "결정적 베타 분포 시뮬 (본선 진출 시 실제 CSV ETL로 교체)",
+  "sigunguCount": 153
+}

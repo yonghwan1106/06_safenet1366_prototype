@@ -59,7 +59,7 @@ export async function POST(req: NextRequest) {
             };
           }
         }
-        const llmMessage = await generateBotMessage({
+        const llmResult = await generateBotMessage({
           utterance,
           severity,
           routing: result.routing,
@@ -67,8 +67,12 @@ export async function POST(req: NextRequest) {
           history: safeHistory,
           shelter: shelterCtx,
         });
-        if (llmMessage && !isAvoidantResponse(llmMessage)) {
-          result.message = llmMessage;
+        if (llmResult.message && !isAvoidantResponse(llmResult.message)) {
+          result.message = llmResult.message;
+        }
+        // LLM이 생성한 동적 자가가이드 카드가 있으면 정적 카드를 교체
+        if (llmResult.cards && llmResult.cards.length > 0) {
+          result.cards = llmResult.cards;
         }
         // 회피성 응답이면 룰 기반 메시지를 그대로 사용 (이미 result.message에 있음)
       } catch (llmErr) {

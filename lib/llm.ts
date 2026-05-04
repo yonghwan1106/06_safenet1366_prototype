@@ -1,7 +1,7 @@
 // SafeNet 1366 — Claude Haiku 4.5 응답 생성기
 // 룰 기반 트리아지 결과를 받아 따뜻한 자연어 응답을 합성한다.
 import Anthropic from '@anthropic-ai/sdk';
-import type { Severity, Routing } from '@/types';
+import type { Severity, Routing, SelfCareCard } from '@/types';
 
 const SYSTEM_PROMPT = `당신은 한국 여성긴급전화 1366 「세이프넷」 챗봇입니다.
 
@@ -98,6 +98,11 @@ export interface NearestShelter {
   type: string;
 }
 
+export interface BotResult {
+  message: string;
+  cards?: SelfCareCard[];
+}
+
 export async function generateBotMessage(args: {
   utterance: string;
   severity: Severity;
@@ -105,8 +110,37 @@ export async function generateBotMessage(args: {
   matched: string[];
   history?: PriorTurn[];
   shelter?: NearestShelter | null;
-}): Promise<string> {
+}): Promise<BotResult> {
   const { utterance, severity, routing, matched, history = [], shelter } = args;
+
+  // tool_use schema — severity 1~6에서 자가가이드 카드 동적 생성용
+  const TOOLS: Anthropic.Tool[] = [
+    {
+      name: 'emit_selfcare_cards',
+      description:
+        'severity 1~6 케이스에서 사용자에게 보낼 자가관리·정보 카드 2~3개를 생성합니다. severity 7~9에서는 호출하지 않습니다.',
+      input_schema: {
+        type: 'object',
+        properties: {
+          cards: {
+            type: 'array',
+            minItems: 2,
+            maxItems: 3,
+            items: {
+              type: 'object',
+              properties: {
+                title: { type: 'string', description: '카드 제목 8~16자' },
+                description: { type: 'string', description: '한 문장 설명, 60자 이내' },
+                icon: { type: 'string', description: '이모지 1개' },
+              },
+              required: ['title', 'description', 'icon'],
+            },
+          },
+        },
+        required: ['cards'],
+      },
+    },
+  ];
 
   const matchedHint =
     matched.length > 0 ? ` (룰 매칭 키워드: ${matched.join(', ')})` : '';
@@ -127,9 +161,11 @@ export async function generateBotMessage(args: {
     .filter((h) => h.content.trim().length > 0)
     .slice(-7); // 직전 7턴
 
+  // severity 1~6에서만 카드 생성 도구 노출
+  const useCardTool = severity >= 1 && severity <= 6 && routing !== 'emergency-112';
   const response = await client.messages.create({
     model: 'claude-haiku-4-5',
-    max_tokens: 512,
+    max_tokens: 768,
     system: [
       {
         type: 'text',
@@ -137,6 +173,7 @@ export async function generateBotMessage(args: {
         cache_control: { type: 'ephemeral' },
       },
     ],
+    tools: useCardTool ? TOOLS : undefined,
     messages: [...priorMessages, { role: 'user', content: userMessage }],
   });
 
@@ -146,5 +183,21 @@ export async function generateBotMessage(args: {
     .join('\n')
     .trim();
 
-  return text;
+  // tool_use 응답에서 카드 추출
+  let cards: SelfCareCard[] | undefined;
+  for (const block of response.content) {
+    if (block.type === 'tool_use' && block.name === 'emit_selfcare_cards') {
+      const input = block.input as { cards?: Array<{ title: string; description: string; icon?: string }> };
+      if (input?.cards) {
+        cards = input.cards.map((c, i) => ({
+          id: `dyn${i + 1}`,
+          title: c.title,
+          description: c.description,
+          icon: c.icon ?? '💡',
+        }));
+      }
+    }
+  }
+
+  return { message: text, cards };
 }

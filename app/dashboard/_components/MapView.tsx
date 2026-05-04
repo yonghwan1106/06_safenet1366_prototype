@@ -6,6 +6,7 @@ import 'leaflet/dist/leaflet.css';
 import type { Sigungu, RiskIndex, Shelter } from '@/types';
 import { riskColorScale } from '@/lib/risk/formula';
 import { SIDO_COORDS, sigunguCoord } from '@/lib/geo/coords';
+import { generateDongs, type DongPoint } from '@/lib/geo/dong';
 
 interface Props {
   sigungus: Sigungu[];
@@ -35,6 +36,7 @@ export default function MapView({
 }: Props) {
   const [showShelters, setShowShelters] = useState(true);
   const [showSigungu, setShowSigungu] = useState(true);
+  const [showDong, setShowDong] = useState(true);
 
   const center = useMemo(() => {
     const c = SIDO_COORDS[selectedSido];
@@ -69,6 +71,14 @@ export default function MapView({
     [shelters, selectedSido],
   );
 
+  // 선택된 시군구가 있으면 그 시군구의 동 단위 마커를 자동으로 생성
+  const dongMarkers: DongPoint[] = useMemo(() => {
+    if (!selectedSigungu) return [];
+    const sg = sigungus.find((s) => s.code === selectedSigungu);
+    if (!sg) return [];
+    return generateDongs(sg.code, sg.population);
+  }, [selectedSigungu, sigungus]);
+
   return (
     <div className="bg-white rounded-xl border overflow-hidden">
       <div className="px-4 py-3 border-b flex items-center justify-between flex-wrap gap-2">
@@ -98,6 +108,18 @@ export default function MapView({
             }`}
           >
             보호시설 ({visibleShelters.length})
+          </button>
+          <button
+            onClick={() => setShowDong((v) => !v)}
+            disabled={!selectedSigungu}
+            className={`px-2.5 py-1 rounded-full border transition disabled:opacity-40 disabled:cursor-not-allowed ${
+              showDong && selectedSigungu
+                ? 'bg-rose-700 text-white border-rose-700'
+                : 'bg-white text-slate-600 border-slate-300'
+            }`}
+            title={selectedSigungu ? undefined : '시군구를 먼저 선택하세요'}
+          >
+            동 단위 ({dongMarkers.length})
           </button>
         </div>
       </div>
@@ -143,6 +165,30 @@ export default function MapView({
                 </CircleMarker>
               );
             })}
+
+          {/* 동 단위 마커 (시군구 선택 시) */}
+          {showDong && selectedSigungu &&
+            dongMarkers.map((d) => (
+              <CircleMarker
+                key={d.code}
+                center={[d.lat, d.lng]}
+                radius={5 + Math.min(d.riskScore / 12, 8)}
+                pathOptions={{
+                  color: '#7f1d1d',
+                  weight: 1.5,
+                  fillColor: riskColorScale(d.riskScore),
+                  fillOpacity: 0.7,
+                  dashArray: '3 2',
+                }}
+              >
+                <Tooltip direction="top">
+                  <span className="font-semibold">{d.name}</span>
+                  <div className="text-xs">
+                    Risk {d.riskScore.toFixed(0)} · 인구 {(d.population / 10000).toFixed(1)}만
+                  </div>
+                </Tooltip>
+              </CircleMarker>
+            ))}
 
           {/* 보호시설 마커 (선택된 시도) */}
           {showShelters &&
