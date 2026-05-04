@@ -73,7 +73,7 @@ export default function Home() {
       <section className="mx-auto max-w-6xl px-4 py-12">
         <div className="grid md:grid-cols-4 gap-4">
           <Pillar icon={<Database />} title="공공데이터 5종" desc="가정폭력 실태조사 · 보호시설 운영실적 · 국가성평등지수 · 가족실태조사 · 폭력예방교육" />
-          <Pillar icon={<Zap />} title="LLM × 룰 혼합" desc="GPT-4o-mini + KoSimCSE 의도 분류 + 키워드 룰 9등급 트리아지" />
+          <Pillar icon={<Zap />} title="LLM × 룰 혼합" desc="Claude Haiku 4.5 응답 생성 + 키워드 룰 9등급 트리아지 + 익명 ID" />
           <Pillar icon={<Shield />} title="자동 라우팅" desc="1~3 자가가이드 / 4~6 1366 / 7~9 112 + 보호시설 + 안전계획" />
           <Pillar icon={<Lock />} title="PII Free" desc="SHA-256 익명ID, 발화 30일 보존, 통계만 영구 (개인정보 비저장)" />
         </div>
